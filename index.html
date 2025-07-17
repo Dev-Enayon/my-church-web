@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gospel Of Truth Mission</title>
     <link rel="icon" href="./image/favicon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href=styles.css>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <!-- Replace your existing logo div with this: -->
             <div class="logo" style="display: flex; align-items: center;gap: 20px;">
                 <img src="./image/logo.jpeg" alt="Gospel Of Truth Mission Logo" style="height: 60px; vertical-align: middle;">
                 <h2 style="margin: 0; margin-right: 10px;">Gospel Of Truth Mission</h2>
@@ -49,27 +48,26 @@
 
     <main>
         <!-- Hero Section -->
-    <section id="home" class="hero">
-    <!-- Background Video -->
-    <video autoplay muted loop playsinline class="background-video">
-        <source src="./video/WhatsApp Video 2025-07-08 at 11.33.58 AM.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <section id="home" class="hero">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="./video/WhatsApp Video 2025-07-08 at 11.33.58 AM.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-    <!-- Foreground Content -->
-    <div class="hero-content">
-        <h1 class="hero-title">Welcome to Gospel Of Truth Mission</h1>
-        <p class="hero-subtitle"><strong><em>motto: Ye Shall Know The Truth.... <br>John 8:32</em></strong></p>
-        <div class="hero-buttons">
-            <a href="#introduction" class="btn btn-primary">Learn More</a>
-            <a href="hymn-app.html" class="btn btn-secondary">Hymn App</a>
-        </div>
-    </div>
+            <!-- Foreground Content -->
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Gospel Of Truth Mission</h1>
+                <p class="hero-subtitle"><strong><em>motto: Ye Shall Know The Truth.... <br>John 8:32</em></strong></p>
+                <div class="hero-buttons">
+                    <a href="#introduction" class="btn btn-primary">Learn More</a>
+                    <a href="hymn-app.html" class="btn btn-secondary">Hymn App</a>
+                </div>
+            </div>
 
-    <!-- Optional Overlay for better contrast -->
-    <div class="hero-overlay"></div>
-</section>
-
+            <!-- Optional Overlay for better contrast -->
+            <div class="hero-overlay"></div>
+        </section>
 
         <!-- Introduction Section -->
         <section id="introduction" class="section">
@@ -212,7 +210,7 @@
                             <h3 class="leader-name">Pastor Amos A. Adegoke (G.O)</h3>
                             <p class="leader-title">Senior Pastor - CCE</p>
                             <p class="leader-description">
-                                Our current pastor brings years of theological training and pastoral experience to lead our congregation. With a heart for worship and a passion for biblical teaching, Pastor [Name] guides our church in spiritual growth and community outreach. Their commitment to preaching the truth of God's Word has been instrumental in the spiritual development of our congregation.
+                                Our current pastor brings years of theological training and pastoral experience to lead our congregation. With a heart for worship and a passion for biblical teaching, Pastor Adegoke guides our church in spiritual growth and community outreach. Their commitment to preaching the truth of God's Word has been instrumental in the spiritual development of our congregation.
                             </p>
                             <div class="leader-contact">
                                 <span>Email: pastor@gospeloftruth.org</span>
@@ -231,11 +229,11 @@
                             <p class="leader-description">
                                 We honor the faithful service of our former leader who laid the foundation for our current ministry. Their dedication, wisdom, and vision continue to inspire our church's mission and values today. The legacy of their leadership remains a guiding light for our congregation.
                             </p>
-                        <div class="leader-contact">
+                            <div class="leader-contact">
                                 <span>Email: pastor@gmail.com</span>
+                            </div>
                         </div>
                     </div>
-                </div>
                     
                     <!-- New Leader -->
                     <div class="leader-card featured">
@@ -248,8 +246,10 @@
                             <p class="leader-description">
                                 We welcome our new leadership with excitement and anticipation. Bringing fresh vision, energy, and innovative approaches to ministry, our new leader is committed to advancing our church's mission and serving our community with excellence. Their heart for God and people is evident in their ministry approach.
                             </p>
-                        <div class="leader-contact">
-                            <span>Email: pastor@gmail.com</span>
+                            <div class="leader-contact">
+                                <span>Email: pastor@gmail.com</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -431,6 +431,42 @@
         </section>
     </main>
 
+    <!-- Floating Chatbot Button -->
+    <div class="chatbot-container">
+        <button id="chatbot-toggle" class="chatbot-button">
+            <img src="./image/chatbot.jpg" alt="Chatbot" class="chat-icon robot-icon">
+            <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+        
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <h3>GTM Assistant</h3>
+                <p>Ask me about the Bible or our church</p>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm the GTM Assistant. I can help you with:</p>
+                        <ul>
+                            <li>Biblical questions and verses</li>
+                            <li>Church programmes and services</li>
+                            <li>Our beliefs and foundation</li>
+                            <li>Leadership information</li>
+                        </ul>
+                        <p>How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input-field" placeholder="Type your message..." />
+                <button id="chatbot-send" type="button">Send</button>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -462,7 +498,7 @@
     </footer>
 
     <style>
-        /* Additional CSS for the Programmes Section */
+        /* Existing CSS for the Programmes Section */
         .programmes-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -566,6 +602,189 @@
             margin-bottom: 0;
         }
 
+        /* Chatbot Styles */
+        .chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .chatbot-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #4a90e2, #357abd);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chatbot-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
+        }
+
+        .chatbot-button svg,
+        .chatbot-button img {
+            width: 24px;
+            height: 24px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .robot-icon {
+            width: 36px !important;
+            height: 36px !important;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .chatbot-button .close-icon {
+            position: absolute;
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+
+        .chatbot-button.active .robot-icon {
+            opacity: 0;
+            transform: rotate(-90deg);
+        }
+
+        .chatbot-button.active .close-icon {
+            opacity: 1;
+            transform: rotate(0deg);
+        }
+
+        .chatbot-window {
+            position: absolute;
+            bottom: 80px;
+            right: 0;
+            width: 350px;
+            height: 500px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            transform: translateY(10px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .chatbot-window.active {
+            display: flex;
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .chatbot-header {
+            background: linear-gradient(135deg, #4a90e2, #357abd);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .chatbot-header h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+        }
+
+        .chatbot-header p {
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .chatbot-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message-content {
+            max-width: 80%;
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .bot-message .message-content {
+            background: white;
+            border: 1px solid #e9ecef;
+            margin-right: auto;
+        }
+
+        .user-message {
+            justify-content: flex-end;
+        }
+
+        .user-message .message-content {
+            background: #4a90e2;
+            color: white;
+            margin-left: auto;
+        }
+
+        .message-content ul {
+            margin: 0.5rem 0;
+            padding-left: 1.2rem;
+        }
+
+        .message-content li {
+            margin-bottom: 0.25rem;
+        }
+
+        .chatbot-input {
+            display: flex;
+            padding: 1rem;
+            background: white;
+            border-top: 1px solid #e9ecef;
+            gap: 0.5rem;
+        }
+
+        .chatbot-input input {
+            flex: 1;
+            padding: 0.75rem;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .chatbot-input input:focus {
+            border-color: #4a90e2;
+        }
+
+        .chatbot-input button {
+            padding: 0.75rem 1rem;
+            background: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .chatbot-input button:hover {
+            background: #357abd;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .programmes-grid {
@@ -581,8 +800,180 @@
                 flex-direction: column;
                 gap: 0.5rem;
             }
+
+            .chatbot-window {
+                width: 300px;
+                height: 450px;
+            }
+
+            .chatbot-container {
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .chatbot-window {
+                width: calc(100vw - 40px);
+                right: -10px;
+            }
         }
     </style>
-    
-</body>
-</html>
+
+    <script>
+        // Chatbot functionality
+        const chatbotToggle = document.getElementById('chatbot-toggle');
+        const chatbotWindow = document.getElementById('chatbot-window');
+        const chatbotInput = document.getElementById('chatbot-input-field');
+        const chatbotSend = document.getElementById('chatbot-send');
+        const chatbotMessages = document.getElementById('chatbot-messages');
+
+        // Website content for context
+        const websiteContext = {
+            motto: "Ye Shall Know The Truth.... John 8:32",
+            leadership: [
+                "Pastor Amos A. Adegoke (G.O) - Senior Pastor",
+                "Pastor Anise J. Hunpatin (Assistant G.O) - Member CCE",
+                "Pastor James Johnson - Member CCE"
+            ],
+            beliefs: [
+                "The Holy Trinity",
+                "Scripture Authority",
+                "Salvation by Grace", 
+                "The Church",
+                "Holy Spirit",
+                "Second Coming"
+            ],
+            programmes: [
+                "Sunday Worship Service - Sundays 10:00 AM - 12:00 PM",
+                "Prayer Meeting - Wednesdays 7:00 PM - 8:30 PM",
+                "Bible Study - Thursdays 7:30 PM - 9:00 PM",
+                "Youth Ministry - Fridays 6:00 PM - 8:00 PM",
+                "Children's Ministry - Sundays 10:00 AM - 12:00 PM",
+                "Community Outreach - Saturdays 9:00 AM - 2:00 PM",
+                "Women's Fellowship - 2nd Saturday 2:00 PM - 4:00 PM",
+                "Men's Fellowship - 1st Saturday 4:00 PM - 6:00 PM"
+            ]
+        };
+
+        // Simple Bible verses database
+        const bibleVerses = {
+            "john 3:16": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+            "john 8:32": "Then you will know the truth, and the truth will set you free.",
+            "romans 6:23": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+            "ephesians 2:8": "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God.",
+            "psalm 23:1": "The Lord is my shepherd, I lack nothing.",
+            "matthew 28:19": "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
+            "1 john 4:8": "Whoever does not love does not know God, because God is love.",
+            "philippians 4:13": "I can do all this through him who gives me strength.",
+            "jeremiah 29:11": "For I know the plans I have for you,\" declares the Lord, \"plans to prosper you and not to harm you, to give you hope and a future.",
+            "matthew 11:28": "Come to me, all you who are weary and burdened, and I will give you rest."
+        };
+
+        chatbotToggle.addEventListener('click', function() {
+            chatbotToggle.classList.toggle('active');
+            chatbotWindow.classList.toggle('active');
+            if (chatbotWindow.classList.contains('active')) {
+                chatbotInput.focus();
+            }
+        });
+
+        chatbotSend.addEventListener('click', sendMessage);
+        chatbotInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        function sendMessage() {
+            const message = chatbotInput.value.trim();
+            if (!message) return;
+
+            addMessage(message, 'user');
+            chatbotInput.value = '';
+
+            // Simulate typing delay
+            setTimeout(() => {
+                const response = generateResponse(message);
+                addMessage(response, 'bot');
+            }, 1000);
+        }
+
+        function addMessage(content, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.innerHTML = content;
+            
+            messageDiv.appendChild(contentDiv);
+            chatbotMessages.appendChild(messageDiv);
+            
+            chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+        }
+
+        function generateResponse(message) {
+            const lowerMessage = message.toLowerCase();
+
+            // Check for Bible verse requests
+            for (const verse in bibleVerses) {
+                if (lowerMessage.includes(verse)) {
+                    return `<strong>${verse.toUpperCase()}</strong><br>${bibleVerses[verse]}`;
+                }
+            }
+
+            // Check for general Bible-related questions
+            if (lowerMessage.includes('bible') || lowerMessage.includes('scripture') || lowerMessage.includes('verse')) {
+                return "I can help you find Bible verses! Try asking for specific verses like 'John 3:16' or 'Psalm 23:1'. You can also ask about our church's beliefs based on Scripture.";
+            }
+
+            // Church programme questions
+            if (lowerMessage.includes('programme') || lowerMessage.includes('service') || lowerMessage.includes('meeting') || lowerMessage.includes('schedule')) {
+                return `Here are our church programmes:<br><ul>${websiteContext.programmes.map(p => `<li>${p}</li>`).join('')}</ul>`;
+            }
+
+            // Leadership questions
+            if (lowerMessage.includes('pastor') || lowerMessage.includes('leader') || lowerMessage.includes('leadership')) {
+                return `Our church leadership includes:<br><ul>${websiteContext.leadership.map(l => `<li>${l}</li>`).join('')}</ul>`;
+            }
+
+            // Beliefs questions
+            if (lowerMessage.includes('belief') || lowerMessage.includes('doctrine') || lowerMessage.includes('faith')) {
+                return `Our fundamental beliefs include:<br><ul>${websiteContext.beliefs.map(b => `<li>${b}</li>`).join('')}</ul><br>All our beliefs are grounded in Scripture and the Gospel of Truth.`;
+            }
+
+            // Contact/location questions
+            if (lowerMessage.includes('contact') || lowerMessage.includes('address') || lowerMessage.includes('phone') || lowerMessage.includes('email')) {
+                return "You can contact us at:<br>• Email: info@gospeloftruth.org<br>• Programs: programmes@gospeloftruth.org<br>• Pastor: pastor@gospeloftruth.org";
+            }
+
+            // Worship/service questions
+            if (lowerMessage.includes('worship') || lowerMessage.includes('sunday') || lowerMessage.includes('church service')) {
+                return "Our main worship service is on Sundays from 10:00 AM to 12:00 PM. Join us for inspiring sermons, congregational singing, and corporate prayer!";
+            }
+
+            // Motto/mission questions
+            if (lowerMessage.includes('motto') || lowerMessage.includes('mission') || lowerMessage.includes('truth')) {
+                return `Our motto is: "${websiteContext.motto}"<br><br>We are dedicated to spreading the word of God and serving our community with love and compassion.`;
+            }
+
+            // Prayer requests
+            if (lowerMessage.includes('pray') || lowerMessage.includes('prayer')) {
+                return "We believe in the power of prayer! Join us for our Prayer Meeting every Wednesday from 7:00 PM to 8:30 PM. You can also share prayer requests with our pastoral team.";
+            }
+
+            // Youth questions
+            if (lowerMessage.includes('youth') || lowerMessage.includes('young') || lowerMessage.includes('teenager')) {
+                return "Our Youth Ministry meets every Friday from 6:00 PM to 8:00 PM for ages 13-25. We have dynamic gatherings with worship, games, biblical teaching, and fellowship!";
+            }
+
+            // Children questions
+            if (lowerMessage.includes('children') || lowerMessage.includes('kids') || lowerMessage.includes('sunday school')) {
+                return "We have Children's Ministry during Sunday service (10:00 AM - 12:00 PM) for ages 3-12. Fun and engaging classes with age-appropriate lessons and activities!";
+            }
+
+            // Default response
+            return "I'm here to help with questions about the Bible and our church! You can ask me about:<br>• Bible verses and Scripture<br>• Church programmes and services<br>• Our beliefs and leadership<br>• Contact information<br><br>What would you like to know?";
+        }
+    </script>
