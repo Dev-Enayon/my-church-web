@@ -444,6 +444,12 @@
                             <span>TikTok</span>
                             <div class="btn-bg"></div>
                         </a>
+                        
+                        <a href="https://www.facebook.com/Gtmchurch" class="social-btn facebook-btn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                            <div class="btn-bg"></div>
+                        </a>
                     </div>
                 </div>
 
@@ -521,13 +527,14 @@
                         <a href="https://www.youtube.com/@Gtmchurch_tv" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                         <a href="https://t.me/GOSPELOFTRUTHMISSION" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
                         <a href="https://www.tiktok.com/@gtmchurchtv" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/Gtmchurch" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                     </div>
                     <p>Email: gospeloftruthmission@gmail.com</p>
                     <p>Head Quarter Address: P.O BOX 2560, MUSHIN,Lagos,Nigeria </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Gospel Of Truth Mission. All rights reserved.</p>
+                <p>© 2025 Gospel Of Truth Mission. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -803,6 +810,28 @@
             75% { transform: scale(1.1) rotate(5deg); }
         }
 
+        /* Facebook Button */
+        .facebook-btn {
+            background: linear-gradient(135deg, #3b5998, #2a4373);
+        }
+
+        .facebook-btn .btn-bg {
+            background: linear-gradient(135deg, #4c70ba, #3b5998);
+        }
+
+        .facebook-btn:hover {
+            box-shadow: 0 8px 25px rgba(59, 89, 152, 0.4);
+        }
+
+        .facebook-btn i {
+            animation: facebookWave 2s infinite ease-in-out;
+        }
+
+        @keyframes facebookWave {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-2px); }
+        }
+
         /* Floating Animation for Social Buttons */
         .social-btn:nth-child(1) {
             animation: float 3s ease-in-out infinite;
@@ -814,6 +843,10 @@
 
         .social-btn:nth-child(3) {
             animation: float 3s ease-in-out infinite 2s;
+        }
+
+        .social-btn:nth-child(4) {
+            animation: float 3s ease-in-out infinite 0.5s;
         }
 
         @keyframes float {
@@ -1348,7 +1381,9 @@
 
             .social-btn {
                 min-width: 160px;
-                padding: 0.8rem 1.5rem;
+                padding:  --
+
+0.8rem 1.5rem;
             }
 
             .chatbot-window {
@@ -1581,8 +1616,8 @@
             }
 
             // Social media questions
-            if (lowerMessage.includes('social') || lowerMessage.includes('youtube') || lowerMessage.includes('telegram') || lowerMessage.includes('tiktok') || lowerMessage.includes('online')) {
-                return "Stay connected with us online! Follow us on:<br>• YouTube for sermon recordings and live streams<br>• Telegram for daily inspirations and announcements<br>• TikTok for short inspirational content<br><br>You can find our social media buttons in the programmes section!";
+            if (lowerMessage.includes('social') || lowerMessage.includes('youtube') || lowerMessage.includes('telegram') || lowerMessage.includes('tiktok') || lowerMessage.includes('facebook') || lowerMessage.includes('online')) {
+                return "Stay connected with us online! Follow us on:<br>• YouTube for sermon recordings and live streams<br>• Telegram for daily inspirations and announcements<br>• TikTok for short inspirational content<br>• Facebook for community updates and events<br><br>You can find our social media buttons in the programmes section!";
             }
 
             // Default response
@@ -1610,9 +1645,6 @@
                     const platform = this.querySelector('span').textContent;
                     console.log(`Clicked on ${platform} button`);
                     
-                    // Prevent default for now since we don't have actual links
-                    e.preventDefault();
-                    
                     // Social media links are now fully functional
                     if (platform === 'YouTube') {
                         window.open('https://www.youtube.com/@Gtmchurch_tv', '_blank');
@@ -1620,10 +1652,12 @@
                         window.open('https://www.tiktok.com/@gtmchurchtv', '_blank');
                     } else if (platform === 'Telegram') {
                         window.open('https://t.me/GOSPELOFTRUTHMISSION', '_blank');
+                    } else if (platform === 'Facebook') {
+                        window.open('https://www.facebook.com/Gtmchurch', '_blank');
                     }
                 });
             });
         });
     </script>
 </body>
-</html> 
+</html>
