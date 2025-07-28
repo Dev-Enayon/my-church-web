@@ -113,8 +113,6 @@ const hymns = {
     title: {
       en: "All hail the power of Jesus name", 
       yo: "Gbogbo aye, gbe Jesu ga.",
-      fr: "Grâce étonnante"
-    },
     lyrics: {
       en: `
        1
@@ -151,63 +149,43 @@ O that with yonder sacred throng<br>
 We’ll join the everlasting song,<br><br>
       `,
       yo: `
-        Gbogbo aye, gbe Jesu ga,
-        Gbe awọn angẹli kọlu;
-        Wa diadem ọba, 
-        Ati orukọ Rẹ ni gbogbo aye.
-        Wa diadem ọba,
-        Ati orukọ Rẹ ni gbogbo aye.
+        1. Gbogbo aye, gbe Jesu ga,<br>
+        GAngel' e wole fun U<br>
+        E mu ada oba re wa<br>
+        Se E l'Oba awon oba<br><br>
+        
 
-        Ẹgbẹ Israel, eyiti a yàn,
-        Ẹlẹgbẹ ti o gba itusilẹ,
-        Gbe Ẹni ti o daabo bo o ni ọpẹ,
-        Ati orukọ Rẹ ni gbogbo aye.
-        Gbe Ẹni ti o daabo bo o ni ọpẹ,
-        Ati orukọ Rẹ ni gbogbo aye.
+        2. Se E l'oba enyin martyr,<br>
+        Ti a ti pepe Re:<br>
+       Gbe gbongbo igi jesse ga<br>
+       Se E l'Oba awon oba<br><br>
+
+       3.Enyin iru omo isreal<br>
+       Ti a ti ra pada<br>
+       E ki Enti'o awon oba<br>
+       Se E l'Oba awon oba<br><br>
+
+       4. Gbogbo enia elese,<br>
+       Ranti banuje nyin<br>
+       E te kogun nyin sese re,<br>
+       Se E l'Oba awon oba<br><br>
+
+       5. ki gbogbo orile-ede<br>
+       Ni gbogbo abaiye<br>
+       Ki nwon ki 'Kabiyesile"
+       Se E l'Oba awon oba<br><br>
       `,
-      fr: `
-        Tout le pouvoir au nom de Jésus !
-        Que les anges se prosternent;
-        Apportez la couronne royale,
-        Et couronnez-le Seigneur de tout.
-        Apportez la couronne royale,
-        Et couronnez-le Seigneur de tout.
-
-        Vous, semence choisie de la race d'Israël,
-        Vous rachetés du péché,
-        Hail celui qui vous sauve par sa grâce,
-        Et couronnez-le Seigneur de tout.
-        Hail celui qui vous sauve par sa grâce,
-        Et couronnez-le Seigneur de tout.
-      `,
-      eg: `
-        Afaŋka Ọlọrun,
-        Fi ẹsẹ wa ki awọn angẹli,
-        Wa diademi ọba,
-        Ki a si kà Ọ Lord.
-        Wa diademi ọba,
-        Ki a si kà Ọ Lord.
-
-        Ẹgbẹ Israel, eyiti a yàn,
-        Ẹlẹgbẹ ti o gba itusilẹ,
-        Gbe Ẹni ti o daabo bo o ni ọpẹ,
-        Ki a si kà Ọ Lord.
-        Gbe Ẹni ti o daabo bo o ni ọpẹ,
-        Ki a si kà Ọ Lord.
-      `
+      
     },
     writeUp: {
       en: "This hymn praises the power and majesty of Jesus Christ, calling all to honor Him as the King of Kings.",
       yo: "Hymn yi n ṣe ayẹyẹ agbara ati ọlá Jesu Kristi, n pe gbogbo eniyan lati bọwọ fun un gẹgẹ bi Ọba ti awọn ọba.",
-      fr: "Ce cantique loue la puissance et la majesté de Jésus-Christ, appelant tous à l'honorer comme le Roi des rois.",
-      eg: "Afaŋka Ọlọrun n ṣe ayẹyẹ agbara ati ọlá Jesu Kristi, n pe gbogbo eniyan lati bọwọ fun un gẹgẹ bi Ọba ti awọn ọba."
     }
   },
   2: {
     title: {
       en: "Sweet is the work, my God, my king",
       yo: "Dun ni iṣẹ, Ọlọrun mi, Ọba mi",
-      fr: "Doux est le travail, mon Dieu, mon roi"
     },
     lyrics: {
       en: `
@@ -252,9 +230,20 @@ We’ll join the everlasting song,<br><br>
         Thy face in full felicity.<br>
       `,
       yo: `Dun ni iṣẹ, Ọlọrun mi, Ọba mi...
-      (You can add the Yoruba lyrics here in a similar format)`,
-      fr: `Doux est le travail, mon Dieu, mon roi...
-      (You can add the French lyrics here in a similar format)`
+      1. Didun ni se na Oba Re<br>
+      lati ma yin oruko Re<br>
+      lati so fe re l'owuro<br>
+      Lati so oro Re l'ale<br><br>
+
+      2. Didun Lojo simi mimo<br>
+      Lala ko si fun wa loni<br>
+      Okan mi, ma korin iyin,<br>
+      Bi harpu Dafidi didun<br><br>
+
+      3. Okan mi o yo n'Oluwa<br>
+      Y'o yin 
+      `,
+      
     },
     writeUp: {
       en: "This hymn expresses the joy and devotion of serving and praising God, with an emphasis on the eternal rewards of doing so.",
