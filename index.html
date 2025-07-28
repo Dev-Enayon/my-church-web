@@ -1678,10 +1678,12 @@
 
             return "I'm here to help with questions about the Bible and our church! You can ask me about:<br>• Bible verses and Scripture<br>• Church programmes and services<br>• Our beliefs and leadership<br>• Contact information<br>• Social media channels and videos<br><br>What would you like to know?";
         }
+        
 
         // YouTube API Integration
+        const MAX_RESULTS = 1000; // Maximum number of videos to fetch
         const YOUTUBE_API_KEY = 'AIzaSyAw4JTnH_-OQOclKOyh1mLx6tUGxLAkuBE';
-        const CHANNEL_ID = 'UCBW2P4A65xhsGq96DmxJ2Rw';
+        const CHANNEL_ID = 'UCLmjUAM9CFd4T5XM8g5BJwA';
 
         async function fetchYouTubeVideos() {
             const videoGrid = document.getElementById('video-grid');
