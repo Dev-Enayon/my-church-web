@@ -283,7 +283,7 @@ body {
 }
 
 /* Beliefs Grid */
-.beliefs-grid {
+.vision-and-mission {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
