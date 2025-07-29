@@ -609,6 +609,355 @@ the honors of thy name.<br>
       fr: "Ce cantique loue le Père, le Fils et le Saint-Esprit, célébrant l'unité divine de la Trinité et rendant grâce pour les actes puissants du Créateur."
     }
   },
+  125: {
+  title: {
+    en: "There's a Stranger at the Door",
+    yo: "", // You can fill in Yoruba if available
+    fr: ""  // You can fill in French if available
+  },
+  lyrics: {
+    en: `
+      1. There’s a Stranger at the door,<br>
+      Let Him in;<br>
+      He has been there oft before,<br>
+      Let Him in;<br>
+      Let Him in, ere He is gone,<br>
+      Let Him in, the Holy One,<br>
+      Jesus Christ, the Father’s Son,<br>
+      Let Him in.<br><br>
+
+      2. Open now to Him your heart,<br>
+      Let Him in;<br>
+      If you wait He will depart,<br>
+      Let Him in;<br>
+      Let Him in, He is your Friend,<br>
+      He your soul will sure defend.<br>
+      He will keep you to the end,<br>
+      Let Him in.<br><br>
+
+      3. Hear you now His loving voice?<br>
+      Let Him in;<br>
+      Now, oh, now make Him your choice,<br>
+      Let Him in;<br>
+      He is standing at your door,<br>
+      Joy to you He will restore,<br>
+      And His Name you will adore,<br>
+      Let Him in.<br><br>
+
+      4. Now admit the heavenly Guest,<br>
+      Let Him in;<br>
+      He will make for you a feast,<br>
+      Let Him in;<br>
+      He will speak your sins forgiven,<br>
+      And when earth ties all are riven,<br>
+      He will take you home to Heaven,<br>
+      Let Him in.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn invites the listener to open their heart to Jesus Christ, the heavenly Guest, who brings forgiveness, joy, and eternal life.",
+    yo: "",
+    fr: ""
+  }
+},
+126: {
+  title: {
+    en: "In Tenderness He Sought Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. In tenderness He sought me,<br>
+      Weary and sick with sin,<br>
+      And on His shoulders brought me<br>
+      Back to His fold again.<br>
+      While angels in His presence sang<br>
+      Until the courts of heaven rang.<br><br>
+
+      Refrain:<br>
+      O the love that sought me!<br>
+      O the blood that bought me!<br>
+      O the grace that brought me to the fold,<br>
+      Wondrous grace that brought me to the fold!<br><br>
+
+      2. He washed the bleeding sin-wounds<br>
+      And poured in oil and wine;<br>
+      He whispered to assure me,<br>
+      “I’ve found thee, thou art Mine;”<br>
+      I never heard a sweeter voice;<br>
+      It made my aching heart rejoice!<br>
+      (Refrain)<br><br>
+
+      3. He pointed to the nail prints,<br>
+      For me His blood was shed,<br>
+      A mocking crown so thorny<br>
+      Was placed upon His head:<br>
+      I wondered what He saw in me<br>
+      To suffer such deep agony.<br>
+      (Refrain)<br><br>
+
+      4. I’m sitting in His presence,<br>
+      The sunshine of His face,<br>
+      While with adoring wonder<br>
+      His blessings I retrace:<br>
+      It seems as if eternal days<br>
+      Are far too short to sound His praise.<br>
+      (Refrain)<br><br>
+
+      5. So while the hours are passing,<br>
+      All now is perfect rest;<br>
+      I’m waiting for the morning,<br>
+      The brightest and the best,<br>
+      When He will call us to His side,<br>
+      To be with Him, His spotless bride.<br>
+      (Refrain)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn reflects the tender love and saving grace of Jesus Christ, who rescues, heals, and secures the soul with eternal hope and rest.",
+    yo: "",
+    fr: ""
+  }
+},
+127: {
+  title: {
+    en: "My Happy Heart is Singing",
+    yo: "", // Add Yoruba translation if needed
+    fr: ""  // Add French translation if needed
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      My happy heart is singing<br>
+      My heav'nly Father's love;<br>
+      He send so many blessings<br>
+      Like sunbeams from above.<br><br>
+
+      Chorus:<br>
+      But Jesus is the best of all<br>
+      Yes Jesus is the best of all<br>
+      Of all the joys that may surround me,<br>
+      The best of all is Jesus.<br><br>
+
+      Verse 2<br>
+      Tho' other joys may fail me,<br>
+      And sorrows may befall,<br>
+      My Saviour will be with me,<br>
+      And He is best of all.<br><br>
+
+      Chorus:<br>
+      But Jesus is the best of all<br>
+      Yes Jesus is the best of all<br>
+      Of all the joys that may surround me,<br>
+      The best of all is Jesus.<br><br>
+
+      Verse 3<br>
+      O, let me tell to others<br>
+      The story of His grace,<br>
+      Rejoicing in His service,<br>
+      Until I see His face.<br><br>
+
+      Chorus:<br>
+      But Jesus is the best of all<br>
+      Yes Jesus is the best of all<br>
+      Of all the joys that may surround me,<br>
+      The best of all is Jesus.<br><br>
+
+      Verse 4<br>
+      And when I view the glories,<br>
+      Within the jasper wall,<br>
+      I'll sing with all the ransomed,<br>
+      My Saviour's best of all.<br><br>
+
+      Chorus:<br>
+      But Jesus is the best of all<br>
+      Yes Jesus is the best of all<br>
+      Of all the joys that may surround me,<br>
+      The best of all is Jesus.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This joyful hymn celebrates the unmatched love and presence of Jesus, who remains the greatest joy above all earthly blessings and experiences.",
+    yo: "",
+    fr: ""
+  }
+},
+128: {
+  title: {
+    en: "I Have a Song I Love to Sing",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. I have a song I love to sing,<br>
+      Since I have been redeemed,<br>
+      Of my Redeemer, Savior, King,<br>
+      Since I have been redeemed.<br><br>
+
+      Chorus:<br>
+      Since I have been redeemed,<br>
+      Since I have been redeemed,<br>
+      I will glory in His name;<br>
+      Since I have been redeemed,<br>
+      I will glory in my Savior's name.<br><br>
+
+      2. I have a Christ who satisfies,<br>
+      Since I have been redeemed,<br>
+      To do His will-- my highest prize,<br>
+      Since I have been redeemed.<br>
+      (Chorus)<br><br>
+
+      3. I have a witness bright and clear,<br>
+      Since I have been redeemed,<br>
+      Dispelling ev'ry doubt and fear,<br>
+      Since I have been redeemed.<br>
+      (Chorus)<br><br>
+
+      4. I have a home prepared for me,<br>
+      Since I have been redeemed,<br>
+      Where I shall dwell eternally,<br>
+      Since I have been redeemed.<br>
+      (Chorus)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn joyfully proclaims the transformation and hope that comes from being redeemed by Christ, inspiring believers to glorify Him always.",
+    yo: "",
+    fr: ""
+  }
+},
+129: {
+  title: {
+    en: "Rock of Ages",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Rock of Ages, cleft for me,<br>
+      Let me hide myself in thee;<br>
+      Let the water and the blood,<br>
+      From thy wounded side which flowed,<br>
+      Be of sin the double cure;<br>
+      Save from wrath and make me pure.<br><br>
+
+      2. Not the labors of my hands<br>
+      Can fulfill thy law's demands;<br>
+      Could my zeal no respite know,<br>
+      Could my tears forever flow,<br>
+      All for sin could not atone;<br>
+      Thou must save, and thou alone.<br><br>
+
+      3. Nothing in my hand I bring,<br>
+      Simply to the cross I cling;<br>
+      Naked, come to thee for dress;<br>
+      Helpless, look to thee for grace;<br>
+      Foul, I to the fountain fly;<br>
+      Wash me, Savior, or I die.<br><br>
+
+      4. While I draw this fleeting breath,<br>
+      When mine eyes shall close in death,<br>
+      When I soar to worlds unknown,<br>
+      See thee on thy judgment throne,<br>
+      Rock of Ages, cleft for me,<br>
+      Let me hide myself in thee.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This powerful hymn is a cry for mercy and grace, declaring that salvation comes only through Jesus Christ, our Rock and eternal refuge.",
+    yo: "",
+    fr: ""
+  }
+},
+130: {
+  title: {
+    en: "O Lord with Thy Guiding Rod",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. O Lord with Thy guiding rod,<br>
+      Always tend me gently home<br>
+      Let Thy wrath cease on my ways<br>
+      That I stumbleth not again.<br><br>
+
+      2. Cure my sickness Lord I pray;<br>
+      Behold me I seek, Thy grace<br>
+      This will be my only plea<br>
+      Behold me in Thy mercy.<br><br>
+
+      3. Who heth low in the grace<br>
+      That can tell of salvation,<br>
+      Lord strengthen my weakest heart<br>
+      Speak and I will surely live.<br><br>
+
+      4. Behold He cometh to hear<br>
+      I have caught a glimpse of Him,<br>
+      Glory encompasses me<br>
+      My soul arise to praise Him. Amin.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a heartfelt prayer for divine guidance, healing, and mercy, ending in a joyful vision of God's glory and a soul stirred to praise.",
+    yo: "",
+    fr: ""
+  }
+},
+131: {
+  title: {
+    en: "Think of My Affliction O Lord",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      Think of my affliction O Lord.<br>
+      Send Thy only help<br>
+      My heart fainteth for salvation<br>
+      And will my work not end?<br><br>
+
+      It is more proportion for me<br>
+      If my father whips me,<br>
+      Punish me for refusing Thee<br>
+      That I may believe Thee.<br><br>
+
+      I know righteous is thy judgement<br>
+      As harsh as it may be,<br>
+      Paints that I have already borne<br>
+      Cometh from Thee alone.<br><br>
+
+      Before I knew Thy guiding hand<br>
+      I always went astray,<br>
+      When I read Thy consoling words<br>
+      I do not go astray.<br><br>
+
+      Amen.<br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A reflective and humble hymn of repentance, this prayer acknowledges God's righteous judgment and the restoring power of His Word and guidance.",
+    yo: "",
+    fr: ""
+  }
+},
+
   10: {
     title: {
       en: "Now Thank We All Our God",
