@@ -957,6 +957,197 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+132: {
+  title: {
+    en: "God Be Merciful to Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Sinful, sighing to be blest,<br>
+      Bound, and longing to be free;<br>
+      Weary, waiting for my rest;<br>
+      God be merciful to me.<br><br>
+
+      2. Goodness I have none to plead,<br>
+      Sinfulness in all I see,<br>
+      I can only bring my need;<br>
+      God be merciful to me.<br><br>
+
+      3. Broken heart and downcast eyes<br>
+      Dare not lift themselves to Thee;<br>
+      Yet Thou canst interpret sighs:<br>
+      God be merciful to me.<br><br>
+
+      4. From this sinful heart of mine<br>
+      To Thy bosom I would flee:<br>
+      I am not my own but Thine:<br>
+      God be merciful to me.<br><br>
+
+      5. There is One beside the throne,<br>
+      And my only hope and plea<br>
+      Are in Him, and Him alone:<br>
+      God be merciful to me.<br><br>
+
+      6. He my cause will undertake,<br>
+      My interpreter will be;<br>
+      He's my all; and for His sake<br>
+      God be merciful to me.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A deeply humble prayer of repentance, this hymn pleads for God's mercy, recognizing Christ as the sole hope and intercessor for salvation.",
+    yo: "",
+    fr: ""
+  }
+},
+133: {
+  title: {
+    en: "No, Not Despairingly",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. No, not despairingly<br>
+      Come I to Thee;<br>
+      No, not distrustingly<br>
+      Bend I the knee;<br>
+      Sin hath gone over me,<br>
+      Yet is this still my plea,<br>
+      Jesus hath died.<br><br>
+
+      2. Ah! Mine iniquity<br>
+      Crimson has been,<br>
+      Infinite, infinite,<br>
+      Sin upon sin;<br>
+      Sin of not loving Thee,<br>
+      Sin of not trusting Thee,<br>
+      Infinite sin.<br><br>
+
+      3. Lord, I confess to Thee<br>
+      Sadly my sin;<br>
+      All I am, tell to Thee,<br>
+      All I have been;<br>
+      Purge Thou my sin away,<br>
+      Wash Thou my soul this day;<br>
+      Lord, make me clean.<br><br>
+
+      4. Faithful and just art Thou,<br>
+      Forgiving all;<br>
+      Loving and kind art Thou<br>
+      When poor ones call;<br>
+      Lord, let the cleansing blood,<br>
+      Blood of the Lamb of God,<br>
+      Pass o'er my soul.<br><br>
+
+      5. Then all is peace and light<br>
+      This soul within;<br>
+      Thus shall I walk with Thee,<br>
+      The loved Unseen;<br>
+      Leaning on Thee, my God,<br>
+      Guided along the road,<br>
+      Nothing between.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a sincere confession of sin and a plea for cleansing through Christ's sacrifice, ending in peace, assurance, and daily fellowship with God.",
+    yo: "",
+    fr: ""
+  }
+},
+134: {
+  title: {
+    en: "Unworthy I Am, Lord",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Unworthy I am, Lord.<br>
+      My Lord, my God, Saviour,<br>
+      May I draw nearer to Thee, Lord?<br>
+      With all my sinful load.<br><br>
+
+      2. My sins do press on me<br>
+      With my uncleansed heart,<br>
+      How sorrowful this may be, Lord?<br>
+      In this Thy holy sight.<br><br>
+
+      3. Do I move to the grave,<br>
+      In this my hopeless state?<br>
+      I have joy in Thy painful death<br>
+      For me the miserable.<br><br>
+
+      4. The blood which Thou hast shed,<br>
+      Which is free given grace,<br>
+      Can clean me, a sinner so bad;<br>
+      Can soften hardened heart.<br><br>
+
+      5. I worship at Thy feet,<br>
+      Forgive to me my sins,<br>
+      Here I’ll not arise on my knees<br>
+      Till Thou shalt say ‘Arise’.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A deeply humble hymn of confession, expressing the sinner's unworthiness and pleading for forgiveness, cleansing, and the mercy found in Christ's sacrifice.",
+    yo: "",
+    fr: ""
+  }
+},
+135: {
+  title: {
+    en: "Lord, in This Thy Mercy’s Day",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Lord, in this Thy mercy’s day,<br>
+      Ere for us it pass away,<br>
+      On our knees we fall and pray.<br><br>
+
+      2. Holy Jesus, grant us tears,<br>
+      Fill us with heart searching fears,<br>
+      Ere the hour of doom appears.<br><br>
+
+      3. Lord, on us Thy Spirit pour,<br>
+      Kneeling lowly at Thy door,<br>
+      Ere it close forevermore.<br><br>
+
+      4. By Thy night of agony,<br>
+      By Thy supplicating cry,<br>
+      By Thy willingness to die,<br><br>
+
+      5. By Thy tears of bitter woe,<br>
+      For Jerusalem below,<br>
+      Let us not Thy peace forego.<br><br>
+
+      6. Judge and Savior of our race,<br>
+      Grant us, when we see Thy face,<br>
+      With Thy ransomed ones a place.<br><br>
+
+      7. On Thy love we rest alone,<br>
+      And that love shall then be known,<br>
+      By the pardoned, round Thy throne.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This solemn hymn is a heartfelt plea for mercy, repentance, and spiritual awakening before it is too late, resting in the redeeming love of Christ.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
