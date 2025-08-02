@@ -1384,6 +1384,440 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+141: {
+  title: {
+    en: "Approach, My Soul, the Mercy-Seat",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Approach, my soul, the mercy seat<br>
+      Where Jesus answers pray'r;<br>
+      There humbly fall before His feet,<br>
+      For none can perish there.<br><br>
+
+      2. My only plea, Your promise true;<br>
+      With this I venture nigh;<br>
+      You beckon burdened souls to You,<br>
+      And such, O Lord, am I.<br><br>
+
+      3. Bowed down beneath a load of sin,<br>
+      By Satan sorely pressed;<br>
+      By war without and fears within,<br>
+      I come to You for rest.<br><br>
+
+      4. Thus be my shield and hiding place!<br>
+      That sheltered near Your side,<br>
+      I may my fierce accuser face,<br>
+      And say the Lamb has died.<br><br>
+
+      5. Oh, wondrous love! To bleed and die,<br>
+      To bear the cross and shame,<br>
+      That guilty sinners, such as I,<br>
+      Might plead Your gracious name.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A heartfelt invitation to approach God's mercy with confidence in Christ's atonement. It expresses trust in His promises and hope for peace in the midst of sin and fear.",
+    yo: "",
+    fr: ""
+  }
+},
+142: {
+  title: {
+    en: "O Thou, from Whom All Goodness Flows",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. O Thou, from whom all goodness flows,<br>
+      I lift my soul to Thee;<br>
+      In all my sorrows, conflicts, woes,<br>
+      Good Lord, remember me.<br><br>
+
+      2. When on my aching, burdened heart<br>
+      My sins lie heavily,<br>
+      Thy pardon grant, new peace impart:<br>
+      Good Lord, remember me.<br><br>
+
+      3. When trials sore obstruct my way,<br>
+      And ills I cannot flee,<br>
+      O let my strength be as my day:<br>
+      Good Lord, remember me.<br><br>
+
+      4. If, for Thy sake, upon my name<br>
+      Shame and reproach shall be,<br>
+      All hail reproach, and welcome shame!<br>
+      Good Lord, remember me.<br><br>
+
+      5. When, in the solemn hour of death,<br>
+      I wait Thy just decree,<br>
+      Be this the pray'r of my last breath:<br>
+      Good Lord, remember me.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "This prayerful hymn appeals for God’s remembrance in every season of life—sorrow, trial, shame, and death—trusting in His mercy and sustaining grace.",
+    yo: "",
+    fr: ""
+  }
+},
+143: {
+  title: {
+    en: "I Am Coming to the Cross",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. I am coming to the cross;<br>
+      I am poor, and weak, and blind;<br>
+      I am counting all but dross;<br>
+      I shall full salvation find.<br><br>
+
+      I am trusting, Lord, in Thee,<br>
+      Blessed Lamb of Calvary;<br>
+      Humbly at Thy cross I bow,<br>
+      Save me, Jesus, save me now.<br><br>
+
+      2. Long my heart has sighed for Thee;<br>
+      Long has evil dwelt within;<br>
+      Jesus sweetly speaks to me,<br>
+      “I will cleanse you from all sin.”<br><br>
+
+      3. Here I give my all to Thee—<br>
+      Friends and time and earthly store,<br>
+      Soul and body Thine to be—<br>
+      Wholly Thine forevermore.<br><br>
+
+      4. In the promises I trust;<br>
+      Now I feel the blood applied;<br>
+      I am prostrate in the dust;<br>
+      I with Christ am crucified.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A humble and earnest hymn of surrender and salvation, expressing trust in Christ’s cleansing power at the cross.",
+    yo: "",
+    fr: ""
+  }
+},
+144: {
+  title: {
+    en: "O Lord, Turn Not Thy Face from Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. O Lord, turn not Thy face from me,<br>
+      Who lie in woeful state,<br>
+      Lamenting all my sinful life<br>
+      Before Thy mercy-gate.<br><br>
+
+      2. A gate which opens wide to those<br>
+      That do lament their sin;<br>
+      Shut not that gate against me, Lord,<br>
+      But let me enter in.<br><br>
+
+      3. And call me not to strict account<br>
+      How I have sojourned here;<br>
+      For then my guilty conscience knows<br>
+      How vile I shall appear.<br><br>
+
+      4. Mercy, good Lord, mercy I ask;<br>
+      This is my humble prayer;<br>
+      For mercy, Lord, is all my suit:<br>
+      O let Thy mercy spare.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "This penitential hymn is a heartfelt plea for divine mercy and forgiveness, emphasizing God’s open gate of grace for repentant souls.",
+    yo: "",
+    fr: ""
+  }
+},
+145: {
+  title: {
+    en: "Lord Jesus, Think on Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Lord Jesus, think on me<br>
+      And purge away my sin;<br>
+      From earthborn passions set me free<br>
+      And make me pure within.<br><br>
+
+      2. Lord Jesus, think on me,<br>
+      With many a care oppressed;<br>
+      Let me Thy loving servant be<br>
+      And taste Thy promised rest.<br><br>
+
+      3. Lord Jesus, think on me<br>
+      Nor let me go astray;<br>
+      Through darkness and perplexity<br>
+      Point Thou the heavenly way.<br><br>
+
+      4. Lord Jesus, think on me<br>
+      That, when the flood is past,<br>
+      I may th’eternal brightness see<br>
+      And share Thy joy at last.<br><br>
+
+      5. Lord Jesus, think on me<br>
+      That I may sing above<br>
+      To Father, Spirit, and to Thee<br>
+      The strains of praise and love.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A meditative hymn seeking Christ’s continual guidance, cleansing, and eternal joy, ending with a longing to join in heavenly praise.",
+    yo: "",
+    fr: ""
+  }
+},
+146: {
+  title: {
+    en: "Yet There Is Room",
+    yo: "", // Yoruba title if available
+    fr: ""  // French title if available
+  },
+  lyrics: {
+    en: `
+      1. "Yet there is room!" The Lamb's bright hall of song,<br>
+      With its fair glory, beckons thee along;<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      2. Day is declining, and the sun is low;<br>
+      The shadows lengthen, light makes haste to go:<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      3. The bridal hall is filling for the feast;<br>
+      Pass in, pass in, and be the Bridegroom's guest;<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      4. It fills, it fills, that hall of jubilee!<br>
+      Make haste, make haste; 'tis not too full for thee;<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      5. Yet there is room! Still open stands the gate,<br>
+      The gate of love; it is not yet too late:<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      6. Pass in, pass in, that banquet is for thee;<br>
+      That cup of everlasting joy is free;<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      7. All heaven is there, all joy! Go in, go in;<br>
+      The angels beckon thee the prize to win;<br>
+      Room, room, still room! Oh, enter, enter now!<br><br>
+
+      8. Ere night that gate may close, and seal thy doom,<br>
+      Then the last, low, long cry: "No room, no room!"<br>
+      No room, no room:--Oh, woeful cry, "No room."<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "An urgent gospel invitation calling all to enter the banquet of salvation while there’s still time—before the gate closes forever.",
+    yo: "",
+    fr: ""
+  }
+},
+147: {
+  title: {
+    en: "Jesus, Keep Me Near the Cross",
+    yo: "", // Yoruba title if available
+    fr: ""  // French title if available
+  },
+  lyrics: {
+    en: `
+      1. Jesus, keep me near the cross,<br>
+      There a precious fountain;<br>
+      Free to all, a healing stream,<br>
+      Flows from Calv'ry's mountain.<br><br>
+
+      <b>Refrain:</b><br>
+      In the cross, in the cross<br>
+      Be my glory ever,<br>
+      Till my ransomed soul shall find<br>
+      Rest beyond the river.<br><br>
+
+      2. Near the cross, a trembling soul,<br>
+      Love and mercy found me;<br>
+      There the Bright and Morning Star<br>
+      Shed His beams around me.<br>
+      [Refrain]<br><br>
+
+      3. Near the cross! O Lamb of God,<br>
+      Bring its scenes before me;<br>
+      Help me walk from day to day<br>
+      With its shadow o'er me.<br>
+      [Refrain]<br><br>
+
+      4. Near the cross! I'll watch and wait,<br>
+      Hoping, trusting ever;<br>
+      Till I reach the golden strand,<br>
+      Just beyond the river.<br>
+      [Refrain]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A heartfelt plea to remain close to the power and promise of the cross, trusting Christ’s sacrifice for peace, strength, and eternal rest.",
+    yo: "",
+    fr: ""
+  }
+},
+148: {
+  title: {
+    en: "Christ Redeemer Died on the Cross",
+    yo: "", // Yoruba title if available
+    fr: ""  // French title if available
+  },
+  lyrics: {
+    en: `
+      1. Christ our Redeemer died on the cross,<br>
+      Died for the sinner, paid all his due;<br>
+      Sprinkle your soul with the blood of the Lamb,<br>
+      “And I will pass, will pass over you.”<br><br>
+
+      <b>Chorus:</b><br>
+      When I see the blood,<br>
+      When I see the blood,<br>
+      When I see the blood,<br>
+      I will pass, I will pass over you.<br><br>
+
+      2. Chiefest of sinners, Jesus will save;<br>
+      All He has promised, that will He do;<br>
+      Wash in the fountain opened for sin,<br>
+      “And I will pass, will pass over you.”<br><br>
+
+      3. Judgment is coming, all will be there,<br>
+      Each one receiving justly his due;<br>
+      Hide in the saving, sin-cleansing blood,<br>
+      “And I will pass, will pass over you.”<br><br>
+
+      4. O great compassion! O boundless love!<br>
+      O loving kindness, faithful and true!<br>
+      Find peace and shelter under the blood,<br>
+      “And I will pass, will pass over you.”<br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A powerful gospel hymn emphasizing salvation through the blood of Jesus, echoing the Passover theme of protection by faith.",
+    yo: "",
+    fr: ""
+  }
+},
+149: {
+  title: {
+    en: "Oh Our Forgiving Father Forgive Us",
+    yo: "", // Yoruba translation if applicable
+    fr: ""  // French translation if applicable
+  },
+  lyrics: {
+    en: `
+      1. All creatures of our God and King,<br>
+      Lift up your voice and with us sing<br>
+      Alleluia, alleluia!<br>
+      Thou burning sun with golden beam,<br>
+      Thou silver moon with softer gleam,<br>
+      O praise him, O praise him,<br>
+      Alleluia, alleluia, alleluia.<br><br>
+
+      2. Thou rushing winds that art so strong,<br>
+      Ye clouds that sail in Heav'n along,<br>
+      O praise him, alleluia!<br>
+      Thou rising morn, in praise rejoice,<br>
+      Ye lights of evening, find a voice.<br>
+      O praise him, O praise him,<br>
+      Alleluia, alleluia, alleluia.<br><br>
+
+      3. And all ye saints of tender heart,<br>
+      Forgiving others, take your part,<br>
+      O sing ye, alleluia!<br>
+      Ye who long pain and sorrow bear,<br>
+      Praise God and on him cast your care:<br>
+      O praise him, O praise him,<br>
+      Alleluia, alleluia, alleluia.<br><br>
+
+      4. Let all things their creator bless,<br>
+      And worship him in humbleness,<br>
+      O praise him, alleluia!<br>
+      Praise, praise the Father, praise the Son,<br>
+      And praise the Spirit, Three in One:<br>
+      O praise him, O praise him,<br>
+      Alleluia, alleluia, alleluia.<br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A hymn of universal praise, calling all creation and all believers to glorify the Trinity in joy and humility.",
+    yo: "",
+    fr: ""
+  }
+},
+150: {
+  title: {
+    en: "Alas! And Did My Saviour Bleed",
+    yo: "", // Yoruba translation if needed
+    fr: ""  // French translation if needed
+  },
+  lyrics: {
+    en: `
+      1. Alas! and did my Savior bleed,<br>
+      and did my Sovereign die!<br>
+      Would he devote that sacred head<br>
+      for sinners such as I?<br><br>
+
+      2. Was it for crimes that I have done,<br>
+      he groaned upon the tree?<br>
+      Amazing pity! Grace unknown!<br>
+      And love beyond degree!<br><br>
+
+      3. Well might the sun in darkness hide,<br>
+      and shut its glories in,<br>
+      when God, the mighty maker, died<br>
+      for his own creature's sin.<br><br>
+
+      4. Thus might I hide my blushing face<br>
+      while his dear cross appears;<br>
+      dissolve my heart in thankfulness,<br>
+      and melt mine eyes to tears.<br><br>
+
+      5. But drops of tears can ne'er repay<br>
+      the debt of love I owe.<br>
+      Here, Lord, I give myself away;<br>
+      'tis all that I can do.<br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A heartfelt hymn reflecting on Christ's sacrificial death, stirring awe, repentance, and a response of total surrender.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
