@@ -199,15 +199,13 @@ We’ll join the everlasting song,<br><br>
     writeUp: {
       en: "This hymn praises the power and majesty of Jesus Christ, calling all to honor Him as the King of Kings.",
       yo: "Hymn yi n ṣe ayẹyẹ agbara ati ọlá Jesu Kristi, n pe gbogbo eniyan lati bọwọ fun un gẹgẹ bi Ọba ti awọn ọba.",
-      fr: "Ce cantique loue la puissance et la majesté de Jésus-Christ, appelant tous à l'honorer comme le Roi des rois.",
-      eg: "Afaŋka Ọlọrun n ṣe ayẹyẹ agbara ati ọlá Jesu Kristi, n pe gbogbo eniyan lati bọwọ fun un gẹgẹ bi Ọba ti awọn ọba."
+      
     }
   },
   2: {
     title: {
       en: "Sweet is the work, my God, my king",
       yo: "Dun ni iṣẹ, Ọlọrun mi, Ọba mi",
-      fr: "Doux est le travail, mon Dieu, mon roi"
     },
     lyrics: {
       en: `
@@ -2468,6 +2466,147 @@ Ton nouveau meilleur nom, l'Amour.<br>
       eg: "Hymn yi yìn Ọlọrun gẹgẹbi Olùfún gbogbo, n ṣakiyesi awọn ibùkún Rẹ ninu iseda, ìfẹ́ Ọlọrun nipasẹ Jesu Kristi, ati oore-ọfẹ tó pọ̀ tí Ọlọrun fi ṣòwò wa."
     }
   },
+  201: {
+  title: {
+    en: "Spirit Divine, Attend Our Prayer",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Spirit divine, attend our prayer,<br>
+      And make this house your home;<br>
+      Descend with all your gracious pow'r;<br>
+      O come, great Spirit, come!<br><br>
+
+      2. Come as the light; to us reveal<br>
+      Our emptiness and woe,<br>
+      And lead us in those paths of life<br>
+      Where all the righteous go.<br><br>
+
+      3. Come as the fire and purge our hearts<br>
+      Like sacrificial flame;<br>
+      Let our whole soul an off'ring be<br>
+      To our Redeemer's name.<br><br>
+
+      4. Come as the dove, and spread your wings,<br>
+      The wings of peaceful love;<br>
+      And let your Church on earth become<br>
+      Blest as the Church above.<br><br>
+
+      5. Spirit divine, attend our prayer;<br>
+      Make a lost world your home;<br>
+      Descend with all your gracious pow'r;<br>
+      O come, great Spirit, come!<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a prayer for the Holy Spirit's presence, guidance, cleansing, and peace to dwell among believers, transforming the Church into a reflection of heaven on earth.",
+    yo: "",
+    fr: ""
+  }
+},
+
+202: {
+  title: {
+    en: "O for a Closer Walk with God",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. O for a closer walk with God,<br>
+      A calm and heav'nly frame,<br>
+      A light to shine upon the road<br>
+      That leads me to the Lamb!<br><br>
+
+      2. Where is the blessedness I knew<br>
+      When first I sought the Lord?<br>
+      Where is the soul refreshing view<br>
+      Of Jesus and His Word?<br><br>
+
+      3. What peaceful hours I then enjoyed!<br>
+      How sweet their mem'ry still!<br>
+      But they have left an aching void<br>
+      The world can never fill.<br><br>
+
+      4. Return, O holy Dove, return,<br>
+      Sweet messenger of rest;<br>
+      I hate the sins that made Thee mourn,<br>
+      And drove Thee from my breast.<br><br>
+
+      5. The dearest idol I have known,<br>
+      Whate'er that idol be,<br>
+      Help me to tear it from Thy throne<br>
+      And worship only Thee.<br><br>
+
+      6. So shall my walk be close with God,<br>
+      Calm and serene my frame;<br>
+      So purer light shall mark the road<br>
+      That leads me to the Lamb.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A heartfelt plea for deeper intimacy with God, this hymn reflects on the loss of early spiritual joy and expresses a longing for renewal, purity, and devotion.",
+    yo: "",
+    fr: ""
+  }
+},
+203: {
+  title: {
+    en: "When the Power of God Descended",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. When the power of God descended<br>
+      On the day of Pentecost,<br>
+      All the day of waiting ended,<br>
+      They received the Holy Ghost<br><br>
+
+      Chorus:<br>
+      O Lord, send the power just now,<br>
+      O Lord, send the power just now,<br>
+      O Lord, send the power just now,<br>
+      And baptize every one.<br><br>
+
+      2. Tongues of flame came down upon them,<br>
+      And they preached the word in power,<br>
+      Listening multitudes awakened<br>
+      Turned to God that very hour.<br><br>
+
+      (Chorus)<br><br>
+
+      3. We are waiting, Holy Spirit,<br>
+      We are all of one accord,<br>
+      Lord, fulfill just now the promise<br>
+      That is given in Thy Word.<br><br>
+
+      (Chorus)<br><br>
+
+      4. Fill and thrill us with Thy presence,<br>
+      Grant the blessing that we need,<br>
+      Flood our souls with wondrous glory,<br>
+      While the prayer of faith we plead.<br><br>
+
+      (Chorus)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This revival hymn celebrates the outpouring of the Holy Spirit on Pentecost and expresses a fervent prayer for that same power and spiritual baptism to fall afresh on today’s believers.",
+    yo: "",
+    fr: ""
+  }
+},
+
+
   21: {  // Hymn 21 - For thy mercy and thy grace
     title: {
       en: "For thy mercy and thy grace",
