@@ -1148,6 +1148,242 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+136: {
+  title: {
+    en: "Just as I Am, Without One Plea",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Just as I am, without one plea,<br>
+      But that Thy blood was shed for me,<br>
+      And that Thou bid’st me come to Thee,<br>
+      O Lamb of God, I come! I come!<br><br>
+
+      2. Just as I am, and waiting not<br>
+      To rid my soul of one dark blot;<br>
+      To Thee whose blood can cleanse each spot,<br>
+      O Lamb of God, I come, I come!<br><br>
+
+      3. Just as I am, though tossed about<br>
+      With many a conflict, many a doubt;<br>
+      Fightings within, and fears without,<br>
+      O Lamb of God, I come, I come!<br><br>
+
+      4. Just as I am, poor, wretched, blind;<br>
+      Sight, riches, healing of the mind;<br>
+      Yes, all I need, in Thee to find,<br>
+      O Lamb of God, I come, I come!<br><br>
+
+      5. Just as I am, Thou wilt receive,<br>
+      Wilt welcome, pardon, cleanse, relieve;<br>
+      Because Thy promise I believe,<br>
+      O Lamb of God, I come, I come!<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This beloved hymn is a humble declaration of faith and surrender, emphasizing God's grace, mercy, and readiness to accept all who come to Him.",
+    yo: "",
+    fr: ""
+  }
+},
+137: {
+  title: {
+    en: "Loving Saviour, Hear My Cry",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      Loving Saviour, hear my cry,<br>
+      Hear my cry, hear my cry;<br>
+      Trembling to Thine arms I fly:<br>
+      O save me at the Cross!<br>
+      I have sinn'd, but Thou hast died,<br>
+      Thou hast died, Thou hast died;<br>
+      In Thy mercy let me hide:<br>
+      O save me at the Cross!<br><br>
+
+      Chorus<br>
+      Lord Jesus, receive me,<br>
+      No more would I grieve Thee,<br>
+      Now, blessed Redeemer,<br>
+      O save me at the Cross!<br><br>
+
+      Verse 2<br>
+      Tho' I perish I will pray,<br>
+      I will pray, I will pray;<br>
+      Thou of life the Living Way:<br>
+      O save me at the Cross!<br>
+      Thou hast said Thy grace is free,<br>
+      Grace is free, grace is free:<br>
+      Have compassion, Lord on me:<br>
+      O save me at the Cross!<br><br>
+
+      Chorus<br>
+      Lord Jesus, receive me,<br>
+      No more would I grieve Thee,<br>
+      Now, blessed Redeemer,<br>
+      O save me at the Cross!<br><br>
+
+      Verse 3<br>
+      Wash me in Thy cleansing blood,<br>
+      Cleansing blood, cleansing blood;<br>
+      Plunge me now beneath the flood:<br>
+      O save me at the Cross!<br>
+      Only faith will pardon bring,<br>
+      Pardon bring, pardon bring:<br>
+      In that faith to Thee I cling:<br>
+      O save me at the Cross!<br><br>
+
+      Chorus<br>
+      Lord Jesus, receive me,<br>
+      No more would I grieve Thee,<br>
+      Now, blessed Redeemer,<br>
+      O save me at the Cross!<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A heartfelt plea of repentance and faith, this hymn expresses a sinner’s cry for mercy, pointing to Christ's sacrifice at the cross as the only hope of salvation.",
+    yo: "",
+    fr: ""
+  }
+},
+138: {
+  title: {
+    en: "Pass Me Not, O Gentle Savior",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Pass me not, O gentle Savior,<br>
+      Hear my humble cry;<br>
+      While on others Thou art calling,<br>
+      Do not pass me by.<br><br>
+
+      Refrain:<br>
+      Savior, Savior, hear my humble cry;<br>
+      While on others Thou art calling,<br>
+      Do not pass me by.<br><br>
+
+      2. Let me at a throne of mercy<br>
+      Find a sweet relief;<br>
+      Kneeling there in deep contrition;<br>
+      Help my unbelief.<br>
+      [Refrain]<br><br>
+
+      3. Trusting only in Thy merit,<br>
+      Would I seek Thy face;<br>
+      Heal my wounded, broken spirit,<br>
+      Save me by Thy grace.<br>
+      [Refrain]<br><br>
+
+      4. Thou, the Spring of all my comfort,<br>
+      More than life to me;<br>
+      Whom have I on earth beside Thee?<br>
+      Whom in Heav’n but Thee?<br>
+      [Refrain]<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A moving plea for the Savior's attention and mercy, this hymn echoes the deep longing of the soul not to be forgotten in the day of grace.",
+    yo: "",
+    fr: ""
+  }
+},
+139: {
+  title: {
+    en: "And Dost Thou Say, Ask What Thou Wilt",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. And dost Thou say, Ask what thou wilt?<br>
+      Lord, I would seize the golden hour:<br>
+      I pray to be released from guilt,<br>
+      And freed from sin and Satan's power.<br><br>
+
+      2. More of Thy presence, Lord, impart,<br>
+      More of Thine image let me bear;<br>
+      Erect Thy throne within my heart,<br>
+      And reign without a rival there.<br><br>
+
+      3. Give me to read my pardon sealed,<br>
+      And from Thy joy to draw my strength,<br>
+      To have Thy boundless love revealed,<br>
+      Its height, and depth, its breadth, and length.<br><br>
+
+      4. Grant these requests, I ask no more,<br>
+      But to Thy care the rest resign;<br>
+      Living or dying, rich or poor,<br>
+      All shall be well if Thou art mine.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A prayerful hymn embracing God's promise to hear our petitions, expressing a deep desire for forgiveness, divine presence, and complete surrender.",
+    yo: "",
+    fr: ""
+  }
+},
+140: {
+  title: {
+    en: "When at Thy Footstool, Lord, I Bend",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. When at Thy footstool, Lord, I bend,<br>
+      And plead with Thee for mercy there,<br>
+      Think of the sinner's dying Friend,<br>
+      And for His sake receive my prayer.<br><br>
+
+      2. Oh, think not of my shame and guilt,<br>
+      My thousand stains of deepest dye!<br>
+      Think of the blood which Jesus spilt,<br>
+      And let that blood my pardon buy.<br><br>
+
+      3. Think, Lord, how I am still Thine own,<br>
+      The trembling creature of Thy hand;<br>
+      Think how my heart to sin is prone,<br>
+      And what temptations round me stand.<br><br>
+
+      4. Oh, think upon Thy holy Word,<br>
+      And every plighted promise there!<br>
+      How prayer should evermore be heard,<br>
+      And how Thy glory is to spare.<br><br>
+
+      5. Oh, think not of my doubts and fears,<br>
+      My strivings with Thy grace divine;<br>
+      Think upon Jesus' woes and tears,<br>
+      And let His merits stand for mine.<br><br>
+
+      6. Thine eye, Thine ear, they are not dull;<br>
+      Thine arm can never shortened be;<br>
+      Behold me here; my heart is full;<br>
+      Behold, and spare, and succor me.<br><br>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "This hymn is a humble prayer for mercy, leaning solely on the merits of Christ. It acknowledges guilt, seeks grace, and expresses trust in God's promises.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
