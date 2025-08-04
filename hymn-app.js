@@ -1816,6 +1816,468 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+151: {
+  title: {
+    en: "Thou Who Sparest Not Thy Son",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Less than the least of all<br>
+      Thy mercies, Lord, are we;<br>
+      Yet, for the greatest we may call,<br>
+      The greatest are most free.<br><br>
+
+      2. Thy Son Thou didst not spare,<br>
+      Yet us Thou sparest still;<br>
+      Him didst Thou send our guilt to bear,<br>
+      Our righteousness fulfil.<br><br>
+
+      3. For such amazing grace,<br>
+      What can poor sinners give?<br>
+      At Thy command, we seek Thy face,<br>
+      We meet our Judge, and live.<br><br>
+
+      4. The world we would forsake,<br>
+      Our all to Thee resign;<br>
+      O save us for Thy mercies' sake!<br>
+      O save us,—we are Thine!<br><br>
+
+      5. Meanwhile, as pilgrims here,<br>
+      Who seek our home above,<br>
+      Thee may we serve, with holy fear,<br>
+      And love, with child-like love.<br><br>
+
+      <i>– Sacred Poems and Hymns</i>
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A deeply reverent hymn acknowledging God's mercy, Christ's sacrifice, and our response of surrender, service, and love.",
+    yo: "",
+    fr: ""
+  }
+},
+152: {
+  title: {
+    en: "I Gave My Life for Thee",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. “I gave my life for thee,<br>
+      My precious blood I shed,<br>
+      That thou might’st ransom’d be,<br>
+      And quickened from the dead.<br>
+      I gave, I gave my life for thee:<br>
+      What hast thou given for me?<br><br>
+
+      2. I spent long years for thee<br>
+      In weariness and woe,<br>
+      That an eternity<br>
+      Of joy thou mightiest know.<br>
+      I spent, I spent long years for thee;<br>
+      Hast thou spent one for me?<br><br>
+
+      3. My Father’s home of light,<br>
+      My rainbow-circled throne,<br>
+      I left, for earthly night,<br>
+      For wanderings sad and lone;<br>
+      I left, I left it all for thee:<br>
+      Hast thou left aught for me?<br><br>
+
+      4. I suffered much for thee,<br>
+      More than thy tongue may tell,<br>
+      Of bitt’rest agony,<br>
+      To rescue thee from hell;<br>
+      I’ve borne, I’ve borne it all for thee:<br>
+      What canst thou bear for me?<br><br>
+
+      5. And I have brought to thee,<br>
+      Down from my home above,<br>
+      Salvation full and free,<br>
+      My pardon and my love;<br>
+      Great gifts, great gifts I brought to thee;<br>
+      What hast thou brought to me?<br><br>
+
+      6. O, let thy life be given,<br>
+      Thy years for Him be spent,<br>
+      World fetters all be riv’n,<br>
+      And joy with suff’ring blent;<br>
+      I gave, I gave myself for thee:<br>
+      Give thou thyself to me!
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A personal and moving hymn where Christ speaks of His sacrifice, calling for a heartfelt and surrendered response from the believer.",
+    yo: "",
+    fr: ""
+  }
+},
+153: {
+  title: {
+    en: "Uncreated Fount of Light",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Uncreated Fount of light,<br>
+      Glory without shade of night,<br>
+      Everlasting, infinite<br>
+      Holy Father, hear us.<br><br>
+
+      2. Well of life that ever flows,<br>
+      Life more pure than stainless snows,<br>
+      Life in calm serene repose,<br>
+      Holy Father, hear us.<br><br>
+
+      3. Blessed One, whose name is love,<br>
+      Pleads with Thee Thy Son above;<br>
+      Broods o’er Thy hovering Dove;<br>
+      Holy Father, hear us.<br><br>
+
+      4. Round about Thy sapphire throne,<br>
+      Shines the rainbow’s emerald zone,<br>
+      Breathing heavenly peace alone;<br>
+      Holy Father, hear us.<br><br>
+
+      5. There before Thy mercy-seat<br>
+      Saints in light and angels meet;<br>
+      Yet behold us at Thy feet;<br>
+      Holy Father, hear us.<br><br>
+
+      6. Thou, whose deep compassions yearn<br>
+      For the prodigal’s return,<br>
+      And his far-off steps discern,<br>
+      Holy Father, hear us.<br><br>
+
+      7. Aching hearts that long for rest,<br>
+      Wilder’d souls by doubt oppress’d,<br>
+      Babes that crave a parent’s breast,<br>
+      Holy Father, hear us.<br><br>
+
+      8. All have some great gift to seek,<br>
+      Hungered, thirsty, weary, weak;<br>
+      All have wants no words can speak,<br>
+      Holy Father, hear us.<br><br>
+
+      9. Is not Thy paternal board<br>
+      With all royal bounties stored,<br>
+      Priceless, countless, unexplored?<br>
+      Holy Father, hear us.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A rich and reverent hymn of prayer, praising God's majesty and mercy while lifting up the deep needs and cries of humanity.",
+    yo: "",
+    fr: ""
+  }
+},
+154: {
+  title: {
+    en: "Have You Heard the Story of the Cross",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Have you heard the story of the cross,<br>
+      Where Jesus bled and died,<br>
+      When your debt was paid by His precious blood<br>
+      That gushed from His wounded side.<br><br>
+
+      <b>Refrain:</b><br>
+      He died of a broken heart for thee,<br>
+      He died of a broken heart;<br>
+      O wondrous love! it was for thee,<br>
+      He died of a broken heart.<br><br>
+
+      2. Have you heard how they placed the crown of thorns<br>
+      Upon His lovely brow,<br>
+      When He prayed, “Forgive them, O forgive,<br>
+      They know not what they do?”<br>
+      [Refrain]<br><br>
+
+      3. Have you heard that He saved the dying thief,<br>
+      When hanging on the tree,<br>
+      Who looked with pitying eyes and said,<br>
+      “Dear Lord, remember me?”<br>
+      [Refrain]<br><br>
+
+      4. Have you heard that He looked to heav’n and said,<br>
+      “’Tis finished”—all for thee?<br>
+      Have you ever said, “I thank Thee, Lord,<br>
+      For giving Thy life for me?”<br>
+      [Refrain]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A reflective and touching hymn recounting the story of Christ’s crucifixion and calling for a personal response of gratitude and faith.",
+    yo: "",
+    fr: ""
+  }
+},
+155: {
+  title: {
+    en: "Glory to Jesus",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Glory be to Jesus,<br>
+      Who in bitter pains<br>
+      Poured for me the life-blood<br>
+      From His sacred veins.<br><br>
+
+      2. Grace and life eternal<br>
+      In that Blood I find;<br>
+      Blest be His compassion,<br>
+      Infinitely kind.<br><br>
+
+      3. Blest through endless ages<br>
+      Be the precious stream,<br>
+      Which from endless torments<br>
+      Did the world redeem.<br><br>
+
+      4. Abel’s blood for vengeance<br>
+      Pleaded to the skies;<br>
+      But the blood of Jesus<br>
+      For our pardon cries.<br><br>
+
+      5. It the conscience sprinkles,<br>
+      Frees our guilty hearts;<br>
+      Satan in confusion<br>
+      Terror-struck departs.<br><br>
+
+      6. Oft as earth exulting<br>
+      Wafts its praise on high,<br>
+      Angel-hosts rejoicing<br>
+      Make their glad reply.<br><br>
+
+      7. Lift ye then your voices;<br>
+      Swell the mighty flood;<br>
+      Louder still and louder<br>
+      Praise the precious blood.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A triumphant hymn glorifying the redeeming blood of Jesus, celebrating His sacrifice and the eternal blessings it brings.",
+    yo: "",
+    fr: ""
+  }
+},
+156: {
+  title: {
+    en: "When I Survey the Wondrous Cross",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. When I survey the wondrous cross<br>
+      On which the Prince of glory died,<br>
+      My richest gain I count but loss,<br>
+      And pour contempt on all my pride.<br><br>
+
+      2. Forbid it, Lord, that I should boast<br>
+      Save in the death of Christ, my God!<br>
+      All the vain things that charm me most,<br>
+      I sacrifice them through His blood.<br><br>
+
+      3. See, from His head, His hands, His feet,<br>
+      Sorrow and love flow mingled down.<br>
+      Did e'er such love and sorrow meet,<br>
+      Or thorns compose so rich a crown?<br><br>
+
+      4. Were the whole realm of nature mine,<br>
+      That were a present far too small.<br>
+      Love so amazing, so divine,<br>
+      Demands my soul, my life, my all.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A deeply moving hymn that reflects on the sacrifice of Christ, calling believers to surrender all in response to His amazing love.",
+    yo: "",
+    fr: ""
+  }
+},
+157: {
+  title: {
+    en: "Oh Perfect Life of Love",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. O perfect life of love!<br>
+      All, all, is finished now,<br>
+      All that He left His throne above<br>
+      To do for us below.<br><br>
+
+      2. No work is left undone<br>
+      Of all the Father willed;<br>
+      His toil, His sorrows, one by one,<br>
+      The Scriptures have fulfilled.<br><br>
+
+      3. No pain that we can share<br>
+      But He has felt its smart;<br>
+      All forms of human grief and care<br>
+      Have pierced that tender heart.<br><br>
+
+      4. And on His thorn-crowned head<br>
+      And on His sinless soul<br>
+      Our sins in all their guilt were laid<br>
+      That He might make us whole.<br><br>
+
+      5. In perfect love He dies;<br>
+      For me He dies, for me!<br>
+      O all-atoning Sacrifice,<br>
+      You died to make me free!<br><br>
+
+      6. In ev'ry time of need,<br>
+      Before the judgment throne,<br>
+      Your works, O Lamb of God, I'll plead,<br>
+      Your merits, not my own.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A reverent hymn honoring the completed work of Christ, emphasizing His suffering, love, and the believer’s dependence on His righteousness.",
+    yo: "",
+    fr: ""
+  }
+},
+159: {
+  title: {
+    en: "I Have a Precious Saviour",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. I have a precious Saviour,<br>
+      He came from Heav'n above<br>
+      And died for me on Calvary,<br>
+      To prove His matchless love.<br>
+      This love so freely given,<br>
+      He offers now to you;<br>
+      Won't you let my Saviour be your Saviour too?<br><br>
+
+      <b>Chorus:</b><br>
+      Won't you let Him be your Saviour too?<br>
+      He would prove a faithful friend to you,<br>
+      He would purify your soul,<br>
+      Keep you ever pure and whole,<br>
+      Won't you let my Saviour be your Saviour too?<br><br>
+
+      2. I have a loving Saviour,<br>
+      He hears me when I call;<br>
+      He helps to bear each load of care,<br>
+      And lifts me when I fall;<br>
+      So kind is He, so tender,<br>
+      Compassionate and true,<br>
+      Won't you let my Saviour be your Saviour too?<br><br>
+
+      <b>Chorus</b><br>
+      Won't you let Him be your Saviour too?<br>
+      He would prove a faithful friend to you,<br>
+      He would purify your soul,<br>
+      Keep you ever pure and whole,<br>
+      Won't you let my Saviour be your Saviour too?<br><br>
+
+      3. I have a faithful Saviour,<br>
+      With me He will abide;<br>
+      And hold my hand until I land<br>
+      Upon the other side.<br>
+      Someday in all His glory,<br>
+      My Saviour I shall view.<br>
+      Brother, won't you let Him be your Saviour too?<br><br>
+
+      <b>Chorus</b><br>
+      Won't you let Him be your Saviour too?<br>
+      He would prove a faithful friend to you,<br>
+      He would purify your soul,<br>
+      Keep you ever pure and whole,<br>
+      Won't you let my Saviour be your Saviour too?
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A personal and evangelistic hymn that shares the blessings of knowing Christ, and lovingly invites others to receive Him as Saviour too.",
+    yo: "",
+    fr: ""
+  }
+},
+160: {
+  title: {
+    en: "I Have Been to the Fountain of Cleansing",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. I have been to the fountain of cleansing,<br>
+      And plung'd 'neath the life-giving flow,<br>
+      'Tis the blood shed on Calvary's mountain,<br>
+      That makes the soul the whiter than snow.<br><br>
+
+      <b>Chorus:</b><br>
+      O yes, it makes whiter than snow,<br>
+      The blood cleanses me, this I know,<br>
+      Since it cleans'd me from sin,<br>
+      He's been living within,<br>
+      His blood cleanses whiter than snow.<br><br>
+
+      2. I have been to the fountain of cleansing,<br>
+      Found peace in the Crucified One,<br>
+      All my sins by His grace have been cancelled,<br>
+      And heav’n in my soul is begun.<br><br>
+
+      <b>Chorus</b><br>
+      O yes, it makes whiter than snow,<br>
+      The blood cleanses me, this I know,<br>
+      Since it cleans'd me from sin,<br>
+      He's been living within,<br>
+      His blood cleanses whiter than snow.<br><br>
+
+      3. I have been to the fountain of cleansing,<br>
+      And glory is flooding my soul,<br>
+      Hallelujah! my heart is rejoicing,<br>
+      His blood makes me ev’ry whit whole.<br><br>
+
+      <b>Chorus</b><br>
+      O yes, it makes whiter than snow,<br>
+      The blood cleanses me, this I know,<br>
+      Since it cleans'd me from sin,<br>
+      He's been living within,<br>
+      His blood cleanses whiter than snow.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A joyful testimony hymn about the cleansing power of Jesus’ blood, bringing peace, forgiveness, and inner rejoicing to the believer.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
