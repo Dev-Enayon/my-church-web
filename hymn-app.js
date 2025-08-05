@@ -3771,6 +3771,145 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+183: {
+  title: {
+    en: "We've No Abiding City Here",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. We've no abiding city here;<br>
+      Sad truth, were this to be our home;<br>
+      But let this thought our spirits cheer,<br>
+      We seek a city yet to come,<br>
+      We seek a city yet to come.<br><br>
+
+      2. We've no abiding city here,<br>
+      We seek a city out of sight;<br>
+      Zion its name, the Lord is there,<br>
+      It shines with ever lasting light,<br>
+      It shines with ever lasting light.<br><br>
+
+      3. O sweet abode of peace and love,<br>
+      Where pilgrims freed from toil, are blest!<br>
+      Had I the pinions of a dove,<br>
+      I'd fly to thee, and be at rest,<br>
+      I'd fly to thee, and be at rest.<br><br>
+
+      4. But hush, my soul! nor dare repine;<br>
+      The time my God appoints is best;<br>
+      While here, to do his will be mine,<br>
+      And his to fix my time of rest,<br>
+      And his to fix my time of rest.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A hymn of hope and patience, reminding believers that their true home is in Zion, the eternal city of God.",
+    yo: "",
+    fr: ""
+  }
+},
+184: {
+  title: {
+    en: "When This Passing World Is Done",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1 When this passing world is done,<br>
+      when has sunk yon glaring sun,<br>
+      when we stand with Christ on high<br>
+      looking o'er life's history,<br>
+      then, Lord, shall I fully know,<br>
+      not till then, how much I owe.<br><br>
+
+      2 When I hear the wicked call<br>
+      on the rocks and hills to fall,<br>
+      when I see them start and shrink<br>
+      on the fiery deluge brink,<br>
+      then, Lord, shall I fully know,<br>
+      not till then, how much I owe.<br><br>
+
+      3 When I stand before the throne,<br>
+      dressed in beauty not my own,<br>
+      when I see thee as thou art,<br>
+      love thee with unsinning heart,<br>
+      then, Lord, shall I fully know,<br>
+      not till then, how much I owe.<br><br>
+
+      4 When the praise of heav'n I hear,<br>
+      loud as thunders to the ear,<br>
+      loud as many waters' noise,<br>
+      sweet as harp's melodious voice,<br>
+      then, Lord, shall I fully know,<br>
+      not till then, how much I owe.<br><br>
+
+      5 Chosen not for good in me,<br>
+      wakened up from wrath to flee,<br>
+      hidden in the Savior's side,<br>
+      by the Spirit sanctified,<br>
+      teach me, Lord, on earth to show,<br>
+      by my love, how much I owe.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A deep and humbling reflection on the grace of God, looking forward to the day when we fully understand the debt of love we owe to Christ.",
+    yo: "",
+    fr: ""
+  }
+},
+185: {
+  title: {
+    en: "Here We Suffer Grief and Pain",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1 Here we suffer grief and pain,<br>
+      Here we meet to part again;<br>
+      In heaven we part no more.<br>
+      <b>Chorus:</b><br>
+      Oh, that will be joyful!<br>
+      Joyful, joyful, joyful!<br>
+      Oh, that will be joyful!<br>
+      When we meet to part no more.<br><br>
+
+      2 All who love the Lord below,<br>
+      When they die, to heaven will go,<br>
+      And sing with saints above. [Chorus]<br><br>
+
+      3 Holy children will be there,<br>
+      Who have sought the Lord by prayer,<br>
+      From every Sunday school. [Chorus]<br><br>
+
+      4 Teachers, too, shall meet above,<br>
+      And our pastors, whom we love,<br>
+      Shall meet to part no more. [Chorus]<br><br>
+
+      5 Oh, how happy we shall be!<br>
+      For our Saviour we shall see<br>
+      Exalted on his throne. [Chorus]<br><br>
+
+      6 There we all shall sing with joy,<br>
+      And eternity employ<br>
+      In praising Christ the Lord. [Chorus]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A comforting hymn looking forward to the joy of reunion in heaven, where there will be no more parting or pain.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
