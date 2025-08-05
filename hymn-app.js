@@ -1188,6 +1188,367 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+204: {
+  title: {
+    en: "My Heart Is Open to Thee",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. My heart is open to Thee, dear Lord,<br>
+      Come in, come in,<br>
+      My faith is clinging to Thy dear word,<br>
+      Come in, Come in:<br><br>
+
+      Chorus:<br>
+      Come not to tarry, but stay, dear Lord<br>
+      All shall be Thine love can afford<br>
+      Here in my heart ever make Thine abode<br>
+      Come in, Come in.<br><br>
+
+      2. Yes, there is room in my heart, dear Lord<br>
+      Come in, Come in;<br>
+      Thy presence makes Heaven real to me,<br>
+      Come in, Come in.<br><br>
+
+      (Chorus)<br><br>
+
+      3. I kept Thee standing outside so long<br>
+      Come in, Come in,<br>
+      I pray Thee pardon this shameful wrong,<br>
+      Come in, Come in.<br><br>
+
+      (Chorus)<br><br>
+
+      4. I hear Thee knocking at my heart's door<br>
+      Come in, Come in,<br>
+      I'll keep Thee waiting outside no more<br>
+      Come in, Come in.<br><br>
+
+      (Chorus)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn expresses a deep personal invitation for Jesus to dwell in the heart, moving from repentance to full surrender and fellowship with Christ.",
+    yo: "",
+    fr: ""
+  }
+},
+205: {
+  title: {
+    en: "Holy Spirit, Truth Divine",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Holy Spirit, Truth divine,<br>
+      Dawn upon this soul of mine.<br>
+      Voice of God, and inward Light,<br>
+      Wake my spirit, clear my sight.<br><br>
+
+      2. Holy Spirit, Love divine,<br>
+      Glow within this heart of mine.<br>
+      Kindle ev’ry high desire,<br>
+      Purify me with your fire.<br><br>
+
+      3. Holy Spirit, Pow’r divine,<br>
+      Fill and nerve this will of mine.<br>
+      Boldly may I always live,<br>
+      Bravely serve and gladly give.<br><br>
+
+      4. Holy Spirit, Law divine,<br>
+      Reign within this soul of mine.<br>
+      Be my law and I shall be<br>
+      Firmly bound, forever free.<br><br>
+
+      5. Holy Spirit, Peace divine,<br>
+      Still this restless heart of mine.<br>
+      Speak to calm this tossing sea,<br>
+      Grant me your tranquility.<br><br>
+
+      6. Holy Spirit, Joy divine,<br>
+      Gladden now this heart of mine.<br>
+      In the desert ways I sing,<br>
+      Spring, O living Water, spring!<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a meditative prayer to the Holy Spirit, calling on Him as Truth, Love, Power, Law, Peace, and Joy to transform, guide, and fill every part of the believer's life.",
+    yo: "",
+    fr: ""
+  }
+},
+207: {
+  title: {
+    en: "Come, Thou Holy Paraclete",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Come, Thou holy Paraclete,<br>
+      And from Thy celestial seat<br>
+      Send Thy light and brilliancy:<br>
+      Father of the poor, draw near;<br>
+      Giver of all gifts, be here;<br>
+      Come, the soul’s true radiancy.<br><br>
+
+      2. Come, of comforters the best,<br>
+      Of the soul the sweetest guest,<br>
+      Come in toil refreshingly:<br>
+      Thou in labor rest most sweet,<br>
+      Thou art shadow from the heat,<br>
+      Comfort in adversity.<br><br>
+
+      3. O Thou Light, most pure and blest,<br>
+      Shine within the inmost breast<br>
+      Of Thy faithful company.<br>
+      Where Thou art not, man hath naught;<br>
+      Every holy deed and thought<br>
+      Comes from Thy divinity.<br><br>
+
+      4. What is soilèd, make Thou pure;<br>
+      What is wounded, work its cure;<br>
+      What is parchèd, fructify;<br>
+      What is rigid, gently bend;<br>
+      What is frozen, warmly tend;<br>
+      Strengthen what goes erringly.<br><br>
+
+      5. Fill Thy faithful, who confide<br>
+      In Thy power to guard and guide,<br>
+      With Thy sevenfold mystery.<br>
+      Here Thy grace and virtue send:<br>
+      Grant salvation to the end,<br>
+      And in Heav’n felicity.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This ancient hymn is a powerful invocation to the Holy Spirit, the Paraclete, asking for His light, comfort, purification, strength, and guidance to lead believers into eternal joy.",
+    yo: "",
+    fr: ""
+  }
+},
+208: {
+  title: {
+    en: "Showers of Blessing",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. There shall be showers of blessing:<br>
+      This is the promise of love;<br>
+      There shall be seasons refreshing,<br>
+      Sent from the Savior above.<br><br>
+
+      Refrain:<br>
+      Showers of blessing,<br>
+      Showers of blessing we need:<br>
+      Mercy-drops round us are falling,<br>
+      But for the showers we plead.<br><br>
+
+      2. There shall be showers of blessing,<br>
+      Precious reviving again;<br>
+      Over the hills and the valleys,<br>
+      Sound of abundance of rain.<br>
+      (Refrain)<br><br>
+
+      3. There shall be showers of blessing:<br>
+      Send them upon us, O Lord;<br>
+      Grant to us now a refreshing,<br>
+      Come and now honor Thy Word.<br>
+      (Refrain)<br><br>
+
+      4. There shall be showers of blessing:<br>
+      Oh, that today they might fall,<br>
+      Now as to God we're confessing,<br>
+      Now as on Jesus we call!<br>
+      (Refrain)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This uplifting hymn is a prayer for spiritual revival and renewal, calling on God to fulfill His promise and send abundant blessings like life-giving rain.",
+    yo: "",
+    fr: ""
+  }
+},
+209: {
+  title: {
+    en: "Holy Bible",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Holy Bible, book divine,<br>
+      Precious treasure, thou art mine;<br>
+      Mine to tell me whence I came;<br>
+      Mine to teach me what I am:<br><br>
+
+      2. Mine to chide me when I stray,<br>
+      Mine to show a Savior's way;<br>
+      Mine art thou to guide my feet;<br>
+      Mine to judge, condemn, acquit.<br><br>
+
+      3. Mine to comfort in distress,<br>
+      If the Holy Spirit bless;<br>
+      Mine to show by living faith,<br>
+      We can triumph over death.<br><br>
+
+      4. Mine to tell of joys to come,<br>
+      And the rebel sinner's doom;<br>
+      Holy Bible, book divine,<br>
+      Precious treasure, thou art mine.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a declaration of the personal value and spiritual richness of the Holy Bible, portraying it as a divine guide, comforter, and source of truth and hope.",
+    yo: "",
+    fr: ""
+  }
+},
+211: {
+  title: {
+    en: "Lord, Thy Word Abideth",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Lord, Thy Word abideth,<br>
+      And our footsteps guideth;<br>
+      Who its truth believeth,<br>
+      Light and joy receiveth.<br><br>
+
+      2. When our foes are near us,<br>
+      Then Thy Word doth cheer us,<br>
+      Word of consolation,<br>
+      Message of salvation.<br><br>
+
+      3. When the storms are o’er us,<br>
+      And dark clouds before us,<br>
+      Then its light directeth,<br>
+      And our way protecteth.<br><br>
+
+      4. Who can tell the pleasure,<br>
+      Who recount the treasure,<br>
+      By Thy Word imparted<br>
+      To the simple-hearted?<br><br>
+
+      5. Word of mercy, giving<br>
+      Succour to the living;<br>
+      Word of life, supplying<br>
+      Comfort to the dying.<br><br>
+
+      6. O that we, discerning<br>
+      Its most holy learning,<br>
+      Lord, may love and fear Thee,<br>
+      Evermore be near Thee.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn celebrates the guiding, comforting, and life-giving power of God's Word, urging believers to cherish its teachings and draw closer to the Lord through it.",
+    yo: "",
+    fr: ""
+  }
+},
+212: {
+  title: {
+    en: "Bible, Everliving Book",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Thou Bible, everliving book,<br>
+      Thy start is never known;<br>
+      Nobody knows thy origin,<br>
+      No one will know the end.<br><br>
+
+      2. Thou art the Almighty secret,<br>
+      Thou came from Heavenly King;<br>
+      Thou art the sword to kill death pains,<br>
+      The true picture of God.<br><br>
+
+      3. Thou art the chief amongst all those<br>
+      Books of the ancient times;<br>
+      Thou point the way to salvation<br>
+      To all saints on the earth.<br><br>
+
+      4. Thou treasure of the Trinity,<br>
+      Of Great King on the throne;<br>
+      Please make thyself known unto me<br>
+      So that I doubt no more.<br><br>
+
+      5. I want to read thee and then pray,<br>
+      I want to learn from thee;<br>
+      Thou great book of the ancient time,<br>
+      Reveal me Jesus' love.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn praises the Bible as the eternal, divine, and mysterious Word of God, highlighting its power, origin, and role in revealing salvation and the love of Jesus to believers.",
+    yo: "",
+    fr: ""
+  }
+},
+213: {
+  title: {
+    en: "Cling to the Bible",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Cling to the Bible, though all else be taken;<br>
+      Lose not its precepts, so precious and pure;<br>
+      Souls that are sleeping its tidings awaken;<br>
+      Life from the dead in its promises sure.<br><br>
+
+      Refrain:<br>
+      Cling to the Bible!<br>
+      Cling to the Bible!<br>
+      Cling to the Bible—<br>
+      Our Lamp and our Guide!<br><br>
+
+      2. Cling to the Bible! This jewel and treasure<br>
+      Brings life eternal, and saves fallen man;<br>
+      Surely its value no mortal can measure:<br>
+      Seek for its blessing, O soul, while you can!<br>
+      (Refrain)<br><br>
+
+      3. Lamp for the feet that in byways have wandered,<br>
+      Guide for the youth that would otherwise fall;<br>
+      Hope for the sinner whose life has been squandered,<br>
+      Staff for the agèd, and best book of all.<br>
+      (Refrain)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn is a powerful encouragement to hold tightly to the Bible as a source of truth, life, guidance, and hope across all stages of life and circumstances.",
+    yo: "",
+    fr: ""
+  }
+},
+
 137: {
   title: {
     en: "Loving Saviour, Hear My Cry",
