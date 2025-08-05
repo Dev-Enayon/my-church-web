@@ -2278,6 +2278,1138 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+161: {
+  title: {
+    en: "Ride on, Ride on in Majesty",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Ride on, ride on in majesty!<br>
+      Hear all the tribes hosanna cry;<br>
+      O Savior meek, pursue Your road<br>
+      with palms and scattered garments strowed.<br><br>
+
+      2. Ride on, ride on in majesty!<br>
+      In lowly pomp ride on to die.<br>
+      O Christ, Your triumphs now begin<br>
+      o’er captive death and conquered sin.<br><br>
+
+      3. Ride on, ride on in majesty!<br>
+      The host of angels in the sky<br>
+      look down with sad and wond'ring eyes<br>
+      to see th'approaching Sacrifice.<br><br>
+
+      4. Ride on, ride on in majesty!<br>
+      Your last and fiercest strife is nigh.<br>
+      The Father on His sapphire throne<br>
+      awaits His own anointed Son.<br><br>
+
+      5. Ride on, ride on in majesty!<br>
+      In lowly pomp ride on to die,<br>
+      bow Your meek head to mortal pain,<br>
+      then take, O Christ, Your pow'r and reign.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A powerful Palm Sunday hymn portraying Jesus' humble but triumphant entry into Jerusalem, leading to His sacrificial death and ultimate reign.",
+    yo: "",
+    fr: ""
+  }
+},
+162: {
+  title: {
+    en: "All Glory, Laud and Honour",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. All glory, laud, and honor<br>
+      to you, Redeemer, King,<br>
+      to whom the lips of children<br>
+      made sweet hosannas ring.<br>
+      You are the King of Israel<br>
+      and David's royal Son,<br>
+      now in the Lord's name coming,<br>
+      the King and Blessed One.<br><br>
+
+      2. The company of angels<br>
+      is praising you on high;<br>
+      and we with all creation<br>
+      in chorus make reply.<br>
+      The people of the Hebrews<br>
+      with palms before you went;<br>
+      our praise and prayer and anthems<br>
+      before you we present.<br><br>
+
+      3. To you before your passion<br>
+      they sang their hymns of praise;<br>
+      to you, now high exalted,<br>
+      our melody we raise.<br>
+      As you received their praises,<br>
+      accept the prayers we bring,<br>
+      for you delight in goodness,<br>
+      O good and gracious King!
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A traditional hymn of praise honoring Christ as King, echoing the praises of children and saints during His triumphal entry into Jerusalem.",
+    yo: "",
+    fr: ""
+  }
+},
+163: {
+  title: {
+    en: "Listen to Hymns of Deliv'erance",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. To God be the glory, great things He hath done,<br>
+      So loved He the world that He gave us His Son,<br>
+      Who yielded His life our redemption to win,<br>
+      And opened the life-gate that all may go in.<br><br>
+
+      <b>Chorus:</b><br>
+      Praise the Lord, praise the Lord,<br>
+      Let the earth hear His voice;<br>
+      Praise the Lord, praise the Lord,<br>
+      Let the people rejoice;<br>
+      Oh, come to the Father, through Jesus the Son,<br>
+      And give Him the glory; great things He hath done.<br><br>
+
+      2. Oh, perfect redemption, the purchase of blood,<br>
+      To every believer the promise of God;<br>
+      The vilest offender who truly believes,<br>
+      That moment from Jesus a pardon receives.<br><br>
+
+      <b>Chorus</b><br>
+      Praise the Lord, praise the Lord,<br>
+      Let the earth hear His voice;<br>
+      Praise the Lord, praise the Lord,<br>
+      Let the people rejoice;<br>
+      Oh, come to the Father, through Jesus the Son,<br>
+      And give Him the glory; great things He hath done.<br><br>
+
+      3. Great things He hath taught us, great things He hath done,<br>
+      And great our rejoicing through Jesus the Son;<br>
+      But purer, and higher, and greater will be<br>
+      Our wonder, our transport when Jesus we see.<br><br>
+
+      <b>Chorus</b><br>
+      Praise the Lord, praise the Lord,<br>
+      Let the earth hear His voice;<br>
+      Praise the Lord, praise the Lord,<br>
+      Let the people rejoice;<br>
+      Oh, come to the Father, through Jesus the Son,<br>
+      And give Him the glory; great things He hath done.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A triumphant hymn of praise celebrating God's love, redemption through Jesus, and the joy of salvation.",
+    yo: "",
+    fr: ""
+  }
+},
+164: {
+  title: {
+    en: "Welcome, Happy Morning! Age to Age Shall Say",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. "Welcome, happy morning!"<br>
+      age to age shall say:<br>
+      "Hell today is vanquished;<br>
+      heav'n is won today!"<br>
+      Lo, the dead is living,<br>
+      God forevermore!<br>
+      Him, their true Creator,<br>
+      all his works adore.<br><br>
+
+      <b>Refrain:</b><br>
+      "Welcome, happy morning!"<br>
+      age to age shall say:<br>
+      "Hell today is vanquished;<br>
+      heav'n is won today!"<br><br>
+
+      2. Maker and Redeemer,<br>
+      life and health of all,<br>
+      God from heav'n beholding<br>
+      human nature's fall,<br>
+      of the Father's Godhead<br>
+      you, the only Son,<br>
+      mankind to deliver<br>
+      manhood did put on.<br><br>
+
+      <b>Refrain</b><br>
+      "Welcome, happy morning!"<br>
+      age to age shall say:<br>
+      "Hell today is vanquished;<br>
+      heav'n is won today!"<br><br>
+
+      3. Source of all things living,<br>
+      you came down to die,<br>
+      plumbed the depths of hell<br>
+      to raise us up on high.<br>
+      Come, then, true and faithful,<br>
+      come fulfill your word;<br>
+      this is our third morning—<br>
+      rise, O buried Lord.<br><br>
+
+      <b>Refrain</b><br>
+      "Welcome, happy morning!"<br>
+      age to age shall say:<br>
+      "Hell today is vanquished;<br>
+      heav'n is won today!"<br><br>
+
+      4. Free the souls long prisoned,<br>
+      bound with Satan's chain;<br>
+      all that now is fallen<br>
+      raise to life again.<br>
+      Show your face in brightness;<br>
+      shine in ev'ry land<br>
+      as in Eden's garden<br>
+      when the world began.<br><br>
+
+      <b>Refrain</b><br>
+      "Welcome, happy morning!"<br>
+      age to age shall say:<br>
+      "Hell today is vanquished;<br>
+      heav'n is won today!"
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A vibrant Easter hymn celebrating the resurrection of Christ, His victory over death, and the renewal of life for all creation.",
+    yo: "",
+    fr: ""
+  }
+},
+165: {
+  title: {
+    en: "Alleluia! Alleluia! Alleluia!",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. The strife is o'er, the battle done;<br>
+      the victory of life is won;<br>
+      the song of triumph has begun.<br>
+      Alleluia!<br><br>
+
+      2. The powers of death have done their worst,<br>
+      but Christ their legions has dispersed.<br>
+      Let shouts of holy joy outburst.<br>
+      Alleluia!<br><br>
+
+      3. The three sad days are quickly sped;<br>
+      he rises glorious from the dead.<br>
+      All glory to our risen Head.<br>
+      Alleluia!<br><br>
+
+      4. He closed the yawning gates of hell;<br>
+      the bars from heaven's high portals fell.<br>
+      Let hymns of praise his triumph tell.<br>
+      Alleluia!<br><br>
+
+      5. Lord, by the stripes which wounded thee,<br>
+      from death's dread sting thy servants free,<br>
+      that we may live and sing to thee.<br>
+      Alleluia!
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A victorious Easter hymn rejoicing in Christ’s resurrection, His triumph over death, and the freedom He brings to believers.",
+    yo: "",
+    fr: ""
+  }
+},
+166: {
+  title: {
+    en: "Christ the Lord is Risen Today, Hallelujah",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Christ the Lord is risen today, Alleluia!<br>
+      Sons of men and angels say, Alleluia!<br>
+      Raise your joys and triumphs high, Alleluia!<br>
+      Sing ye heav’ns, and earth reply, Alleluia!<br><br>
+
+      2. Love’s redeeming work is done, Alleluia!<br>
+      Fought the fight, the battle won, Alleluia!<br>
+      Lo! Our sun’s eclipse is o’er, Alleluia!<br>
+      Lo! He sets in blood no more, Alleluia!<br><br>
+
+      3. Vain the stone, the watch, the seal, Alleluia!<br>
+      Christ has burst the gates of hell, Alleluia!<br>
+      Death in vain forbids His rise, Alleluia!<br>
+      Christ has opened paradise, Alleluia!<br><br>
+
+      4. Lives again our glorious king, Alleluia!<br>
+      Where, O death, is now thy sting? Alleluia!<br>
+      Dying once He all doth save, Alleluia!<br>
+      Where thy victory, O grave? Alleluia!<br><br>
+
+      5. Soar we now, where Christ has led, Alleluia!<br>
+      Following our exalted Head, Alleluia!<br>
+      Made like Him, like Him we rise, Alleluia!<br>
+      Ours the cross—the grave—the skies, Alleluia!<br><br>
+
+      6. Hail the Lord of earth and Heaven, Alleluia!<br>
+      Praise to Thee by both be given, Alleluia!<br>
+      Thee we greet triumphant now, Alleluia!<br>
+      Hail the resurrection Thou, Alleluia!
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A triumphant Easter anthem celebrating the resurrection of Christ, His victory over death, and the hope of eternal life for all believers.",
+    yo: "",
+    fr: ""
+  }
+},
+167: {
+  title: {
+    en: "Jesus Lives; Thy Terrors Now",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Jesus lives! thy terrors now<br>
+      Can, O Death, no more appall us;<br>
+      Jesus lives! by this we know<br>
+      Thou, O Grave, canst not enthrall us.<br>
+      Hallelujah!<br><br>
+
+      2. Jesus lives! henceforth is death<br>
+      But the gate of Life immortal;<br>
+      This shall calm our trembling breath,<br>
+      When we pass its gloomy portal.<br>
+      Hallelujah!<br><br>
+
+      3. Jesus lives! for us He died;<br>
+      Then alone to Jesus living,<br>
+      Pure in heart may we abide,<br>
+      Glory to our Savior giving.<br>
+      Hallelujah!<br><br>
+
+      4. Jesus lives! our hearts know well<br>
+      Naught from us His love shall sever;<br>
+      Life, nor death, nor powers of hell<br>
+      Tear us from His keeping ever.<br>
+      Hallelujah!<br><br>
+
+      5. Jesus lives! to Him the Throne<br>
+      Over all the world is given;<br>
+      We, in spirit with Him one,<br>
+      Rest and reign with Him in heaven.<br>
+      Hallelujah!
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A comforting resurrection hymn declaring Christ’s victory over death and the believer’s assurance of eternal life with Him.",
+    yo: "",
+    fr: ""
+  }
+},
+168: {
+  title: {
+    en: "On the Resurrection Morning",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. On the resurrection morning<br>
+      Soul and body meet again;<br>
+      No more sorrow, no more weeping,<br>
+      No more pain.<br><br>
+
+      2. Here awhile they must be parted,<br>
+      And the flesh its sabbath keep,<br>
+      Waiting in a holy stillness,<br>
+      Wrapt in sleep.<br><br>
+
+      3. For a space that tired body<br>
+      Lies with feet toward the dawn;<br>
+      Till there breaks the last and brightest<br>
+      Easter morn.<br><br>
+
+      4. But the soul in contemplation<br>
+      Utters earnest prayers and strong;<br>
+      Breaking at the resurrection<br>
+      Into song.<br><br>
+
+      5. Soul and body reunited,<br>
+      Thenceforth nothing will divide,<br>
+      Waking up in Christ's own likeness,<br>
+      Satisfied.<br><br>
+
+      6. Oh, the beauty, oh, the gladness<br>
+      Of that resurrection-day!<br>
+      Which shall not through endless ages,<br>
+      Pass away!<br><br>
+
+      7. On that happy Easter morning<br>
+      All the graves their dead restore,<br>
+      Father, sister, child and mother,<br>
+      Meet once more.<br><br>
+
+      8. To that brightest of all meetings,<br>
+      Bring us, Jesus Christ, at last;<br>
+      To Thy cross, through death and judgment,<br>
+      Holding fast.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A deeply hopeful hymn reflecting on the reunion of soul and body, the joy of resurrection, and the eternal morning in Christ’s presence.",
+    yo: "",
+    fr: ""
+  }
+},
+169: {
+  title: {
+    en: "Jesus, Stand Among Us",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Jesus, stand among us<br>
+      in your risen power;<br>
+      let this time of worship<br>
+      be a hallowed hour.<br><br>
+
+      2. Breathe the Holy Spirit<br>
+      into every heart;<br>
+      bid the fears and sorrows<br>
+      from each soul depart.<br><br>
+
+      3. Thus with quickened footsteps<br>
+      we'll pursue our way,<br>
+      watching for the dawning<br>
+      of the eternal day.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A simple and reverent prayer hymn inviting Christ’s presence into worship, seeking peace, renewal, and focus on eternity.",
+    yo: "",
+    fr: ""
+  }
+},
+
+170: {
+  title: {
+    en: "I Know That My Redeemer Lives",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. I know that my Redeemer lives;<br>
+      what comfort this sweet sentence gives!<br>
+      He lives, He lives, who once was dead;<br>
+      He lives, my everlasting Head.<br><br>
+
+      2. He lives triumphant from the grave,<br>
+      He lives eternally to save,<br>
+      He lives all-glorious in the sky,<br>
+      He lives exalted there on high.<br><br>
+
+      3. He lives to bless me with His love,<br>
+      He lives to plead for me above,<br>
+      He lives my hungry soul to feed,<br>
+      He lives to help in time of need.<br><br>
+
+      4. He lives to grant me rich supply,<br>
+      He lives to guide me with His eye,<br>
+      He lives to comfort me when faint,<br>
+      He lives to hear my soul's complaint.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A deeply personal resurrection hymn declaring the living presence of Christ and His ongoing care, guidance, and love for the believer.",
+    yo: "",
+    fr: ""
+  }
+},
+171: {
+  title: {
+    en: "Pleasant Are Thy Courts Above",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1. Pleasant are Thy courts above<br>
+      In the land of light and love;<br>
+      Pleasant are Thy courts below<br>
+      In this land of sin and woe.<br>
+      O my spirit longs and faints<br>
+      For the converse of Thy saints,<br>
+      For the brightness of Thy face,<br>
+      For Thy fullness, God of grace.<br><br>
+
+      2. Happy birds that sing and fly<br>
+      Round Thy altars, O Most High;<br>
+      Happier souls that find a rest<br>
+      In a heavenly Father's breast!<br>
+      Like the wandering dove that found<br>
+      No repose on earth around,<br>
+      They can to their ark repair<br>
+      And enjoy it ever there.<br><br>
+
+      3. Happy souls, their praises flow<br>
+      Even in this vale of woe;<br>
+      Waters in the desert rise,<br>
+      Manna feeds them from the skies;<br>
+      On they go from strength to strength<br>
+      Till they reach Thy throne at length,<br>
+      At Thy feet adoring fall,<br>
+      Who hast led them safe through all.<br><br>
+
+      4. Lord, be mine this prize to win;<br>
+      Guide me through a world of sin,<br>
+      Keep me by Thy saving grace,<br>
+      Give me at Thy side a place.<br>
+      Sun and shield alike Thou art;<br>
+      Guide and guard my erring heart.<br>
+      Grace and glory flow from Thee;<br>
+      Shower, O shower them, Lord, on me.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A heartfelt meditation on the joy of worshiping in God's presence, both in this life and the life to come, full of longing and spiritual hope.",
+    yo: "",
+    fr: ""
+  }
+},
+172: {
+  title: {
+    en: "Jerusalem My Happy Home",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Jerusalem, my happy home!<br>
+      Name ever dear to me;<br>
+      When shall my labors have an end,<br>
+      In joy, and peace, and thee?<br><br>
+
+      When shall these eyes thy heaven-built walls<br>
+      And pearly gates behold?<br>
+      Thy bulwarks, with salvation strong,<br>
+      And streets of shining gold?<br><br>
+
+      There happier bowers than Eden’s bloom,<br>
+      Nor sin nor sorrow know:<br>
+      Blest seats, through rude and stormy scenes,<br>
+      I onward press to you.<br><br>
+
+      Why should I shrink at pain and woe?<br>
+      Or feel at death dismay?<br>
+      I’ve Canaan’s goodly land in view,<br>
+      And realms of endless day.<br><br>
+
+      Apostles, martyrs, prophets there<br>
+      Around my Savior stand;<br>
+      And soon my friends in Christ below<br>
+      Will join the glorious band.<br><br>
+
+      Jerusalem, my happy home!<br>
+      My soul still pants for thee;<br>
+      Then shall my labors have an end,<br>
+      When I thy joys shall see.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A stirring hymn of eternal hope and heavenly longing, expressing the deep desire for the peace and joy of the heavenly Jerusalem.",
+    yo: "",
+    fr: ""
+  }
+},
+173: {
+  title: {
+    en: "At the End of This Wicked Life",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      At the end of this wicked life;<br>
+      Life of sorrow and vanity,<br>
+      A good place there exists<br>
+      There remain no changes of life<br>
+      Excepting Day there is no night<br>
+      Tell me wouldst thou be there?<br><br>
+
+      Its glorious gate shuts away sins<br>
+      Things filthy never attend it<br>
+      To mingle its beauty<br>
+      By its beautiful surroundings<br>
+      We hear no more of damnations<br>
+      Tell me wouldst thou be there?<br><br>
+
+      Only the meek shall reach its ground<br>
+      Who worship the Lord with reverence,<br>
+      Who never mind the world<br>
+      Who or by Holy Ghost guided,<br>
+      Who by the narrow road walketh<br>
+      They alone would be there. Amin.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A reflective hymn inviting the soul to consider eternity and pursue the narrow path that leads to the glorious, sin-free kingdom of God.",
+    yo: "",
+    fr: ""
+  }
+},
+174: {
+  title: {
+    en: "Jerusalem on High",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Jerusalem on high, my song that city is,<br>
+      My home whene’er I die, the center of my bliss;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?<br><br>
+
+      There dwells my Lord, my King, judged here unfit to live;<br>
+      There angels to Him sing and lowly homage give;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?<br><br>
+
+      The patriarchs of old there from their travels cease;<br>
+      The prophets there behold their longed for Prince of peace;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?<br><br>
+
+      The Lamb’s Apostles there I might with joy behold,<br>
+      The harpers I might hear harping on harps of gold;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?<br><br>
+
+      The bleeding martyrs, they within those courts are found,<br>
+      Clothèd in pure array, their scars with glory crowned;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?<br><br>
+
+      Ah me! ah me! that I in Kedar’s tent here stay;<br>
+      No place like that on high; Lord thither guide my way;<br>
+      O happy place! When shall I be,<br>
+      My God, with Thee, to see Thy face?
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A joyful and longing hymn for the heavenly city of Jerusalem, where saints, angels, and martyrs dwell in the presence of God.",
+    yo: "",
+    fr: ""
+  }
+},
+175: {
+  title: {
+    en: "Forever with the Lord",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Forever with the Lord!<br>
+      Amen, so let it be!<br>
+      Life from His death is in that word<br>
+      ’Tis immortality.<br><br>
+
+      Here in the body pent,<br>
+      Absent from Him I roam,<br>
+      Yet nightly pitch my moving tent<br>
+      A day’s march nearer home.<br><br>
+
+      My Father’s house on high,<br>
+      Home of my soul, how near<br>
+      At times to faith’s foreseeing eye<br>
+      Thy golden gates appear!<br><br>
+
+      Ah! then my spirit faints<br>
+      To reach the land I love,<br>
+      The bright inheritance of saints,<br>
+      Jerusalem above.<br><br>
+
+      Yet clouds will intervene,<br>
+      And all my prospect flies;<br>
+      Like Noah’s dove, I flit between<br>
+      Rough seas and stormy skies.<br><br>
+
+      Anon the clouds depart,<br>
+      The winds and waters cease,<br>
+      While sweetly o’er my gladdened heart<br>
+      Expands the bow of peace.<br><br>
+
+      I hear at morn and even,<br>
+      At noon and midnight hour,<br>
+      The choral harmonies of Heaven<br>
+      Earth’s Babel tongues overpower;<br><br>
+
+      Then, then I feel that He,<br>
+      Remembered or forgot,<br>
+      The Lord, is never far from me,<br>
+      Though I perceive Him not.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A reflective and hopeful hymn expressing longing for the eternal home with God, amid the trials and clouds of earthly life.",
+    yo: "",
+    fr: ""
+  }
+},
+176: {
+  title: {
+    en: "We speak of the realms of the blest",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      We speak of the realms of the Blest,<br>
+      Of that country so bright and so fair,<br>
+      And oft are its glories confessed;<br>
+      But what must it be to be there?<br><br>
+
+      Verse 2<br>
+      We speak of its pathways of gold,<br>
+      Of its walls decked with jewels most rare,<br>
+      Its wonders and pleasures untold;<br>
+      But what must it be to be there?<br><br>
+
+      Verse 3<br>
+      We speak of its freedom from sin,<br>
+      From sorrow, temptation, and care,<br>
+      From trials without and within;<br>
+      But what must it be to be there?<br><br>
+
+      Verse 4<br>
+      We speak of its anthems of praise,<br>
+      With which we can never compare<br>
+      The sweetest on earth we can raise;<br>
+      But what must it be to be there?<br><br>
+
+      Verse 5<br>
+      We speak of its service of love,<br>
+      Of the robes which the glorified wear,<br>
+      The church of the First-born above;<br>
+      But what must it be to be there?<br><br>
+
+      Verse 6<br>
+      Do Thou, Lord, 'midst pleasure of woe,<br>
+      Still for Heaven our spirits prepare;<br>
+      And shortly we also shall know<br>
+      And feel what it is to be there.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A contemplative hymn imagining the wonders of heaven, and longing to experience its joy, peace, and glory firsthand.",
+    yo: "",
+    fr: ""
+  }
+},
+177: {
+  title: {
+    en: "In the land of fadeless day",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      In the land of fadeless day<br>
+      lies the city four-square;<br>
+      it shall never pass away<br>
+      and there is no night there.<br><br>
+
+      Refrain:<br>
+      God shall wipe away all tears;<br>
+      there’s no death, no pain, nor fears;<br>
+      and they count not time by years<br>
+      for there is no night there.<br><br>
+
+      Verse 2<br>
+      All the gates of pearl are made<br>
+      in the city four-square;<br>
+      all the streets with gold are laid,<br>
+      and there is no night there.<br>
+      [Refrain]<br><br>
+
+      Verse 3<br>
+      And the gates shall never close<br>
+      in the city four-square,<br>
+      there life’s crystal river flows,<br>
+      and there is no night there.<br>
+      [Refrain]<br><br>
+
+      Verse 4<br>
+      There thy need no sunshine bright,<br>
+      in that city four-square;<br>
+      for the Lamb is all the light,<br>
+      and there is no night there.<br>
+      [Refrain]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A comforting hymn describing the eternal peace, light, and glory of heaven, where suffering and time no longer exist.",
+    yo: "",
+    fr: ""
+  }
+},
+178: {
+  title: {
+    en: "In this world there are burdens we must bear",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      In this world there are burdens we must bear<br>
+      And our eyes are made wet and dim with tears;<br>
+      There's no grief, neither sorrow over there,<br>
+      In that land where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years.<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years<br><br>
+
+      Verse 2<br>
+      Though we toil, oft our labour seems in vain,<br>
+      We have faith though no fruit our visions cheer,<br>
+      But the Lord will all mystery make plain,<br>
+      In that land where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years,<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years<br><br>
+
+      Verse 3<br>
+      So we smile as we labour day by day,<br>
+      And forget all our sorrows, griefs and fears,<br>
+      For when all earthly things have passed away,<br>
+      We shall dwell where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years,<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A hymn of hope and endurance, looking forward to a land of eternal peace where time, sorrow, and pain no longer exist.",
+    yo: "",
+    fr: ""
+  }
+},
+178: {
+  title: {
+    en: "In this world there are burdens we must bear",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      In this world there are burdens we must bear<br>
+      And our eyes are made wet and dim with tears;<br>
+      There's no grief, neither sorrow over there,<br>
+      In that land where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years.<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years<br><br>
+
+      Verse 2<br>
+      Though we toil, oft our labour seems in vain,<br>
+      We have faith though no fruit our visions cheer,<br>
+      But the Lord will all mystery make plain,<br>
+      In that land where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years,<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years<br><br>
+
+      Verse 3<br>
+      So we smile as we labour day by day,<br>
+      And forget all our sorrows, griefs and fears,<br>
+      For when all earthly things have passed away,<br>
+      We shall dwell where there are no days nor years<br><br>
+
+      Chorus<br>
+      In that land where there are no days nor years,<br>
+      Neither sorrow nor anguish or tears;<br>
+      We shall dwell there in peace and our joys ne'er shall cease<br>
+      In that land where there are no days nor years.
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A hymn of hope and endurance, looking forward to a land of eternal peace where time, sorrow, and pain no longer exist.",
+    yo: "",
+    fr: ""
+  }
+},
+179: {
+  title: {
+    en: "A few more years shall roll",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1 A few more years shall roll,<br>
+      a few more seasons come,<br>
+      and we shall be with those that rest<br>
+      asleep within the tomb.<br><br>
+
+      Refrain:<br>
+      Then, O my Lord, prepare<br>
+      my soul for that blest day;<br>
+      O wash me in your precious blood,<br>
+      and take my sins away.<br><br>
+
+      2 A few more suns shall set<br>
+      o'er these dark hills of time,<br>
+      and we shall be where suns are not,<br>
+      a far serener clime. [Refrain]<br><br>
+
+      3 A few more storms shall beat<br>
+      on this wild, rocky shore,<br>
+      and we shall be where tempests cease,<br>
+      and surges swell no more. [Refrain]<br><br>
+
+      4 A few more struggles here,<br>
+      a few more partings o'er,<br>
+      a few more toils, a few more tears,<br>
+      and we shall weep no more. [Refrain]<br><br>
+
+      5 'Tis but a little while<br>
+      and he shall come again,<br>
+      who died that we might live with him,<br>
+      who lives that we might reign. [Refrain]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A comforting hymn of perseverance, reminding believers that trials are brief and eternal rest awaits with Christ.",
+    yo: "",
+    fr: ""
+  }
+},
+180: {
+  title: {
+    en: "Those eternal bowers man hath never trod",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      Those eternal bowers man hath never trod,<br>
+      Those unfolding flowers round the Throne of God:<br>
+      Who may hope to gain them after weary fight?<br>
+      Who at length attain them, clad in robes of white?<br><br>
+
+      Verse 2<br>
+      He who wakes from slumber at the SPIRIT's voice,<br>
+      Daring here to number things unseen his choice;<br>
+      He who casts his burden down at JESUS' Cross,<br>
+      CHRIST's reproach his guerdon, all beside but loss<br><br>
+
+      Verse 3<br>
+      He who gladly barters all on earthly ground;<br>
+      He who, like the Martyrs, says ''I will be crowned:''<br>
+      He whose one oblation is a life of love,<br>
+      Knit in GOD's salvation to the blest above<br><br>
+
+      Verse 4<br>
+      Shame upon you, legions of the Heavenly King,<br>
+      Citizens of regions past imagining!<br>
+      What, with pipe and tabor dream away the light,<br>
+      When He calls to labour and faith's arduous fight?<br><br>
+
+      Verse 5<br>
+      JESU, LORD of Glory, as we breast the tide,<br>
+      Whisper Thou the story of the other side;<br>
+      Where the Saints are casting crowns before Thy Feet,<br>
+      Safe for everlasting, in Thyself complete
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A hymn urging spiritual readiness and devotion, highlighting the eternal reward of those who follow Christ faithfully.",
+    yo: "",
+    fr: ""
+  }
+},
+181: {
+  title: {
+    en: "Oh Paradise, Oh Paradise",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      1 O Paradise, O Paradise,<br>
+      Who doth not crave for rest?<br>
+      Who would not seek the happy land<br>
+      Where they that loved are blest:<br>
+      Refrain:<br>
+      Where loyal hearts and true<br>
+      Stand ever in the light,<br>
+      All rapture, through and through,<br>
+      In God's most holy sight. A-men.<br><br>
+
+      2 O Paradise, O Paradise,<br>
+      The world is growing old;<br>
+      Who would not be at rest and free<br>
+      Where love is never cold? [Refrain]<br><br>
+
+      3 O Paradise, O Paradise,<br>
+      We long to sin no more;<br>
+      We long to be as pure on earth<br>
+      As on thy spotless shore: [Refrain]<br><br>
+
+      4 O Paradise, O Paradise,<br>
+      We shall not wait for long;<br>
+      E’en now the loving ear may catch<br>
+      Faint fragments of thy song: [Refrain]<br><br>
+
+      5 Lord Jesus, King of Paradise,<br>
+      O keep us in thy love,<br>
+      And guide us to that happy land<br>
+      Of perfect rest above: [Refrain]
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A longing and hopeful hymn about the peace, love, and joy that await believers in Paradise.",
+    yo: "",
+    fr: ""
+  }
+},
+182: {
+  title: {
+    en: "I Am a Stranger Here",
+    yo: "",
+    fr: ""
+  },
+  lyrics: {
+    en: `
+      Verse 1<br>
+      I am a stranger here,<br>
+      Heaven is my Home;<br>
+      Earth is a desert drear,<br>
+      Heaven is my Home;<br>
+      Danger and sorrow stand<br>
+      Round me on every hand;<br>
+      Heaven is my Fatherland<br>
+      Heaven is my Home.<br><br>
+
+      Verse 2<br>
+      What though the tempest rage,<br>
+      Heaven is my Home;<br>
+      Short is my pilgrimage,<br>
+      Heaven is my Home;<br>
+      And time's wild wintry blast<br>
+      Soon will be overpassed;<br>
+      I shall reach Home at last;<br>
+      Heaven is my Home<br><br>
+
+      Verse 3<br>
+      There at my Saviour's side -<br>
+      Heaven is my Home -<br>
+      I shall be glorified,<br>
+      Heaven is my Home;<br>
+      There are the good and blest,<br>
+      Those I love most and best;<br>
+      And there I too shall rest,<br>
+      Heaven is my Home<br><br>
+
+      Verse 4<br>
+      Therefore I murmur not,<br>
+      Heaven is my Home,<br>
+      Whate'er my earthly lot,<br>
+      Heaven is my Home;<br>
+      And I shall surely stand<br>
+      There at my Lord's right Hand<br>
+      Heaven is my Fatherland,<br>
+      Heaven is my Home
+    `,
+    yo: "",
+    fr: ""
+  },
+  writeUp: {
+    en: "A comforting hymn affirming our heavenly citizenship and hope beyond earthly trials.",
+    yo: "",
+    fr: ""
+  }
+},
 
   10: {
     title: {
