@@ -1548,6 +1548,107 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+214: {
+  title: {
+    en: "Just Obey",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Just as God who reigns on high<br>
+      Spake to men in days gone by,<br>
+      So the Lord is calling men today;<br>
+      And, my brother, this is true,<br>
+      Whatsoe’er He says to you,<br>
+      There is but one thing to do—just obey.<br><br>
+
+      Chorus:<br>
+      Just obey, just obey,<br>
+      Is the way, God’s way;<br>
+      When His message comes to you,<br>
+      There is but one thing to do,<br>
+      Just obey, just obey.<br><br>
+
+      2. If you’re in the Saviour’s side,<br>
+      You must do as He commands,<br>
+      For there is no other gospel way;<br>
+      Never put the message by,<br>
+      Never stop to reason "why",<br>
+      When the Saviour speaks to you—just obey.<br><br>
+
+      (Chorus)<br><br>
+
+      3. If for mansions fair you sigh<br>
+      In that land beyond the sky,<br>
+      After time with you has passed away;<br>
+      Tho’ the way you may not see,<br>
+      Christ is calling, “Follow Me,”<br>
+      Faith and duty both will cry—just obey.<br><br>
+
+      (Chorus)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This hymn emphasizes the simplicity and importance of obedience to God's voice, urging believers to trust and follow His commands without hesitation or doubt.",
+    yo: "",
+    fr: ""
+  }
+},
+215: {
+  title: {
+    en: "We Love the Place, O God",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. We love the place, O God,<br>
+      Wherein Thine honour dwells;<br>
+      The joy of Thine abode<br>
+      All earthly joy excels.<br><br>
+
+      2. We love the house of prayer,<br>
+      Wherein Thy servants meet;<br>
+      And Thou, O Lord, art there<br>
+      Thy chosen flock to greet.<br><br>
+
+      3. We love the sacred font;<br>
+      For there the Holy Dove<br>
+      To pour is ever wont<br>
+      His blessing from above.<br><br>
+
+      4. We love Thine altar, Lord;<br>
+      O what on earth so dear?<br>
+      For there, in faith adored,<br>
+      We find Thy presence near.<br><br>
+
+      5. We love the word of life,<br>
+      The word that tells of peace,<br>
+      Of comfort in the strife,<br>
+      And joys that never cease.<br><br>
+
+      6. We love to sing below<br>
+      For mercies freely given;<br>
+      But O we long to know<br>
+      The triumph-song of heaven.<br><br>
+
+      7. Lord Jesus, give us grace<br>
+      On earth to love Thee more,<br>
+      In heaven to see Thy face,<br>
+      And with Thy saints adore.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This reverent hymn expresses deep love for the house of God and the spiritual blessings found there, while longing for the eternal worship of heaven with Christ and His saints.",
+    yo: "",
+    fr: ""
+  }
+},
 
 137: {
   title: {
