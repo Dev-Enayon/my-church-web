@@ -1649,6 +1649,223 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+216: {
+  title: {
+    en: "Jesus Loves Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Jesus loves me, this I know,<br>
+      For the Bible tells me so.<br>
+      Little ones to Him belong;<br>
+      They are weak, but He is strong.<br><br>
+
+      Refrain:<br>
+      Yes, Jesus loves me! Yes, Jesus loves me!<br>
+      Yes, Jesus loves me! The Bible tells me so.<br><br>
+
+      2. Jesus loves me, He who died<br>
+      Heaven's gate to open wide.<br>
+      He will wash away my sin,<br>
+      Let His little child come in.<br>
+      (Refrain)<br><br>
+
+      3. Jesus loves me, this I know,<br>
+      As He loved so long ago,<br>
+      Taking children on His knee,<br>
+      Saying, "Let them come to Me."<br>
+      (Refrain)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A timeless children's hymn affirming the personal and unchanging love of Jesus, grounded in the truth of the Bible and the welcoming heart of Christ.",
+    yo: "",
+    fr: ""
+  }
+},
+217: {
+  title: {
+    en: "Jesus, Lover of My Soul",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Jesus, lover of my soul,<br>
+      Let me to Thy bosom fly,<br>
+      While the nearer waters roll,<br>
+      While the tempest still is high;<br>
+      Hide me, O my Savior, hide,<br>
+      Till the storm of life is past;<br>
+      Safe into the haven guide,<br>
+      O receive my soul at last!<br><br>
+
+      2. Other refuge have I none;<br>
+      Hangs my helpless soul on Thee;<br>
+      Leave, ah! leave me not alone,<br>
+      Still support and comfort me.<br>
+      All my trust on Thee is stayed,<br>
+      All my help from Thee I bring;<br>
+      Cover my defenseless head<br>
+      With the shadow of Thy wing.<br><br>
+
+      3. Plenteous grace with Thee is found,<br>
+      Grace to cover all my sin;<br>
+      Let the healing streams abound;<br>
+      Make and keep me pure within.<br>
+      Thou of life the fountain art;<br>
+      Freely let me take of Thee;<br>
+      Spring Thou up within my heart,<br>
+      Rise to all eternity.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A heartfelt hymn of trust and surrender, this classic prayer pleads for Jesus’ protection, grace, and presence through the storms of life, expressing total dependence on His mercy.",
+    yo: "",
+    fr: ""
+  }
+},
+218: {
+  title: {
+    en: "Jesus, Blessed Jesus",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. There’s One who can comfort when all else fails,<br>
+      Jesus, blessed Jesus;<br>
+      A Savior who saves tho’ the foe assails,<br>
+      Jesus, blessed Jesus:<br>
+      Once He traveled the way we go,<br>
+      Felt the pangs of deceit and woe;<br>
+      Who more perfectly then can know,<br>
+      Than Jesus, blessed Jesus?<br><br>
+
+      2. He heareth the cry of the soul distressed,<br>
+      Jesus, blessed Jesus;<br>
+      He healeth the wounded, He giveth rest,<br>
+      Jesus, blessed Jesus:<br>
+      When from loved ones we’re called to part,<br>
+      When the tears in our anguish start,<br>
+      None can comfort the breaking heart,<br>
+      Like Jesus, blessed Jesus.<br><br>
+
+      3. He never forsakes in the darkest hour,<br>
+      Jesus, blessed Jesus;<br>
+      His arm is around us with keeping pow’r,<br>
+      Jesus, blessed Jesus:<br>
+      When we enter the Shadow-land,<br>
+      When at Jordan we trembling stand,<br>
+      He will meet us with outstretched hand,<br>
+      This Jesus, blessed Jesus.<br><br>
+
+      4. What joy it will be when we see His face,<br>
+      Jesus, blessed Jesus;<br>
+      Forever to sing of His love and grace,<br>
+      Jesus, blessed Jesus:<br>
+      There at home on that shining shore,<br>
+      With the loved ones gone on before,<br>
+      We will praise Him forevermore,<br>
+      Our Jesus, blessed Jesus.<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This touching hymn celebrates the unchanging love, comfort, and presence of Jesus in times of sorrow, death, and joy, pointing to eternal hope and reunion with Him and our loved ones.",
+    yo: "",
+    fr: ""
+  }
+},
+219: {
+  title: {
+    en: "Blessed Assurance",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      1. Blessed assurance, Jesus is mine!<br>
+      Oh, what a foretaste of glory divine!<br>
+      Heir of salvation, purchase of God,<br>
+      Born of His Spirit, washed in His blood.<br><br>
+
+      Refrain:<br>
+      This is my story, this is my song,<br>
+      Praising my Savior all the day long.<br>
+      This is my story, this is my song,<br>
+      Praising my Savior all the day long.<br><br>
+
+      2. Perfect communion, perfect delight,<br>
+      Visions of rapture now burst on my sight.<br>
+      Angels descending bring from above<br>
+      Echoes of mercy, whispers of love.<br>
+      (Refrain)<br><br>
+
+      3. Perfect submission, all is at rest.<br>
+      I in my Savior am happy and bless’d,<br>
+      Watching and waiting, looking above,<br>
+      Filled with His goodness, lost in His love.<br>
+      (Refrain)<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "This classic hymn joyfully proclaims the believer’s confident assurance in salvation through Jesus Christ, celebrating a life of peace, praise, and divine communion.",
+    yo: "",
+    fr: ""
+  }
+},
+220: {
+  title: {
+    en: "My God Beholdeth Me",
+    yo: "", // Add Yoruba title if available
+    fr: ""  // Add French title if available
+  },
+  lyrics: {
+    en: `
+      My God beholdeth me Thy child,<br>
+      Show Thy wonderful love to me;<br>
+      Leave me not alone to my way,<br>
+      For Thou art my sole Counsellor.<br><br>
+
+      Lead me through this world, my Father!<br>
+      Let enough Thy salvation be.<br><br>
+
+      Let me seek Thy counsel for all,<br>
+      For Thou shall be my only share:<br>
+      Do all that Thou hast planned for me,<br>
+      From Thy great and sure profound will.<br><br>
+
+      Lord, Thy existence to the world<br>
+      Can never be comprehended;<br>
+      Thou art millennial in Thy ways,<br>
+      Where I do not have anyone.<br><br>
+
+      As high as heaven is to earth,<br>
+      So Thy thought is higher than mine:<br>
+      Lead me just to go exactly,<br>
+      In the way of Thy righteousness.<br><br>
+
+      Amen!<br><br>
+    `,
+    yo: "", // Yoruba lyrics can go here
+    fr: ""  // French lyrics can go here
+  },
+  writeUp: {
+    en: "A meditative and humble prayer hymn asking God for guidance, counsel, and alignment with His perfect will, acknowledging His supreme wisdom and eternal ways.",
+    yo: "",
+    fr: ""
+  }
+},
 
 137: {
   title: {
