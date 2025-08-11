@@ -4228,6 +4228,496 @@ the honors of thy name.<br>
     fr: ""
   }
 },
+186: {
+  title: {
+    en: "Who Are These Like Stars Appearing",
+    yo: "Tani awon wọnyi bi irawọ han",
+    fr: "Qui sont ceux qui brillent comme des étoiles"
+  },
+  lyrics: {
+    en: `
+      1. Who are these like stars appearing,<br>
+      these before God's throne who stand?<br>
+      Each a golden crown is wearing;<br>
+      who are all this glorious band?<br>
+      Alleluia! Hark, they sing,<br>
+      praising loud their heav'nly King.<br><br>
+
+      2. Who are these of dazzling brightness,<br>
+      these in God's own truth arrayed,<br>
+      clad in robes of purest whiteness,<br>
+      robes whose lustre ne'er shall fade,<br>
+      ne'er be touched by time's rude hand?<br>
+      Whence come all this glorious band?<br><br>
+
+      3. These are they who have contended<br>
+      for their Savior's honor long,<br>
+      wrestling on 'til life was ended,<br>
+      foll'wing not the sinful throng;<br>
+      these, who well the fight sustained,<br>
+      triumph thro' the Lamb have gained.<br><br>
+
+      4. These are they whose hearts were riven,<br>
+      sore with woe and anguish tried,<br>
+      who in pray'r full oft have striven<br>
+      with the God they glorified;<br>
+      now, their painful conflict o'er,<br>
+      God has bid them weep no more.<br><br>
+
+      5. These, like priests, have watched and waited,<br>
+      off'ring up to Christ their will;<br>
+      soul and body consecrated,<br>
+      day and night to serve him still:<br>
+      now in God's most holy place<br>
+      blest they stand before his face.<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn describes the saints in heaven, victorious after faithfully serving Christ and enduring trials, now worshiping Him forever.",
+    yo: "Orin yi n ṣe apejuwe awon mimo ninu orun, ti o segun lẹhin iṣẹ otitọ ati idanwo, bayi n sin ati yin Kristi lailai.",
+    fr: "Ce cantique décrit les saints au ciel, victorieux après avoir fidèlement servi le Christ et enduré des épreuves, l'adorant maintenant pour toujours."
+  }
+},
+187: {
+  title: {
+    en: "Shall We Gather at the River",
+    yo: "Ṣe a o kópa lẹ́gbẹ̀ẹ́ Odò náà",
+    fr: "Nous rassemblerons-nous au bord de la rivière"
+  },
+  lyrics: {
+    en: `
+      1. Shall we gather at the river,<br>
+      Where bright angel feet have trod;<br>
+      With its crystal tide forever<br>
+      Flowing by the throne of God?<br>
+      Refrain:<br>
+      Yes, we'll gather at the river,<br>
+      The beautiful, the beautiful river;<br>
+      Gather with the saints at the river<br>
+      That flows by the throne of God.<br><br>
+
+      2. On the margin of the river,<br>
+      Washing up its silver spray,<br>
+      We will walk and worship ever,<br>
+      All the happy golden day. [Refrain]<br><br>
+
+      3. Ere we reach the shining river,<br>
+      Lay we ev'ry burden down;<br>
+      Grace our spirits will deliver,<br>
+      And provide a robe and crown. [Refrain]<br><br>
+
+      4. Soon we'll reach the shining river,<br>
+      Soon our pilgrimage will cease;<br>
+      Soon our happy hearts will quiver<br>
+      With the melody of peace. [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "A hymn of hope and anticipation, picturing the faithful gathered at the river of life in heaven, rejoicing together in the presence of God.",
+    yo: "Orin ireti ati ireti ọjọ iwaju, ti o fihan igbagbọ pe a o pade lẹ́gbẹ̀ẹ́ odò iye ninu orun, a o si yọ pọ̀ ninu iwaju Ọlọrun.",
+    fr: "Un cantique d'espérance et d'anticipation, imaginant les fidèles rassemblés au bord de la rivière de vie au ciel, se réjouissant ensemble dans la présence de Dieu."
+  }
+},
+188: {
+  title: {
+    en: "Head of the Church Triumphant",
+    yo: "Olori Ijo to ti Segun",
+    fr: "Chef de l'Église triomphante"
+  },
+  lyrics: {
+    en: `
+      1. Head of Thy Church triumphant,<br>
+      We joyfully adore Thee;<br>
+      Till Thou appear, Thy members here<br>
+      Shall sing like those in glory:<br>
+      We lift our hearts and voices<br>
+      With blest anticipation,<br>
+      And cry aloud, and give to God<br>
+      The praise of our salvation.<br><br>
+
+      2. While in affliction's furnace,<br>
+      And passing through the fire,<br>
+      Thy love we praise Which knows our days,<br>
+      And ever brings us nigher:<br>
+      We lift our hands exulting<br>
+      In Thine almighty favor;<br>
+      The love Divine Which made us Thine,<br>
+      Shall keep us Thine for ever.<br><br>
+
+      3. Thou dost conduct Thy people<br>
+      Through torrents of temptation;<br>
+      Nor will we fear, While Thou art near,<br>
+      The fire of tribulation:<br>
+      The world, with sin and Satan,<br>
+      In vain our march opposes;<br>
+      Through Thee we shall Break through them all,<br>
+      And sing the song of Moses.<br><br>
+
+      4. By faith we see the glory<br>
+      To which Thou shalt restore us,<br>
+      The cross despise For that high prize<br>
+      Which Thou hast set before us;<br>
+      And if Thou count us worthy,<br>
+      We each, as dying Stephen,<br>
+      Shall see Thee stand At God's right hand.<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "A hymn celebrating Christ as the victorious head of His Church, offering praise in both times of joy and trial, and looking forward to eternal glory with Him.",
+    yo: "Orin yi n yin Kristi gẹgẹ bi Olori Ijo to ti segun, n fun ni iyin nigba ayọ ati idanwo, ati n reti ogo ainipekun pelu Rẹ.",
+    fr: "Ce cantique célèbre le Christ comme le chef victorieux de son Église, offrant louange dans les temps de joie et d'épreuve, et attendant la gloire éternelle avec Lui."
+  }
+},
+189: {
+  title: {
+    en: "Hark, Hark, My Soul! Angelic Songs Are Swelling",
+    yo: "Gbọ, Gbọ, Ọkàn mi! Orin Angẹli n Ru",
+    fr: "Écoute, écoute, mon âme ! Les chants angéliques s'élèvent"
+  },
+  lyrics: {
+    en: `
+      1. Hark, hark, my soul! Angelic songs are swelling<br>
+      O’er earth’s green fields and ocean’s wave-beat shore;<br>
+      How sweet the truth those blessed strains are telling<br>
+      Of that new life when sin shall be no more.<br>
+      Refrain:<br>
+      Angels of Jesus, Angels of light,<br>
+      Singing to welcome the pilgrims of the night.<br><br>
+
+      2. Onward we go, for still we hear them singing:<br>
+      “Come, weary souls, for Jesus bids you come;”<br>
+      And through the dark, its echoes sweetly ringing,<br>
+      The music of the gospel leads us home. [Refrain]<br><br>
+
+      3. Far, far away, like bells at evening pealing,<br>
+      The voice of Jesus sounds o'er land and sea,<br>
+      And laden souls by thousands meekly stealing,<br>
+      Kind Shepherd, turn their weary steps to Thee. [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn is a comforting call to the weary, picturing angels and the voice of Jesus inviting pilgrims home to eternal rest.",
+    yo: "Orin yi jẹ ipe itunu fun awon ti o rẹ, ti o n ṣapejuwe awon angẹli ati ohùn Jesu ti n pe awọn arinrin ajo si ile isinmi ainipekun.",
+    fr: "Ce cantique est un appel réconfortant aux âmes fatiguées, décrivant les anges et la voix de Jésus invitant les pèlerins à rentrer au repos éternel."
+  }
+},
+190: {
+  title: {
+    en: "When Jesus Comes to Reward His Servants",
+    yo: "Nigbati Jesu ba wa lati san ẹ̀san fun awọn iranse Rẹ",
+    fr: "Quand Jésus viendra récompenser ses serviteurs"
+  },
+  lyrics: {
+    en: `
+      1. When Jesus comes to reward His servants,<br>
+      Whether it be noon or night,<br>
+      Faithful to Him will He find us watching,<br>
+      With our lamps all trimmed and bright?<br>
+      Refrain:<br>
+      O can we say we are ready, brother?<br>
+      Ready for the soul’s bright home?<br>
+      Say, will He find you and me still watching,<br>
+      Waiting, watching when the Lord shall come?<br><br>
+
+      2. If, at the dawn of the early morning,<br>
+      He shall call us one by one,<br>
+      When to the Lord we restore our talents,<br>
+      Will He answer you, "Well done?" [Refrain]<br><br>
+
+      3. Have we been true to the trust He left us?<br>
+      Do we seek to do our best?<br>
+      If in our hearts there is naught condemns us,<br>
+      We shall have a glorious rest. [Refrain]<br><br>
+
+      4. Blessed are those whom the Lord finds watching,<br>
+      In His glory they shall share;<br>
+      If He shall come at the dawn or midnight,<br>
+      Will He find us watching there? [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "A hymn urging believers to stay faithful and vigilant for Christ’s return, ready to meet Him at any hour.",
+    yo: "Orin yi n pe awọn onigbagbọ lati maa wa ni otitọ ati imurasilẹ fun ipadabọ Jesu, setan lati pade Rẹ ni gbogbo akoko.",
+    fr: "Ce cantique exhorte les croyants à rester fidèles et vigilants pour le retour du Christ, prêts à Le rencontrer à toute heure."
+  }
+},
+191: {
+  title: {
+    en: "There's a Great Day Coming",
+    yo: "Ọjọ ńlá kan ńbọ",
+    fr: "Un grand jour arrive"
+  },
+  lyrics: {
+    en: `
+      1. There's a great day coming,<br>
+      A great day coming,<br>
+      There's a great day coming by and by,<br>
+      When the saints and the sinners shall<br>
+      be parted right and left,<br>
+      Are you ready for that day to come?<br>
+      Refrain:<br>
+      Are you ready? Are you ready?<br>
+      Are you ready for the judgment day?<br>
+      Are you ready? Are you ready?<br>
+      for the judgment day?<br><br>
+
+      2. There's a bright day coming,<br>
+      A bright day coming,<br>
+      There's a bright day coming by and by,<br>
+      But its brightness shall only come<br>
+      to them that love the Lord,<br>
+      Are you ready for that day to come? [Refrain]<br><br>
+
+      3. There's a sad day coming,<br>
+      A sad day coming,<br>
+      There's a sad day coming by and by,<br>
+      When the sinner shall hear His doom,<br>
+      "Depart, I know ye not!"<br>
+      Are you ready for that day to come? [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn warns of the coming judgment day, urging all to be prepared to meet the Lord—whether in joy or in sorrow.",
+    yo: "Orin yi kilọ nipa ọjọ idajọ ti mbọ, n pe gbogbo eniyan lati mura lati pade Oluwa—boya ninu ayo tabi ninu ibanujẹ.",
+    fr: "Ce cantique avertit du jour du jugement à venir, exhortant chacun à se préparer à rencontrer le Seigneur—dans la joie ou dans la tristesse."
+  }
+},
+192: {
+  title: {
+    en: "When the Trumpet of the Lord Shall Sound",
+    yo: "Nigbati kèrèké Olúwa bá dun",
+    fr: "Quand la trompette du Seigneur sonnera"
+  },
+  lyrics: {
+    en: `
+      1. When the trumpet of the Lord shall sound and time shall be no more,<br>
+      And the morning breaks, eternal, bright and fair;<br>
+      When the saved of earth shall gather over on the other shore,<br>
+      And the roll is called up yonder, I'll be there.<br>
+      Refrain:<br>
+      When the roll is called up yonder,<br>
+      When the roll is called up yonder,<br>
+      When the roll is called up yonder,<br>
+      When the roll is called up yonder, I'll be there.<br><br>
+
+      2. On that bright and cloudless morning when the dead in Christ shall rise,<br>
+      And the glory of his resurrection share;<br>
+      When his chosen ones shall gather to their home beyond the skies,<br>
+      And the roll is called up yonder, I'll be there. [Refrain]<br><br>
+
+      3. Let us labor for the Master from the dawn till setting sun;<br>
+      Let us talk of all his wondrous love and care.<br>
+      Then when all of life is over and our work on earth is done,<br>
+      And the roll is called up yonder, I'll be there. [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "A triumphant hymn about the believer's hope of eternal life, picturing the great gathering of the redeemed when the Lord calls His own to heaven.",
+    yo: "Orin ayọ nipa ireti onigbagbo fun iye ainipẹkun, ti o ṣapejuwe ipade nla ti awọn tọju nigbati Oluwa ba pe tiwọn lọ sọdọ rẹ ni ọrun.",
+    fr: "Un cantique triomphant sur l’espérance du croyant en la vie éternelle, décrivant le grand rassemblement des rachetés lorsque le Seigneur appellera les siens au ciel."
+  }
+},
+193: {
+  title: {
+    en: "The Day of Judgement",
+    yo: "Ọjọ Idajọ",
+    fr: "Le Jour du Jugement"
+  },
+  lyrics: {
+    en: `
+      1. The day of judgement, day of fright,<br>
+      Hark the herald pipe aloud,<br>
+      The sound passed ten thousand thunders<br>
+      It shakes the whole world over,<br>
+      How confounding?<br>
+      Judgement shall be on sinners?<br><br>
+
+      2. Behold the Judge in our own form<br>
+      Dressed in mighty glorious robes;<br>
+      And they who stayed to welcome Him<br>
+      Shall rejoice exceedingly,<br>
+      O my Saviour<br>
+      Support me on the great day.<br><br>
+
+      3. At His call the dead shall awake,<br>
+      From seas, from the graves, to life<br>
+      And the might of the earth shall shake<br>
+      And disappear before Him.<br>
+      Thou foolish man<br>
+      How then shalt thou fare that day?<br><br>
+
+      4. In fact satan hath deceived you,<br>
+      But thou hearken not to him:<br>
+      And after all are said and done<br>
+      He welcomes you in his furnace.<br>
+      Thou must think well<br>
+      The fire is not fit for thee.<br><br>
+
+      5. In tribulation and contempt,<br>
+      Let this advise thee daily,<br>
+      The chosen day of God is near,<br>
+      Then weeping shall turn to joy,<br>
+      Victory be ours<br>
+      When the whole earth be aflame.<br>
+      Amen.<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn vividly portrays the awe and fear of the final judgement day, urging repentance, steadfastness, and hope in the ultimate victory of God’s people.",
+    yo: "Hymn yi n ṣafihan iberu ati iyalẹnu ọjọ idajọ ikẹhin, n pe fun ironupiwada, iduroṣinṣin, ati ireti ninu ipari iṣẹgun awọn eniyan Ọlọrun.",
+    fr: "Ce cantique décrit avec intensité la crainte et la solennité du jour du jugement final, appelant à la repentance, à la persévérance et à l’espérance dans la victoire ultime du peuple de Dieu."
+  }
+},
+194: {
+  title: {
+    en: "I Am Bought Not With Riches",
+    yo: "Mi ni rira kii ṣe pẹlu ọrọ",
+    fr: "Je ne suis pas racheté avec des richesses"
+  },
+  lyrics: {
+    en: `
+      1. I am bought not with riches,<br>
+      Neither silver nor gold;<br>
+      But Christ hath redeemed me,<br>
+      I am safe in His fold;<br>
+      In the Book of His kingdom,<br>
+      With its pages so fair,<br>
+      Through Jesus my Saviour,<br>
+      My name's written there.<br>
+      <strong>Refrain:</strong><br>
+      My name's written there,<br>
+      On the page white and fair;<br>
+      In the Book of God's kingdom,<br>
+      My name's written there.<br><br>
+
+      2. My sins, they were many,<br>
+      Like the sands of the sea,<br>
+      But the blood of my Saviour<br>
+      Is sufficient for me;<br>
+      For His promise is written,<br>
+      In bright letters that glow,<br>
+      "Though your sins be as scarlet,<br>
+      I will make them like snow."<br>
+      [Refrain]<br><br>
+
+      3. Oh! that beautiful city,<br>
+      With its mansions of light,<br>
+      With its glorified beings,<br>
+      In pure garments of white;<br>
+      Where no evil thing cometh<br>
+      To despoil what is fair;<br>
+      Where the angels are watching,<br>
+      My name's written there.<br>
+      [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn celebrates redemption through Christ, the assurance of salvation, and the eternal joy of having one’s name recorded in the Book of Life.",
+    yo: "Hymn yi n ṣe ayẹyẹ igbala nipasẹ Kristi, idaniloju igbala, ati ayọ ailopin ti nini orukọ eniyan kọ sinu Iwe Iye.",
+    fr: "Ce cantique célèbre la rédemption par Christ, l'assurance du salut et la joie éternelle d'avoir son nom inscrit dans le Livre de Vie."
+  }
+},
+195: {
+  title: {
+    en: "Waiting on the Lord for the Promise Given",
+    yo: "Nduro de Oluwa fun ileri ti a fifun",
+    fr: "Attendre le Seigneur pour la promesse donnée"
+  },
+  lyrics: {
+    en: `
+      1. Waiting on the Lord, for the promise given;<br>
+      Waiting on the Lord to send from heaven:<br>
+      Waiting on the Lord, by our faith receiving;<br>
+      Waiting in the upper room.<br>
+      <strong>Refrain:</strong><br>
+      The power! the power!<br>
+      Gives vict’ry over sin, and purity within;<br>
+      The power! the power!<br>
+      The pow’r they had at Pentecost.<br><br>
+
+      2. Waiting on the Lord, giving all to Jesus;<br>
+      Waiting on the Lord, till from sin He frees us;<br>
+      Waiting on the Lord for the heav’nly breezes:<br>
+      Waiting in the upper room.<br>
+      [Refrain]<br><br>
+
+      3. Waiting on the Lord, longing to mount higher;<br>
+      Waiting on the Lord, having great desire;<br>
+      Waiting on the Lord for the heav’nly fire;<br>
+      Waiting in the upper room.<br>
+      [Refrain]<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn emphasizes steadfast prayer and expectation for the promised power of the Holy Spirit, drawing inspiration from the Pentecost experience.",
+    yo: "Hymn yi n dojukọ adura onitara ati ireti fun agbara ti Ẹmi Mimọ ti a ṣe ileri, n gba iwuri lati iriri Pentikọsti.",
+    fr: "Ce cantique met l'accent sur la prière persévérante et l'attente du pouvoir promis du Saint-Esprit, s'inspirant de l'expérience de la Pentecôte."
+  }
+},
+196: {
+  title: {
+    en: "Thou Christ of Burning",
+    yo: "Kristi ti ina gbigbona",
+    fr: "Toi Christ de feu ardent"
+  },
+  lyrics: {
+    en: `
+      1. Thou Christ of burning, cleansing flame,<br>
+      Send the fire!<br>
+      Thy blood-bought gift today we claim,<br>
+      Send the fire!<br>
+      Look down and see this waiting host,<br>
+      Give us the promised Holy Ghost,<br>
+      We want another Pentecost,<br>
+      Send the fire!<br><br>
+
+      2. God of Elijah, hear our cry:<br>
+      Send the fire!<br>
+      To make us fit to live or die,<br>
+      Send the fire!<br>
+      To burn up every trace of sin,<br>
+      To bring the light and glory in,<br>
+      The revolution now begin,<br>
+      Send the fire!<br><br>
+
+      3. ‘Tis fire we want, for fire we plead,<br>
+      Send the fire!<br>
+      The fire will meet our every need,<br>
+      Send the fire!<br>
+      For strength to ever do the right,<br>
+      For grace to conquer in the fight,<br>
+      For power to walk the world in white,<br>
+      Send the fire!<br>
+    `,
+    yo: `...`,
+    fr: `...`
+  },
+  writeUp: {
+    en: "This hymn is a passionate prayer for the cleansing and empowering fire of the Holy Spirit, inspired by the fervor of Pentecost and the faith of Elijah.",
+    yo: "Hymn yi jẹ adura to kún fun ifẹ fun ina mimọ ti Ẹmi Mimọ lati sọ di mimọ ati fi agbara fun, ti o da lori ifẹ Pentikọsti ati igbagbọ Elijah.",
+    fr: "Ce cantique est une prière ardente pour le feu purificateur et vivifiant du Saint-Esprit, inspirée par la ferveur de la Pentecôte et la foi d'Élie."
+  }
+},
 
   10: {
     title: {
