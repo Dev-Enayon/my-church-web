@@ -5,9 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTM FM</title>
         <link rel="icon" href="./image/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="fm.css">    
 
 </head>
 <body>
-    
+
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    background:#050b1a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+/* Center Content */
+.center-box{
+    position:absolute;
+    z-index:5;
+    color:white;
+    text-align:center;
+    background:rgba(0,0,0,0.4);
+    padding:30px 50px;
+    border-radius:15px;
+    backdrop-filter: blur(5px);
+}
+
+.controls{
+    margin-top:15px;
+}
+
+.controls button{
+    background:#00f2ff;
+    border:none;
+    padding:10px 18px;
+    margin:0 5px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.controls button:hover{
+    background:#4facfe;
+}
+
+/* Wave Container */
+.wave-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* Bars */
+.bar{
+    width:6px;
+    height:60px;
+    background:linear-gradient(#00f2ff,#4facfe);
+    margin:0 3px;
+    border-radius:10px;
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce{
+    0%,100%{ height:40px; }
+    50%{ height:140px; }
+}
+
+.bar:nth-child(1){animation-delay:0s;}
+.bar:nth-child(2){animation-delay:.1s;}
+.bar:nth-child(3){animation-delay:.2s;}
+.bar:nth-child(4){animation-delay:.3s;}
+.bar:nth-child(5){animation-delay:.4s;}
+.bar:nth-child(6){animation-delay:.5s;}
+.bar:nth-child(7){animation-delay:.4s;}
+.bar:nth-child(8){animation-delay:.3s;}
+.bar:nth-child(9){animation-delay:.2s;}
+.bar:nth-child(10){animation-delay:.1s;}
+</style>
+</head>
+
+<body>
+
+<div class="center-box">
+    <h1 id="title">GTM fm</h1>
+    <p id="songName">Song 1</p>
+
+    <div class="controls">
+        <button onclick="prevSong()">⏮</button>
+        <button onclick="togglePlay()" id="playBtn">▶</button>
+        <button onclick="nextSong()">⏭</button>
+    </div>
+</div>
+
+<div class="wave-container">
+    <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+    <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+</div>
+
+<audio id="player"></audio>
+
+<script>
+const songs = [
+    {name: "Song 1", file: "audio/song1.mp3"},
+    {name: "Song 2", file: "audio/song2.mp3"},
+    {name: "Song 3", file: "audio/song3.mp3"}
+];
+
+let index = 0;
+const player = document.getElementById("player");
+const playBtn = document.getElementById("playBtn");
+const songName = document.getElementById("songName");
+
+function loadSong(){
+    player.src = songs[index].file;
+    songName.textContent = songs[index].name;
+}
+
+function togglePlay(){
+    if(player.paused){
+        player.play();
+        playBtn.textContent = "⏸";
+    }else{
+        player.pause();
+        playBtn.textContent = "▶";
+    }
+}
+
+function nextSong(){
+    index = (index + 1) % songs.length;
+    loadSong();
+    player.play();
+    playBtn.textContent = "⏸";
+}
+
+function prevSong(){
+    index = (index - 1 + songs.length) % songs.length;
+    loadSong();
+    player.play();
+    playBtn.textContent = "⏸";
+}
+
+// auto next when song ends
+player.addEventListener("ended", nextSong);
+
+// load first song
+loadSong();
+</script>
+
 </body>
+</html>
+
+</body>
+
+
 </html>
