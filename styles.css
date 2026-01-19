@@ -41,14 +41,14 @@ body {
 
 .logo h2 {
     color: #2c3e50;
-    font-size: 1.5rem;
+    font-size: 12px;
     font-weight: bold;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav-link {
