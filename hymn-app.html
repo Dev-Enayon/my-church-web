@@ -10,6 +10,9 @@
 </head>
 <body>
 
+    <!-- Floating gold particles canvas -->
+    <canvas id="particleCanvas" class="particle-canvas"></canvas>
+
     <div class="app-wrap">
         <!-- Settings button -->
         <button class="settings-toggle" id="settingsIcon" aria-label="Settings">
@@ -17,14 +20,15 @@
         </button>
 
         <!-- Header -->
-        <header class="app-header">
-            <div class="header-cross">&#10011;</div>
-            <h1>Gospel of Truth Mission</h1>
-            <p class="app-subtitle">Hymn Book</p>
+        <header class="app-header anim-enter" style="--d:0">
+            <div class="header-cross anim-cross">&#10011;</div>
+            <h1 class="anim-title">Gospel of Truth Mission</h1>
+            <p class="app-subtitle anim-subtitle">Hymn Book</p>
+            <div class="header-rule"><span></span></div>
         </header>
 
         <!-- Search Section -->
-        <section class="search-section">
+        <section class="search-section anim-enter" style="--d:1">
             <div class="search-mode-toggle">
                 <button class="mode-btn active" data-mode="number">By Number</button>
                 <button class="mode-btn" data-mode="text">By Lyrics</button>
@@ -49,7 +53,7 @@
             </div>
 
             <!-- Language -->
-            <div class="lang-select">
+            <div class="lang-select anim-enter" style="--d:2">
                 <label for="languageSelect">Language:</label>
                 <select id="languageSelect" onchange="updateLanguage()">
                     <option value="en">English</option>

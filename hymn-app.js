@@ -2,6 +2,90 @@
 // Hymn Book App — Gospel Of Truth Mission
 // ============================================
 
+// --- Floating Gold Particle System ---
+(function () {
+  var canvas = document.getElementById('particleCanvas');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var particles = [];
+  var PARTICLE_COUNT = 35;
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (prefersReducedMotion) {
+    canvas.style.display = 'none';
+    return;
+  }
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  function Particle() {
+    this.reset();
+  }
+
+  Particle.prototype.reset = function () {
+    this.x = Math.random() * canvas.width;
+    this.y = Math.random() * canvas.height;
+    this.size = Math.random() * 2.5 + 0.8;
+    this.speedX = (Math.random() - 0.5) * 0.3;
+    this.speedY = -Math.random() * 0.4 - 0.1;
+    this.opacity = Math.random() * 0.5 + 0.1;
+    this.fadeSpeed = Math.random() * 0.003 + 0.001;
+    this.growing = Math.random() > 0.5;
+    this.wobble = Math.random() * Math.PI * 2;
+    this.wobbleSpeed = Math.random() * 0.02 + 0.005;
+  };
+
+  Particle.prototype.update = function () {
+    this.wobble += this.wobbleSpeed;
+    this.x += this.speedX + Math.sin(this.wobble) * 0.15;
+    this.y += this.speedY;
+
+    if (this.growing) {
+      this.opacity += this.fadeSpeed;
+      if (this.opacity >= 0.6) this.growing = false;
+    } else {
+      this.opacity -= this.fadeSpeed;
+      if (this.opacity <= 0) this.reset();
+    }
+
+    if (this.y < -10 || this.x < -10 || this.x > canvas.width + 10) {
+      this.reset();
+      this.y = canvas.height + 10;
+    }
+  };
+
+  Particle.prototype.draw = function () {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(184, 134, 11, ' + this.opacity + ')';
+    ctx.fill();
+  };
+
+  function init() {
+    resize();
+    particles = [];
+    for (var i = 0; i < PARTICLE_COUNT; i++) {
+      particles.push(new Particle());
+    }
+    animate();
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (var i = 0; i < particles.length; i++) {
+      particles[i].update();
+      particles[i].draw();
+    }
+    requestAnimationFrame(animate);
+  }
+
+  window.addEventListener('resize', resize);
+  init();
+})();
+
 // --- Search Mode Toggle ---
 document.querySelectorAll('.mode-btn').forEach(function (btn) {
   btn.addEventListener('click', function () {
