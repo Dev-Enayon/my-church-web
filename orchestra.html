@@ -43,9 +43,11 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
-          overflow: hidden;
+          justify-content: flex-start;
+          overflow-x: hidden;
+          overflow-y: auto;
           position: relative;
+          padding: 40px 0 60px;
         }
 
         ::selection { background: var(--gold); color: #fff; }
@@ -429,15 +431,186 @@
           text-decoration: none;
           transition: color 0.25s var(--ease);
           opacity: 0;
-          animation: fadeUp 0.5s var(--ease) 1.3s forwards;
+          animation: fadeUp 0.5s var(--ease) 1.5s forwards;
         }
 
         .back-link:hover {
           color: var(--gold);
         }
 
-        /* --- Responsive --- */
+        /* --- Lyrics section --- */
+        .lyrics-section {
+          position: relative;
+          z-index: 1;
+          width: min(560px, 92vw);
+          margin-top: 32px;
+          opacity: 0;
+          animation: fadeUp 0.6s var(--ease) 1.4s forwards;
+        }
+
+        .lyrics-toggle {
+          width: 100%;
+          padding: 14px 20px;
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          border-radius: 14px;
+          color: rgba(255, 255, 255, 0.6);
+          font-family: var(--font-body);
+          font-size: 0.9rem;
+          font-weight: 500;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          transition: all 0.3s var(--ease);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+        }
+
+        .lyrics-toggle:hover {
+          background: rgba(255, 255, 255, 0.07);
+          color: rgba(255, 255, 255, 0.85);
+        }
+
+        .lyrics-toggle .arrow {
+          transition: transform 0.3s var(--ease);
+          font-size: 0.8rem;
+        }
+
+        .lyrics-toggle.open .arrow {
+          transform: rotate(180deg);
+        }
+
+        .lyrics-body {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.5s var(--ease), opacity 0.3s var(--ease);
+          opacity: 0;
+        }
+
+        .lyrics-body.open {
+          max-height: 2000px;
+          opacity: 1;
+        }
+
+        .lyrics-card {
+          background: rgba(255, 255, 255, 0.03);
+          border: 1px solid rgba(255, 255, 255, 0.06);
+          border-radius: 16px;
+          padding: 28px 24px;
+          margin-top: 12px;
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+        }
+
+        .lyrics-lang-tabs {
+          display: flex;
+          gap: 4px;
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 8px;
+          padding: 3px;
+          margin-bottom: 20px;
+        }
+
+        .lang-tab {
+          flex: 1;
+          padding: 8px 12px;
+          background: transparent;
+          border: none;
+          border-radius: 6px;
+          font-family: var(--font-body);
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: rgba(255, 255, 255, 0.35);
+          cursor: pointer;
+          transition: all 0.25s var(--ease);
+        }
+
+        .lang-tab.active {
+          background: rgba(255, 255, 255, 0.1);
+          color: #fff;
+        }
+
+        .lang-tab:hover:not(.active) {
+          color: rgba(255, 255, 255, 0.6);
+        }
+
+        .lyrics-panel {
+          display: none;
+        }
+
+        .lyrics-panel.active {
+          display: block;
+          animation: fadeUp 0.3s var(--ease) both;
+        }
+
+        .lyrics-label {
+          font-family: var(--font-body);
+          font-size: 0.7rem;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: var(--gold);
+          margin-bottom: 10px;
+          display: block;
+        }
+
+        .lyrics-text {
+          font-family: var(--font-script);
+          font-size: 1.1rem;
+          line-height: 2;
+          color: rgba(255, 255, 255, 0.7);
+          white-space: pre-line;
+          margin-bottom: 20px;
+        }
+
+        .lyrics-text:last-child {
+          margin-bottom: 0;
+        }
+
+        .lyrics-verse-label {
+          font-family: var(--font-body);
+          font-size: 0.75rem;
+          font-weight: 700;
+          color: var(--gold);
+          margin-bottom: 4px;
+          display: block;
+          letter-spacing: 0.05em;
+        }
+
+        .lyrics-verse {
+          margin-bottom: 16px;
+        }
+
+        .lyrics-verse:last-child {
+          margin-bottom: 0;
+        }
+
+        .solfa-section {
+          margin-top: 20px;
+          padding-top: 16px;
+          border-top: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .solfa-text {
+          font-family: 'SF Mono', 'Cascadia Code', Consolas, monospace;
+          font-size: 0.8rem;
+          line-height: 1.8;
+          color: rgba(255, 255, 255, 0.4);
+          white-space: pre-line;
+        }
+
+        /* --- Responsive lyrics --- */
         @media (max-width: 480px) {
+          .lyrics-card {
+            padding: 20px 16px;
+          }
+
+          .lyrics-text {
+            font-size: 1rem;
+            line-height: 1.85;
+          }
+        }
           .anthem-card {
             padding: 36px 24px;
             border-radius: 20px;
@@ -472,7 +645,7 @@
           }
           .anthem-card, .cross, .anthem-title, .anthem-subtitle,
           .rule, .disc-wrap, .waveform, .progress-wrap,
-          .controls, .volume-wrap, .back-link {
+          .controls, .volume-wrap, .back-link, .lyrics-section {
             opacity: 1;
             transform: none;
             filter: none;
@@ -547,6 +720,88 @@
         <div class="volume-wrap">
             <span class="volume-icon">&#128266;</span>
             <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.05" value="0.8" oninput="setVolume(this.value)">
+        </div>
+    </div>
+
+    <!-- Lyrics Section -->
+    <div class="lyrics-section">
+        <button class="lyrics-toggle" id="lyricsToggle" onclick="toggleLyrics()">
+            <span>&#127932; View Lyrics</span>
+            <span class="arrow">&#9662;</span>
+        </button>
+        <div class="lyrics-body" id="lyricsBody">
+            <div class="lyrics-card">
+                <!-- Language Tabs -->
+                <div class="lyrics-lang-tabs">
+                    <button class="lang-tab active" data-lang="en" onclick="switchLang('en')">English</button>
+                    <button class="lang-tab" data-lang="yo" onclick="switchLang('yo')">Yoruba</button>
+                    <button class="lang-tab" data-lang="solfa" onclick="switchLang('solfa')">Tonic Solfa</button>
+                </div>
+
+                <!-- English -->
+                <div class="lyrics-panel active" id="panel-en">
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Verse 1</span>
+                        <div class="lyrics-text">We are God's people, Gospel of Truth Mission,
+the truth is our watchword, we will succeed.
+We are God's people, the army of the Lord,
+The truth is our watchword, we will succeed.</div>
+                    </div>
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Chorus</span>
+                        <div class="lyrics-text">Arise and shine, our light is come.
+A Holy people ordained for His glory,
+we will walk in the path of righteousness,
+oh heaven, we will get there.</div>
+                    </div>
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Verse 2</span>
+                        <div class="lyrics-text">We are Holy people, the army of the Lord,
+Love is our banner, united we stand,
+We are Holy people, the army of the Lord,
+Love is our banner, united we stand.</div>
+                    </div>
+                </div>
+
+                <!-- Yoruba -->
+                <div class="lyrics-panel" id="panel-yo">
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Verse 1</span>
+                        <div class="lyrics-text">Aje niyan Olorun, ijo 'hinrere otito,
+Otito lakomona, wa ao ye ge,
+Aje niyan Olorun, omo-ogun Olorun,
+Otito lakomona wa ao ye ge.</div>
+                    </div>
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Chorus</span>
+                        <div class="lyrics-text">Dide, ki otan, l-mo-le dee, Eniyan mimo, ti
+Oluwa ti yan, A - o rin nipa oo-na ododo Re.
+Aa - ORUN, A o Debe.</div>
+                    </div>
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Verse 2</span>
+                        <div class="lyrics-text">Aje-eniyan mimo, Omo Ogun Olorun,
+Ife lasia wa, a duro nisokan,
+Aje-'niyan mimo, Omo Ogun Olorun,
+Ife lasia wa, a wa ni isokan.</div>
+                    </div>
+                </div>
+
+                <!-- Tonic Solfa -->
+                <div class="lyrics-panel" id="panel-solfa">
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Body</span>
+                        <div class="solfa-text">d:d:rm:d:-  d:t:d:d:t:s-
+sd: d:r:m:d:-  rr-m:r -  d:d:rm:d:-
+d:t:d:tls:-  s:d:drm:d  rr-t:d:-</div>
+                    </div>
+                    <div class="lyrics-verse">
+                        <span class="lyrics-verse-label">Chorus</span>
+                        <div class="solfa-text">dt:-ls:f:-  m:f:m:s:-  m:f:m:ff:-  rm:fs:-ls:-
+dd:l-  l:l:-sfm:s:-l:r-  fm:r:-  t:d:r-d</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -685,6 +940,25 @@
 
         // Set initial volume
         audio.volume = 0.8;
+
+        // --- Lyrics toggle ---
+        function toggleLyrics() {
+            var toggle = document.getElementById('lyricsToggle');
+            var body = document.getElementById('lyricsBody');
+            toggle.classList.toggle('open');
+            body.classList.toggle('open');
+        }
+
+        // --- Language switch ---
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-tab').forEach(function (t) {
+                t.classList.toggle('active', t.getAttribute('data-lang') === lang);
+            });
+            document.querySelectorAll('.lyrics-panel').forEach(function (p) {
+                p.classList.remove('active');
+            });
+            document.getElementById('panel-' + lang).classList.add('active');
+        }
     </script>
 </body>
 </html>
