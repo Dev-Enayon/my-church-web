@@ -1,737 +1,828 @@
-/* Global Styles */
-body {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Beautiful blue gradient background */
-  color: #333;  /* Dark gray text for readability */
-  font-family: 'Roboto', sans-serif;  /* Modern, clean font */
-  font-size: 18px;  /* Larger base font size for readability */
-  line-height: 1.6;  /* Better line spacing */
+/* ============================================
+   Hymn Book App — Gospel Of Truth Mission
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+  --ink: #0E1B2D;
+  --ink-soft: #1C2D44;
+  --paper: #FAF7F2;
+  --paper-warm: #F3EDE4;
+  --paper-card: #FFFFFF;
+  --gold: #B8860B;
+  --gold-light: #D4A84B;
+  --gold-faint: rgba(184, 134, 11, 0.08);
+  --gold-glow: rgba(184, 134, 11, 0.25);
+  --warm-gray: #8C8279;
+  --warm-gray-light: #B5AEA6;
+  --border: #E6E0D8;
+  --border-light: #F0ECE6;
+  --text: #2C2824;
+  --text-secondary: #5E564E;
+  --text-muted: #9A9189;
+  --danger: #C0392B;
+  --success: #2E7D4F;
+
+  --font-display: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'DM Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-script: 'Cormorant Garamond', Georgia, serif;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration: 320ms;
+}
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--paper);
   min-height: 100vh;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* --- App Wrapper --- */
+.app-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
   position: relative;
-  overflow-x: hidden;
 }
 
-/* Animated Flowers Background */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-  background-image: 
-    radial-gradient(circle at 20% 20%, rgba(255, 182, 193, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(255, 160, 122, 0.3) 0%, transparent 50%),
-    radial-gradient(circle at 40% 60%, rgba(255, 105, 180, 0.2) 0%, transparent 50%),
-    radial-gradient(circle at 60% 40%, rgba(255, 20, 147, 0.2) 0%, transparent 50%);
-  animation: floatingFlowers 20s ease-in-out infinite;
-}
-
-/* Individual animated flowers */
-.flower {
-  position: fixed;
+/* --- Settings Toggle --- */
+.settings-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
   width: 40px;
   height: 40px;
-  pointer-events: none;
-  z-index: -1;
-}
-
-.flower::before {
-  content: '🌸';
-  font-size: 30px;
-  position: absolute;
-  animation: floatFlower 15s linear infinite;
-}
-
-.flower:nth-child(1) {
-  top: 10%;
-  left: 10%;
-  animation-delay: 0s;
-}
-
-.flower:nth-child(2) {
-  top: 30%;
-  right: 20%;
-  animation-delay: 3s;
-}
-
-.flower:nth-child(3) {
-  bottom: 40%;
-  left: 30%;
-  animation-delay: 6s;
-}
-
-.flower:nth-child(4) {
-  bottom: 20%;
-  right: 10%;
-  animation-delay: 9s;
-}
-
-.flower:nth-child(5) {
-  top: 60%;
-  left: 60%;
-  animation-delay: 12s;
-}
-
-/* Container to hold all content */
-.container {
-  width: 88%;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 25px 20px;
-  position: relative;
-  background: rgba(255, 255, 255, 0.95); /* More opaque white background */
-  border-radius: 15px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(20px); /* Increased blur effect */
-  -webkit-backdrop-filter: blur(20px); /* Safari support */
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-sizing: border-box;
-}
-
-/* Header with fade-in and scale animation */
-h1 {
-  text-align: center;
-  font-size: 36px;
-  color: #1e3c72;
-  margin-bottom: 20px;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-  animation: fadeInScale 1.2s ease-out;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Settings Icon with bounce animation */
-.settings-icon {
-  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  color: #1e3c72;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  transition: color 0.3s ease, transform 0.3s ease;
-  animation: bounceIn 0.8s ease-out 0.3s;
-  opacity: 0;
-  animation-fill-mode: forwards;
+  color: var(--text-muted);
+  transition: all var(--duration) var(--ease);
 }
 
-.settings-icon:hover {
-  color: #2a5298;
-  transform: rotate(180deg) scale(1.1);
+.settings-toggle:hover {
+  color: var(--ink);
+  border-color: var(--gold-glow);
+  transform: rotate(30deg);
 }
 
-/* Settings Modal */
-.settings-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 9999;
-  overflow: hidden;
-}
-
-.settings-modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  padding: 20px;
-  width: 340px;
-  max-width: 90vw;
-  border-radius: 15px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  animation: slideInFromTop 0.5s ease-out;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-}
-
-.settings-modal h2 {
+/* --- Header --- */
+.app-header {
   text-align: center;
-  font-size: 24px;
-  color: #1e3c72;
-  margin-bottom: 20px;
-  animation: typeWriter 1s steps(20) 0.5s;
-  opacity: 0;
-  animation-fill-mode: forwards;
+  margin-bottom: 40px;
+  padding-top: 8px;
 }
 
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  cursor: pointer;
-  color: #7f8c8d;
-  animation: pulse 2s infinite;
+.header-cross {
+  color: var(--gold);
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  opacity: 0.7;
 }
 
-.close-btn:hover {
-  color: #e74c3c;
-  animation: shake 0.5s ease-in-out;
+.app-header h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  font-weight: 400;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 6px;
 }
 
-/* Form Inputs */
-input[type="number"],
-select {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  background-color: rgba(249, 249, 249, 0.9);
-  backdrop-filter: blur(5px);
-  font-size: 16px;
-  color: #333;
-  transition: border-color 0.3s ease, transform 0.3s ease;
-  animation: slideInFromLeft 0.6s ease-out;
-  box-sizing: border-box;
+.app-subtitle {
+  font-family: var(--font-script);
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
-input[type="number"]:focus,
-select:focus {
-  border-color: #1e3c72;
-  outline: none;
-  transform: scale(1.02);
-  box-shadow: 0 0 10px rgba(30, 60, 114, 0.3);
+/* --- Search Section --- */
+.search-section {
+  margin-bottom: 32px;
 }
 
-button {
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  color: #fff;
-  padding: 12px 25px;
+.search-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--paper-warm);
+  border-radius: 10px;
+  padding: 4px;
+  margin-bottom: 16px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 10px 16px;
+  background: transparent;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  animation: fadeInUp 0.8s ease-out;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(30, 60, 114, 0.3);
-  box-sizing: border-box;
-}
-
-button:hover {
-  background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(30, 60, 114, 0.4);
-}
-
-button:disabled {
-  background-color: #bdc3c7;
-  cursor: not-allowed;
-}
-
-/* Hymn Details with staggered animation */
-#hymnDetails {
-  margin-top: 30px;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-  animation: fadeInSlideUp 1s ease-out 0.5s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-}
-
-#hymnDetails h3 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #1e3c72;
-  animation: textGlow 2s ease-in-out infinite alternate;
-}
-
-#hymnDetails p {
-  font-size: 16px;
-  color: #5a6c7d;
-  animation: fadeInWords 1.5s ease-out 0.8s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-/* Favorite Hymns with wave animation */
-#favorites {
-  margin-top: 30px;
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  animation: fadeInSlideRight 1s ease-out 0.7s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-}
-
-#favorites h2 {
-  font-size: 22px;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
   font-weight: 600;
-  color: #1e3c72;
-  margin-bottom: 15px;
-  animation: waveText 2s ease-in-out infinite;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+  min-height: 44px;
 }
 
-/* Full Screen View for Shared Hymn */
-#fullScreenHymn {
+.mode-btn.active {
+  background: var(--paper-card);
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(14, 27, 45, 0.06);
+}
+
+.mode-btn:hover:not(.active) {
+  color: var(--text-secondary);
+}
+
+.search-panel.hidden {
+  display: none;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  font-family: var(--font-body);
+  font-size: 16px; /* prevents iOS zoom */
+  color: var(--text);
+  background: var(--paper-card);
+  transition: border-color var(--duration) var(--ease);
+  min-height: 48px;
+}
+
+.input-row input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px var(--gold-faint);
+}
+
+.input-row input::placeholder {
+  color: var(--warm-gray-light);
+}
+
+.find-btn {
+  padding: 12px 24px;
+  background: var(--gold);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+  min-height: 48px;
+  white-space: nowrap;
+}
+
+.find-btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--gold-glow);
+}
+
+.find-btn:active {
+  transform: translateY(0);
+}
+
+.lang-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.lang-select label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.lang-select select {
+  padding: 8px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--text);
+  background: var(--paper-card);
+  cursor: pointer;
+  min-height: 40px;
+}
+
+.lang-select select:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+/* --- Search Results --- */
+.search-results {
+  margin-bottom: 24px;
+}
+
+.search-results.hidden {
+  display: none;
+}
+
+.search-results h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--ink);
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.result-count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: var(--paper-card);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+}
+
+.result-item:hover {
+  border-color: var(--gold-glow);
+  box-shadow: 0 2px 8px rgba(14, 27, 45, 0.06);
+}
+
+.result-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--gold-faint);
+  color: var(--gold);
+  border-radius: 10px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.result-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.result-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-preview {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.result-arrow {
+  color: var(--warm-gray-light);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* --- Hymn Details --- */
+.hymn-details {
+  display: none;
+}
+
+.hymn-details.visible {
+  display: block;
+  animation: fadeSlideUp 0.4s var(--ease) both;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hymn-card {
+  background: var(--paper-card);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 32px 28px;
+  position: relative;
+}
+
+.hymn-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 24px;
+  right: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  border-radius: 1px;
+}
+
+.hymn-number {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  background: var(--gold-faint);
+  padding: 4px 12px;
+  border-radius: 100px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.hymn-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 4vw, 1.75rem);
+  color: var(--ink);
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.25;
+}
+
+.hymn-lyrics {
+  font-family: var(--font-script);
+  font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+  color: var(--text-secondary);
+  line-height: 2;
+  white-space: pre-line;
+  margin-bottom: 24px;
+  padding: 20px;
+  background: var(--paper);
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+}
+
+.hymn-writeup {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  font-style: italic;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+.hymn-writeup:empty {
+  display: none;
+}
+
+/* --- Back Button --- */
+.hymn-actions {
+  margin-top: 20px;
+}
+
+.hymn-actions.hidden {
+  display: none;
+}
+
+.back-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--paper-card);
+  color: var(--ink);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+  min-height: 48px;
+}
+
+.back-btn:hover {
+  border-color: var(--gold-glow);
+  background: var(--gold-faint);
+  color: var(--gold);
+}
+
+/* --- Modal --- */
+.modal-overlay {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
+  background: rgba(14, 27, 45, 0.5);
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.modal-overlay.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-card {
+  background: var(--paper-card);
+  border-radius: 16px;
+  padding: 32px 28px;
+  width: min(380px, 90vw);
+  position: relative;
+  box-shadow: 0 24px 64px rgba(14, 27, 45, 0.2);
+  animation: fadeSlideUp 0.3s var(--ease) both;
+}
+
+.modal-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all var(--duration) var(--ease);
+}
+
+.modal-close:hover {
+  background: var(--paper-warm);
+  color: var(--ink);
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.setting-row label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.setting-row input[type="checkbox"] {
+  width: 44px;
+  height: 24px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--border);
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  transition: background var(--duration) var(--ease);
+}
+
+.setting-row input[type="checkbox"]::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform var(--duration) var(--ease);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.setting-row input[type="checkbox"]:checked {
+  background: var(--gold);
+}
+
+.setting-row input[type="checkbox"]:checked::after {
+  transform: translateX(20px);
+}
+
+.modal-btn {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-  z-index: 9998;
-  overflow: auto;
-  padding: 15px;
-  box-sizing: border-box;
-}
-
-#fullScreenHymn .hymn-content {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 15px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  animation: zoomIn 0.8s ease-out;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-}
-
-#fullScreenHymn button {
   margin-top: 20px;
-  animation: slideInFromBottom 0.6s ease-out;
+  padding: 14px 24px;
+  background: var(--ink);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+  min-height: 48px;
 }
 
-#fullScreenHymn button#backToHomeBtn,
-#fullScreenHymn button#favoriteBtn {
-  display: inline-block;
-  margin-top: 10px;
-  width: auto;
+.modal-btn:hover {
+  background: var(--ink-soft);
 }
 
-#fullScreenHymn h3 {
-  font-size: 28px;
-  color: #1e3c72;
-  animation: textShine 3s ease-in-out infinite;
+/* --- No Results --- */
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
 }
 
-/* Flower Animation Keyframes */
-@keyframes floatingFlowers {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-    opacity: 0.7;
-  }
-  50% {
-    transform: translateY(-20px) rotate(180deg);
-    opacity: 1;
-  }
+.no-results-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  opacity: 0.5;
 }
 
-@keyframes floatFlower {
-  0% {
-    transform: translateY(0px) rotate(0deg);
-    opacity: 0.8;
-  }
-  25% {
-    transform: translateY(-10px) rotate(90deg);
-    opacity: 1;
-  }
-  50% {
-    transform: translateY(-5px) rotate(180deg);
-    opacity: 0.9;
-  }
-  75% {
-    transform: translateY(-15px) rotate(270deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(0px) rotate(360deg);
-    opacity: 0.8;
-  }
+.no-results h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  font-weight: 400;
 }
 
-/* Text Animation Keyframes */
-@keyframes fadeInScale {
-  0% {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+.no-results p {
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
-@keyframes bounceIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.3);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.05);
-  }
-  70% {
-    transform: scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes slideInFromTop {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -70%);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@keyframes typeWriter {
-  0% {
-    opacity: 0;
-    width: 0;
-  }
-  100% {
-    opacity: 1;
-    width: 100%;
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-@keyframes shake {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  10%, 30%, 50%, 70%, 90% {
-    transform: translateX(-5px);
-  }
-  20%, 40%, 60%, 80% {
-    transform: translateX(5px);
-  }
-}
-
-@keyframes slideInFromLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes buttonGlow {
-  0% {
-    box-shadow: 0 0 5px rgba(30, 60, 114, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 20px rgba(30, 60, 114, 0.8);
-  }
-}
-
-@keyframes fadeInSlideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes textGlow {
-  0% {
-    text-shadow: 0 0 5px rgba(30, 60, 114, 0.5);
-  }
-  100% {
-    text-shadow: 0 0 15px rgba(30, 60, 114, 0.8);
-  }
-}
-
-@keyframes fadeInWords {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInSlideRight {
-  0% {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes waveText {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-5px);
-  }
-  75% {
-    transform: translateY(5px);
-  }
-}
-
-@keyframes zoomIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes slideInFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes textShine {
-  0% {
-    background-position: -200% center;
-  }
-  100% {
-    background-position: 200% center;
-  }
-}
-
-/* Original fadeIn animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/* Dark Mode */
+/* --- Dark Mode --- */
 body.dark-mode {
-  background: linear-gradient(135deg, #0f1419 0%, #1a252f 100%);
+  background: #111318;
+  color: #d4d0cb;
+}
+
+body.dark-mode .app-wrap {
+  color: #d4d0cb;
+}
+
+body.dark-mode .app-header h1 {
   color: #ecf0f1;
 }
 
-body.dark-mode .container {
-  background: rgba(52, 73, 94, 0.9);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-
-body.dark-mode h1,
-body.dark-mode .settings-icon {
+body.dark-mode .input-row input {
+  background: #1e2028;
+  border-color: #2e3038;
   color: #ecf0f1;
 }
 
-body.dark-mode .settings-modal-content {
-  background: rgba(52, 73, 94, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+body.dark-mode .input-row input::placeholder {
+  color: #666;
 }
 
-body.dark-mode .close-btn {
+body.dark-mode .find-btn,
+body.dark-mode .modal-btn {
+  background: var(--gold);
+}
+
+body.dark-mode .find-btn:hover,
+body.dark-mode .modal-btn:hover {
+  background: var(--gold-light);
+}
+
+body.dark-mode .result-item {
+  background: #1e2028;
+  border-color: #2e3038;
+}
+
+body.dark-mode .result-title {
   color: #ecf0f1;
 }
 
-body.dark-mode button {
-  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+body.dark-mode .hymn-card {
+  background: #1e2028;
+  border-color: #2e3038;
 }
 
-body.dark-mode button:hover {
-  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+body.dark-mode .hymn-lyrics {
+  background: #16181d;
+  border-color: #2e3038;
+  color: #c0bbb5;
 }
 
-body.dark-mode #hymnDetails {
-  background: rgba(52, 73, 94, 0.9);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+body.dark-mode .back-btn {
+  background: #1e2028;
+  border-color: #2e3038;
+  color: #d4d0cb;
+}
+
+body.dark-mode .back-btn:hover {
+  background: var(--gold-faint);
+  border-color: var(--gold-glow);
+}
+
+body.dark-mode .modal-card {
+  background: #1e2028;
+}
+
+body.dark-mode .modal-close {
+  color: #888;
+}
+
+body.dark-mode .modal-close:hover {
+  background: #2e3038;
   color: #ecf0f1;
 }
 
-body.dark-mode #favorites {
-  background: rgba(52, 73, 94, 0.9);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+body.dark-mode .settings-toggle {
+  background: #1e2028;
+  border-color: #2e3038;
+  color: #888;
+}
+
+body.dark-mode .search-mode-toggle {
+  background: #16181d;
+}
+
+body.dark-mode .mode-btn {
+  color: #666;
+}
+
+body.dark-mode .mode-btn.active {
+  background: #1e2028;
   color: #ecf0f1;
 }
 
-/* Responsiveness */
+body.dark-mode .lang-select select {
+  background: #1e2028;
+  border-color: #2e3038;
+  color: #ecf0f1;
+}
+
+body.dark-mode .setting-row {
+  border-color: #2e3038;
+}
+
+body.dark-mode .setting-row label {
+  color: #d4d0cb;
+}
+
+/* --- Responsive --- */
 @media (max-width: 768px) {
-  .container {
-    width: 95%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px 15px;
+  .app-wrap {
+    padding: 24px 16px 48px;
   }
 
-  .settings-modal-content {
-    width: 90%;
-    max-width: 350px;
+  .hymn-card {
+    padding: 24px 18px;
   }
 
-  h1 {
-    font-size: 28px;
+  .hymn-lyrics {
+    padding: 16px;
+    font-size: 1rem;
   }
 
-  #fullScreenHymn {
-    padding: 10px;
-  }
-
-  #fullScreenHymn .hymn-content {
-    padding: 15px;
-  }
-
-  input[type="number"],
-  select {
-    font-size: 16px; /* prevents iOS zoom on focus */
-    min-height: 44px;
-    padding: 12px;
-  }
-
-  button {
-    min-height: 48px;
-    padding: 14px 24px;
+  .input-row input {
     font-size: 16px;
-    width: 100%;
+    min-height: 48px;
   }
 
-  label {
-    font-size: 15px;
-    margin-bottom: 4px;
+  .find-btn {
+    min-height: 48px;
+    padding: 12px 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .container {
-    width: 98%;
-    padding: 15px 10px;
+  .app-wrap {
+    padding: 16px 12px 40px;
   }
 
-  h1 {
-    font-size: 22px;
+  .app-header h1 {
+    font-size: 1.4rem;
   }
 
-  .settings-icon {
-    top: 10px;
-    right: 10px;
-    font-size: 26px;
+  .hymn-card {
+    padding: 20px 14px;
+    border-radius: 12px;
   }
 
-  .settings-modal-content {
-    width: 95%;
-    padding: 20px 16px;
+  .hymn-card::before {
+    left: 16px;
+    right: 16px;
   }
 
-  #hymnDetails {
-    padding: 15px 12px;
-    font-size: 16px;
+  .hymn-lyrics {
+    padding: 14px;
+    font-size: 0.95rem;
+    line-height: 1.85;
   }
 
-  #hymnDetails h3 {
-    font-size: 20px;
+  .result-item {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .result-num {
+    width: 34px;
+    height: 34px;
+    font-size: 0.85rem;
+  }
+
+  .modal-card {
+    padding: 24px 18px;
+  }
+
+  .settings-toggle {
+    top: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
   }
 }
 
-/* Landscape phone */
 @media (max-height: 500px) and (orientation: landscape) {
-  .container {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 12px 10px;
+  .app-wrap {
+    padding: 12px 16px 24px;
   }
 
-  h1 {
-    font-size: 22px;
-    margin-bottom: 12px;
+  .app-header {
+    margin-bottom: 20px;
+  }
+
+  .app-header h1 {
+    font-size: 1.2rem;
   }
 }
-
-/* Additional text elements animations */
-label {
-  animation: fadeInUp 0.6s ease-out;
-}
-
-/* Animate any text that appears dynamically */
-.animated-text {
-  animation: fadeInScale 0.8s ease-out;
-}
-
-/* For lists and menu items */
-li {
-  animation: fadeInSlideUp 0.6s ease-out;
-}
-
-/* Stagger animation for multiple elements */
-.stagger-1 { animation-delay: 0.1s; }
-.stagger-2 { animation-delay: 0.2s; }
-.stagger-3 { animation-delay: 0.3s; }
-.stagger-4 { animation-delay: 0.4s; }
-.stagger-5 { animation-delay: 0.5s; }

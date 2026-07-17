@@ -1,113 +1,222 @@
-// Function to open the settings modal
+// ============================================
+// Hymn Book App — Gospel Of Truth Mission
+// ============================================
+
+// --- Search Mode Toggle ---
+document.querySelectorAll('.mode-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    document.querySelectorAll('.mode-btn').forEach(function (b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+
+    var mode = btn.getAttribute('data-mode');
+    document.getElementById('searchByNumber').classList.toggle('hidden', mode !== 'number');
+    document.getElementById('searchByText').classList.toggle('hidden', mode !== 'text');
+
+    // Clear results when switching
+    document.getElementById('searchResults').classList.add('hidden');
+    document.getElementById('searchResults').innerHTML = '';
+    document.getElementById('hymnDetails').classList.remove('visible');
+    document.getElementById('hymnDetails').innerHTML = '';
+    document.getElementById('hymnActionBtns').classList.add('hidden');
+  });
+});
+
+// --- Enter key support ---
+document.getElementById('hymnNumber').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') findHymn();
+});
+
+document.getElementById('hymnSearch').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') searchHymn();
+});
+
+// --- Settings ---
 function openSettings() {
-  document.getElementById("settingsModal").style.display = "block";
+  document.getElementById('settingsModal').classList.add('open');
 }
 
-// Function to close the settings modal
 function closeSettings() {
-  document.getElementById("settingsModal").style.display = "none";
+  document.getElementById('settingsModal').classList.remove('open');
 }
 
-// Function to go back to the home screen (close settings modal)
-function backToHome() {
-  // Hide the settings modal if it's open
-  document.getElementById("settingsModal").style.display = "none";
+document.getElementById('settingsIcon').addEventListener('click', openSettings);
 
-  // Optionally, you can reset the page to a default state if needed:
-  document.getElementById("hymnNumber").value = '';  // Clear hymn number input
-  document.getElementById("hymnDetails").innerHTML = '';  // Clear hymn details display
+// Close modal on overlay click
+document.getElementById('settingsModal').addEventListener('click', function (e) {
+  if (e.target === this) closeSettings();
+});
 
-  // Hide the "Add to Favorites" and "Back to Home" buttons again
-  document.getElementById("favoriteBtn").style.display = 'none';  
-  document.getElementById("signOutBtn").style.display = 'none'; 
-}
+// Close modal on ESC
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') closeSettings();
+});
 
-// Function to toggle dark mode
+// --- Dark Mode ---
 function toggleDarkMode() {
-  const body = document.body;
-  const darkModeToggle = document.getElementById('darkModeToggleSetting');
+  document.body.classList.toggle('dark-mode', document.getElementById('darkModeToggleSetting').checked);
+}
 
-  if (darkModeToggle.checked) {
-    body.classList.add('dark-mode'); // Add dark mode class to body
-  } else {
-    body.classList.remove('dark-mode'); // Remove dark mode class from body
+// --- Language ---
+function updateLanguage() {
+  // Re-display current hymn if one is shown
+  var details = document.getElementById('hymnDetails');
+  if (details.classList.contains('visible')) {
+    var num = details.getAttribute('data-hymn-num');
+    if (num && hymns[num]) {
+      displayHymn(num);
+    }
   }
 }
 
-// Function to update language text
-function updateLanguage() {
-  const lang = document.getElementById("languageSelect").value;
-  const langData = languageData[lang];
-
-  document.getElementById("hymnNumber").placeholder = langData.enterNumber;
-  document.getElementById("languageSelect").setAttribute("aria-label", langData.selectLanguage);
-  document.querySelector("button").textContent = langData.findHymn;
+// --- Get language key ---
+function getLang() {
+  return document.getElementById('languageSelect').value;
 }
 
-// Function to find hymn by number
-function findHymn() {
-  const hymnNumber = document.getElementById("hymnNumber").value;
+// --- Strip HTML tags for plain text ---
+function stripHtml(html) {
+  var tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || tmp.innerText || '';
+}
 
-  // Basic validation for hymn number
-  if (!hymnNumber || isNaN(hymnNumber) || !hymns[hymnNumber]) {
-    document.getElementById("hymnDetails").innerHTML = "<p>Please enter a valid hymn number.</p>";
+// --- Find hymn by number ---
+function findHymn() {
+  var num = document.getElementById('hymnNumber').value.trim();
+  if (!num || isNaN(num) || !hymns[num]) {
+    showNoResults('Hymn not found', 'Please enter a valid hymn number that exists in the book.');
+    return;
+  }
+  displayHymn(num);
+}
+
+// --- Search hymn by lyrics text ---
+function searchHymn() {
+  var query = document.getElementById('hymnSearch').value.trim().toLowerCase();
+  if (query.length < 2) {
+    showNoResults('Type more', 'Please type at least 2 characters to search.');
     return;
   }
 
-  // Check if the hymn exists in the hymns object
-  const hymn = hymns[hymnNumber];
-  const lang = document.getElementById("languageSelect").value;
+  var lang = getLang();
+  var results = [];
 
-  // Generate the hymn details HTML
-  const hymnDetails = `
-    <h3>${hymn.title[lang]}</h3>
-    <div id="hymnText">${hymn.lyrics[lang]}</div>
-    <p>${hymn.writeUp[lang]}</p>
-  `;
-  document.getElementById("hymnDetails").innerHTML = hymnDetails;
+  Object.keys(hymns).forEach(function (num) {
+    var hymn = hymns[num];
+    var lyrics = (hymn.lyrics[lang] || '').toLowerCase();
+    var title = (hymn.title[lang] || '').toLowerCase();
 
-  // Display the "Add to Favorites" and "Back to Home" buttons below the hymn content
-  document.getElementById("favoriteBtn").style.display = 'inline-block';
-  document.getElementById("signOutBtn").style.display = 'inline-block';
+    if (lyrics.indexOf(query) !== -1 || title.indexOf(query) !== -1) {
+      // Get first ~100 chars of lyrics as preview
+      var plainLyrics = stripHtml(hymn.lyrics[lang] || '').replace(/\s+/g, ' ').trim();
+      var preview = plainLyrics.substring(0, 120);
+      if (plainLyrics.length > 120) preview += '...';
 
-  // Add Back to Home Button at the bottom
-  const backButton = `
-    <button id="backToHomeBtn" onclick="backToHome()">Back to Home</button>
-  `;
-  document.getElementById("hymnDetails").innerHTML += backButton;
+      results.push({
+        num: num,
+        title: hymn.title[lang] || 'Untitled',
+        preview: preview
+      });
+    }
+  });
+
+  // Hide hymn details, show results
+  document.getElementById('hymnDetails').classList.remove('visible');
+  document.getElementById('hymnDetails').innerHTML = '';
+  document.getElementById('hymnActionBtns').classList.add('hidden');
+
+  var container = document.getElementById('searchResults');
+
+  if (results.length === 0) {
+    showNoResults('No hymns found', 'No hymns matched "' + query + '". Try different words or search by number.');
+    return;
+  }
+
+  // Sort by number
+  results.sort(function (a, b) { return Number(a.num) - Number(b.num); });
+
+  var html = '<h3>Search Results</h3>';
+  html += '<p class="result-count">' + results.length + ' hymn' + (results.length !== 1 ? 's' : '') + ' found</p>';
+  html += '<div class="result-list">';
+
+  results.forEach(function (r) {
+    html += '<div class="result-item" onclick="displayHymn(\'' + r.num + '\')" tabindex="0" role="button" onkeypress="if(event.key===\'Enter\')displayHymn(\'' + r.num + '\')">';
+    html += '  <div class="result-num">' + r.num + '</div>';
+    html += '  <div class="result-info">';
+    html += '    <div class="result-title">' + escapeHtml(r.title) + '</div>';
+    html += '    <div class="result-preview">' + escapeHtml(r.preview) + '</div>';
+    html += '  </div>';
+    html += '  <div class="result-arrow">&#8250;</div>';
+    html += '</div>';
+  });
+
+  html += '</div>';
+  container.innerHTML = html;
+  container.classList.remove('hidden');
 }
 
-// Function to handle sharing a hymn (full screen view)
-function shareHymn(hymnNumber) {
-  const hymn = hymns[hymnNumber];
-  const lang = document.getElementById("languageSelect").value;
+// --- Display a single hymn ---
+function displayHymn(num) {
+  var hymn = hymns[num];
+  if (!hymn) return;
 
-  // Generate the hymn details HTML in a full-screen view
-  const hymnDetails = `
-    <div class="full-screen-hymn">
-      <h3>${hymn.title[lang]}</h3>
-      <div id="hymnText">${hymn.lyrics[lang]}</div>
-      <p>${hymn.writeUp[lang]}</p>
-    </div>
-    <div class="hymn-actions">
-      <button onclick="backToHome()">Back to Home</button>
-      <button onclick="addToFavorites()">Add to Favorites</button>
-    </div>
-  `;
-  document.getElementById("hymnDetails").innerHTML = hymnDetails;
+  var lang = getLang();
+  var title = hymn.title[lang] || hymn.title.en || 'Untitled';
+  var lyrics = hymn.lyrics[lang] || hymn.lyrics.en || '';
+  var writeUp = hymn.writeUp[lang] || hymn.writeUp.en || '';
 
-  // Optionally apply full-screen styles
-  document.getElementById("hymnDetails").style.height = "100vh";
-  document.getElementById("hymnDetails").style.overflow = "auto";
+  var html = '<div class="hymn-card">';
+  html += '<div class="hymn-number">Hymn ' + escapeHtml(String(num)) + '</div>';
+  html += '<h2 class="hymn-title">' + escapeHtml(title) + '</h2>';
+  html += '<div class="hymn-lyrics">' + lyrics + '</div>';
+  if (writeUp) {
+    html += '<p class="hymn-writeup">' + escapeHtml(writeUp) + '</p>';
+  }
+  html += '</div>';
+
+  var details = document.getElementById('hymnDetails');
+  details.innerHTML = html;
+  details.setAttribute('data-hymn-num', num);
+  details.classList.add('visible');
+
+  // Hide search results, show back button
+  document.getElementById('searchResults').classList.add('hidden');
+  document.getElementById('hymnActionBtns').classList.remove('hidden');
+
+  // Scroll to hymn
+  details.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// Function to add hymn to favorites (placeholder function)
-function addToFavorites() {
-  alert("Hymn added to favorites!");
-  // You can implement the actual logic for adding the hymn to a favorites list here.
+// --- Back to home ---
+function backToHome() {
+  document.getElementById('hymnNumber').value = '';
+  document.getElementById('hymnSearch').value = '';
+  document.getElementById('hymnDetails').classList.remove('visible');
+  document.getElementById('hymnDetails').innerHTML = '';
+  document.getElementById('searchResults').classList.add('hidden');
+  document.getElementById('searchResults').innerHTML = '';
+  document.getElementById('hymnActionBtns').classList.add('hidden');
 }
 
-// Your existing hymns and languageData here:
+// --- Show no results ---
+function showNoResults(title, message) {
+  document.getElementById('searchResults').innerHTML =
+    '<div class="no-results">' +
+    '<div class="no-results-icon">&#128270;</div>' +
+    '<h3>' + escapeHtml(title) + '</h3>' +
+    '<p>' + escapeHtml(message) + '</p>' +
+    '</div>';
+  document.getElementById('searchResults').classList.remove('hidden');
+}
+
+// --- Escape HTML ---
+function escapeHtml(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
+
+// --- Hymn data below ---
 const hymns = {
   1: {
     title: {
