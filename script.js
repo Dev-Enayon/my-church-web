@@ -31,6 +31,15 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.overflow = '';
       }
     });
+
+    // Close on ESC key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
   }
 
   // --- Navbar scroll behavior ---

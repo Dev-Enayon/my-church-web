@@ -1527,18 +1527,35 @@ a {
 /* ============================================
    RESPONSIVE
    ============================================ */
-@media (max-width: 1024px) {
+
+/* --- Global mobile helpers --- */
+html {
+  overscroll-behavior-y: contain;
+}
+
+/* --- Tablet (769–1024px) --- */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .beliefs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .leader-card {
     grid-template-columns: 170px 1fr;
     gap: var(--s-8);
   }
+
+  .programmes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/* --- Mobile (<=768px) --- */
 @media (max-width: 768px) {
   :root {
-    --nav-h: 64px;
+    --nav-h: 60px;
   }
 
+  /* Nav */
   .hamburger {
     display: flex;
   }
@@ -1547,12 +1564,12 @@ a {
     position: fixed;
     left: 0;
     top: 0;
-    width: 280px;
+    width: min(300px, 85vw);
     height: 100vh;
     height: 100dvh;
     flex-direction: column;
     background: var(--paper-card);
-    padding: 80px var(--s-6) var(--s-6);
+    padding: 72px var(--s-5) var(--s-6);
     gap: var(--s-1);
     box-shadow: var(--shadow-xl);
     transform: translateX(-100%);
@@ -1560,6 +1577,8 @@ a {
     z-index: 1000;
     align-items: stretch;
     border-right: 1px solid var(--border-light);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .nav-menu.active {
@@ -1570,14 +1589,23 @@ a {
     padding: var(--s-3) var(--s-4);
     font-size: var(--text-base);
     border-radius: 10px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 100vh;
+    min-height: 100dvh;
   }
 
   .hero-title {
-    font-size: clamp(2rem, 7vw, 2.8rem);
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
   }
 
   .hero-subtitle {
-    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-size: clamp(0.95rem, 3vw, 1.15rem);
   }
 
   .hero-buttons {
@@ -1589,43 +1617,78 @@ a {
     width: 100%;
     max-width: 280px;
     justify-content: center;
+    min-height: 48px;
   }
 
+  /* Sections */
   .section {
     padding: var(--s-16) 0;
   }
 
-  .mission-points {
+  .section-header {
+    margin-bottom: var(--s-10);
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
+  }
+
+  /* Mission / Foundation / Beliefs */
+  .mission-points,
+  .beliefs-grid {
     grid-template-columns: 1fr;
-    gap: var(--s-5);
+    gap: var(--s-4);
   }
 
   .foundation-pillars {
     grid-template-columns: 1fr;
+    gap: var(--s-5);
   }
 
-  .beliefs-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .leader-card {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .leader-image img {
-    max-width: 160px;
-    height: 160px;
-  }
-
-  .programmes-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .programme-card {
+  .point,
+  .pillar,
+  .belief-card {
     padding: var(--s-6);
   }
 
+  /* Leadership */
+  .leader-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: var(--s-6);
+    gap: var(--s-5);
+  }
+
+  .leader-image img {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .leader-name {
+    font-size: var(--text-lg);
+  }
+
+  /* Programmes */
+  .programmes-grid {
+    grid-template-columns: 1fr;
+    gap: var(--s-4);
+  }
+
+  .programme-card {
+    padding: var(--s-5);
+  }
+
+  .programme-card::before {
+    top: var(--s-5);
+  }
+
+  .programme-time {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--s-1);
+  }
+
+  /* Social */
   .social-buttons {
     gap: var(--s-3);
     flex-direction: column;
@@ -1633,7 +1696,9 @@ a {
   }
 
   .social-btn {
-    min-width: 220px;
+    width: 100%;
+    max-width: 280px;
+    min-height: 48px;
   }
 
   .social-media-section {
@@ -1642,25 +1707,74 @@ a {
     border-radius: 16px;
   }
 
+  .social-media-section h3 {
+    font-size: var(--text-xl);
+  }
+
+  /* Videos */
+  .videos-section {
+    padding: var(--s-10) var(--s-5);
+    border-radius: 16px;
+  }
+
   .video-grid {
     grid-template-columns: 1fr;
+    gap: var(--s-4);
+  }
+
+  .video-btn {
+    min-height: 40px;
+    padding: var(--s-2) var(--s-4);
+  }
+
+  /* Footer */
+  .footer {
+    padding: var(--s-12) 0 var(--s-6);
   }
 
   .footer-content {
     grid-template-columns: 1fr;
     gap: var(--s-8);
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  /* Chatbot */
+  .chatbot-container {
+    bottom: 20px;
+    right: 20px;
   }
 
   .chatbot-window {
     width: calc(100vw - 32px);
     right: -8px;
-    height: 65vh;
-    max-height: 500px;
+    bottom: 68px;
+    height: 60vh;
+    max-height: 460px;
+    border-radius: 14px;
   }
 
   .chatbot-button {
     width: 52px;
     height: 52px;
+  }
+
+  .chatbot-input {
+    padding: var(--s-3) var(--s-4);
+  }
+
+  .chatbot-input input {
+    min-height: 44px;
+    font-size: var(--text-base); /* prevents iOS zoom */
+  }
+
+  .chatbot-input button {
+    min-height: 44px;
+    min-width: 44px;
+    padding: var(--s-3) var(--s-5);
   }
 
   .robot-icon {
@@ -1674,32 +1788,132 @@ a {
   }
 }
 
+/* --- Small mobile (<=480px) --- */
 @media (max-width: 480px) {
   .container {
     padding: 0 var(--s-4);
   }
 
   .logo h2 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .logo img {
-    height: 36px;
-    width: 36px;
+    height: 34px;
+    width: 34px;
   }
 
-  .social-btn {
-    min-width: 180px;
-    padding: 0.65rem 1.2rem;
+  .nav-container {
+    padding: 0 var(--s-4);
+  }
+
+  .hero-title {
+    font-size: clamp(1.6rem, 6vw, 2rem);
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: var(--s-12) 0;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .point,
+  .pillar,
+  .belief-card {
+    padding: var(--s-5);
+  }
+
+  .leader-card {
+    padding: var(--s-5);
+  }
+
+  .leader-image img {
+    max-width: 130px;
+    height: 130px;
+  }
+
+  .programme-card {
+    padding: var(--s-4);
+  }
+
+  .social-media-section {
+    padding: var(--s-8) var(--s-4);
+  }
+
+  .social-media-section h3 {
+    font-size: var(--text-lg);
+  }
+
+  .social-media-section > p {
+    font-size: var(--text-xs);
+  }
+
+  .videos-section {
+    padding: var(--s-8) var(--s-4);
+  }
+
+  .videos-section h3 {
+    font-size: var(--text-lg);
   }
 
   .video-thumbnail {
     height: 160px;
   }
 
-  .videos-section,
-  .videos-section > p {
-    padding-left: var(--s-4);
-    padding-right: var(--s-4);
+  .footer-section h3,
+  .footer-section h4 {
+    font-size: var(--text-lg);
+  }
+
+  .chatbot-window {
+    width: calc(100vw - 24px);
+    right: -4px;
+    height: 55vh;
+    max-height: 400px;
+  }
+
+  .chatbot-button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .chatbot-header {
+    padding: var(--s-4) var(--s-5);
+  }
+
+  .chatbot-messages {
+    padding: var(--s-4);
+  }
+
+  .message-content {
+    max-width: 88%;
+    font-size: var(--text-xs);
+  }
+}
+
+/* --- Landscape phone --- */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: auto;
+    padding: var(--s-16) 0;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .chatbot-window {
+    height: 80vh;
+    max-height: none;
   }
 }
